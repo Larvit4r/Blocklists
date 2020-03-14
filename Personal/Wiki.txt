@@ -1,0 +1,48 @@
+! Title: L4's Wiki Filter
+! Expires: 30 days
+! Descriptioon: Very personalized filter for Fandom/Wikia, some Wikimedia (Wikipedia, etc.) domains, and also a bit of Bulbapedia. I don't need fancy layout distractions, I like it simple.
+! Homepage: https://github.com/Larvit4r/Blocklists
+! Issues: https://github.com/Larvit4r/Blocklists/issues
+! Version: 2020.03.14
+! Last Modified: Saturday, March 14, 2020
+! *** Fetched from: https://raw.githubusercontent.com/Larvit4r/Blocklists/master/Personal/Wiki.txt ***
+! Sources include some Wikia filters, wide layout filters, etc. Will add links later.
+
+bulbagarden.net###bottomframe
+bulbagarden.net###content.mw-body:style(max-width:95vw !important)
+bulbagarden.net###footer
+fandom.com,wikia.com##body:style(background:none !important;background-image:none !important)
+fandom.com,wikia.com##.createpage
+fandom.com,wikia.com##element.style:style(background:none !important;background-image:none !important)
+fandom.com,wikia.com##.license-description
+fandom.com,wikia.com##.page-header__categories
+fandom.com,wikia.com##.page-header__contribution
+fandom.com,wikia.com###PageHeader:style(padding:16px 10px 12px)
+fandom.com,wikia.com##.rail-module:style(break-inside:avoid !important;)
+fandom.com,wikia.com##.rail-sticky-module:style(position:static !important;)
+fandom.com,wikia.com##.wds-global-footer
+fandom.com,wikia.com##.wds-global-navigation-wrapper
+fandom.com,wikia.com###WikiaArticleFooter
+fandom.com,wikia.com##.WikiaArticleInterlang
+fandom.com,wikia.com###WikiaBarWrapper
+fandom.com,wikia.com###WikiaFooter
+fandom.com,wikia.com###WikiaMainContentContainer:style(margin:0px !important)
+fandom.com,wikia.com###WikiaMainContent:style(width:100% !important;margin:0px !important)
+fandom.com,wikia.com###WikiaMainContent:style(width:150%)
+fandom.com,wikia.com###WikiaNotifications
+fandom.com,wikia.com###WikiaPage:style(width:100% !important;max-width:none !important;margin:0px !important;padding:0px !important)
+fandom.com,wikia.com##.WikiaRail:style(display:block !important;column-count:2 !important;width:auto !important)
+fandom.com,wikia.com###WikiaRailWrapper
+@@||wikia.nocookie.net^*/images/$image,badfilter
+wikibooks.org,wikipedia.org,wikiversity.org,wiktionary.org###footer
+wikibooks.org,wikipedia.org,wikiversity.org,wiktionary.org###frb-inline
+wikibooks.org,wikipedia.org,wikiversity.org,wiktionary.org###frb-nag
+wikibooks.org,wikipedia.org,wikiversity.org,wiktionary.org##.mw-editsection
+wikibooks.org,wikipedia.org,wikiversity.org,wiktionary.org###mw-head-base
+wikibooks.org,wikipedia.org,wikiversity.org,wiktionary.org##.mw-jump-link
+wikibooks.org,wikipedia.org,wikiversity.org,wiktionary.org###mw-navigation
+wikibooks.org,wikipedia.org,wikiversity.org,wiktionary.org###mw-toc-heading
+wikibooks.org,wikipedia.org,wikiversity.org,wiktionary.org##.printfooter
+wikibooks.org,wikipedia.org,wikiversity.org,wiktionary.org###siteNotice
+wikibooks.org,wikipedia.org,wikiversity.org,wiktionary.org###siteSub
+wikibooks.org,wikipedia.org,wikiversity.org,wiktionary.org###toc
