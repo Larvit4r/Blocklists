@@ -2,7 +2,7 @@
 ! Expires: 30 days
 ! Descriptioon: Just stuff that I don't care about on Trakt. I have a premium account so blocking ads is not included in this. Please support Trakt if you're a member! Feel free to use/edit but this is more on GitHub in case my HD dies.
 ! Homepage: https://github.com/Larvit4r/Blocklists
-! Issues: ttps://github.com/Larvit4r/Blocklists/issues
+! Issues: https://github.com/Larvit4r/Blocklists/issues
 ! Version: 2020.03.14
 ! Last Modified: Saturday, March 14, 2020
 ! *** Fetched from: https://raw.githubusercontent.com/Larvit4r/Blocklists/master/Personal/Trakt.txt ***
