@@ -9,6 +9,7 @@
 ! Sources include some wide layout filters, etc. Will add links later.
 ! https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Dandelion Sprout's Website Stretcher.txt
 ! https://raw.githubusercontent.com/DandelionSprout/adfilt/master/RedditTrashRemovalService.txt
+! https://raw.githubusercontent.com/eladkarako/hosts/master/build/hosts_adblock_anti_annoyances_block.txt
 
 reddit.com#?#.Comment:-abp-contains(/charge your phone/i)
 reddit.com#?#.Comment:-abp-contains(/Happy Cake[ ]?Day/i)
@@ -91,3 +92,17 @@ reddit.com#?#.thing[data-author="TooShiftyForYou"]
 reddit.com#?#ul.hover.sr-bar.flat-list > li:-abp-has(a[href*="/r/all/"])
 reddit.com#?#ul.hover.sr-bar.flat-list > li:-abp-has(a[href*="/r/popular/"])
 reddit.com#?#ul.hover.sr-bar.flat-list > li:-abp-has(a[href*="/r/random/"])
+
+reddit.com/*favicon
+reddit.com/api/request_promo
+reddit.com/api/request_recommended_link
+reddit.com/error
+reddit.com/r/ads
+redditmedia.com/ads
+redditmedia.com/gtm
+redditmedia.com/gtm/jail
+redditstatic.com/*favicon
+redditstatic.com/ad
+redditstatic.com/display*.js
+redditstatic.com/moat
+redditstatic.com/recommended-link
