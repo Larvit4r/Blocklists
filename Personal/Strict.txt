@@ -7,75 +7,541 @@
 ! Last Modified: Saturday, March 14, 2020
 ! *** Fetched from: https://raw.githubusercontent.com/Larvit4r/Blocklists/master/Personal/Strict.txt ***
 ! Sources include 9Anime Filter List, AMP Hosts Extended, Generic Annoying Stickybar Filter, various anti-Google lists, etc. May add links later.
+! https://raw.githubusercontent.com/kowith337/PersonalFilterListCollection/master/filterlist/other/SurvivedTrackingLinkWarning.txt
 
+||*^$popup
 *$script,3p,domain=mp4upload.com
 *$script,redirect-rule=noopjs,domain=hydrax.net|playhydrax.com
+||1e100.net
 ||24vunvrv.com^
 ||2leep.com
 ||2o7.net
 ||abc.xyz
+###ad
+##.ad
 ||ad*.*
-||ad*.*.*
 ||*ad.com
 ###ad-container
 ||addthis.com
 ||addtoany.com
 ||admob.com
 ||adnxs.com
+###ads
+##.ads
+.*/ads.
+.*/ads/
+.*/ads?
 ||*-ads.*
+||ads
+||ads.*.*^
+||ads2.*.*^
 ||adsense.com
 ||*adserver*
 ||*-adsystem.com
+.*/adv/
 ||advertising.*
 ||*-advertising.com
 ||adwords.com
-||*affiliate*
 ||*affiliate*.*/
 ||airpush.com
 @@||ajax.googleapis.com
-||*.akacdn.*
-||akadns.net
+||akacdn.*
+||akadns.*
 ! ||akamaihd.*
-! ||akamaized.net
+! ||akamaized.*
+*#?#a:link:style(cursor:pointer !important)
+[alt^="Post on"]
+[alt^="Post to"]
+[alt^="Share on"]
 ||amazon-adsystem.com
 ||amp-*.*.*^
 ||amp.*.*^
+||*.*/*?amp=$document,important
 ||*.amp.cloudflare.com
-||ampproject.net
-||ampproject.org
+||ampproject.*
+||*&amp_*=*&usqp=*$document,important
+||*?amp_*=*&usqp=*$document,important
 ||amung.us
-||amung.us^
 ||*analytics.*
 ||android.com
 ||appads.com
-||baidu.com
-||baidustatic.com
+##.article-body .post-search-results
+##.article-container.locked:after
+##.Article-header-body:before
+##.b_ad
+||baidu*.com
 ||bazaarvoice.com
 ||*bing.*
+##.blackout
 ||*block-test*
+||blogger.com
+||blogspot.com
 ||bravenet.com
 ||*captcha*.*
+##.card.stopsign__article.stopsign:before
 @@||cdnjs.cloudflare.com
 ||*cdn-social.*
 ||*cdn.syndication.*
+||*&__cf_chl_jschl_tk__=$document,important
+||*?__cf_chl_jschl_tk__=$document,important
+||*chat.*
+||chat*.*$script
 ||chatango.com
-||chromebook.com
-||chrome.com
-||chromeexperiments.com
+/chat*idget*.js
+||chrome*.com
 ||chromium.org
+##[class*="actionbar"]
+##[class*="-ad"]
+##[class*="adbox"]
+##[class*="ad-container"]
+##[class*="ad-frame"]
+##[class*="ad_native"]
+##[class*="ad-panel"]
+##[class^="adsby"]
+##[class*="ad-slot"]
+##[class*="adunit"]
+##[class*="Advert"]
+##[class*="ad-wrapper"]
+##[class^="aff-"]
+##[class*="alert"]
+##[class*="banner"]
+##[class*="blockUI"]
+##[class*="breadcrumb"]
+##[class*="copyright"]
+##[class*="disclaimer"]
+##[class*="donate"]
+##[class*="dsense"]
+##[class*="email-signup"]
+##[class*="facebook"]
+##[class*="fadeIn"]
+##[class*="fb-root"]
+##[class*="feedback"]
+##[class*="focus-guest"]
+##[class*="follow"]
+##[class*="google_ad"]
+##[class*="gpt-"]
+##[class*="img_ad"]
+##[class*="infobar"]
+##[class*="instagram"]
+##[class*="interrupt"]
+##[class*="leaderboard"]
+##[class*="linkedin"]
+##[class*="marketing"]
+##[class*="nativead"]
+##[class*="netboard"]
+##[class*="newsletter"]
+##[class*="notice"]
+##[class*="-offer"]
+##[class*="outbrain"]
+##[class*="Overlay"]
+##[class*="paywall"]
+##[class*="pinterest"]
+##[class*="player-ads"]
+##[class*="promo"]
+##[class*="-prompt"]
+##[class*="register-pop"]
+##[class*="SearchAds"]
+##[class*="share"]
+##[class*="sharing"]
+##[class*="skyscraper"]
+##[class*="social"]
+##[class*="sponsor"]
+##[class*="subscri"]
+##[class*="toast"]
+##[class*="TopAds"]
+##[class*="trending"]
+##[class*="twit-"]
+##[class*="twitter"]
+##[class*="video-ads"]
+##[class*="whatsapp"]
+##[class*="widget_"]
+##[class*="wikia-ad"]
+##[class*="zchat"]
+##[class*="zmodal-"]
+##[class*="zmodal_"]
+##[class*="Znotif"]
+##[class*="zpopover"]
+##[class*="z-popup"]
+##[class*="zpopup_"]
+##[class*="zPopUp"]
 ||*click*.*
 ||clksite.com^
 ! ||cloudfront.net
+^code-1-1.js
 @@||code.jquery.com
 ||*com.cdn.*
+||consensu.org
 ||content-ad.net
+##.copyright
 ||*counter.*
+.cur/$image
+###cursor
+*cursor_hover.$image
+/CustomCursor*$image
 ||defpush.com^$third-party
 ||direct.apus.tech
 ||disqus*.*
-||disqus.*
-||disquscdn.com
-||disqus.com
+##div[class*="action"]:style(position: static!important)
+##div[class*="app"]:style(position: static!important)
+##div[class*="banner"]:style(position: static!important)
+##div[class*="bar"]:style(position: static!important)
+##div[class*="bb"]:style(position: static!important)
+##div[class*="bottom"]:style(position: static!important)
+##div[class*="center"]:style(position: static!important)
+##div[class*="d-header"]:style(position: static!important)
+##div[class*="fixed"]:style(position: static!important)
+##div[class*="fix"]:style(position: static!important)
+##div[class*="floating"]:style(position: static!important)
+##div[class*="float"]:style(position: static!important)
+##div[class*="follow"]:style(position: static!important)
+##div[class*="footer"]:style(position: static!important)
+##div[class*="full"]:style(position: static!important)
+##div[class*="global"]:style(position: static!important)
+##div[class*="header"]:style(position: static!important)
+##div[class*="head"]:style(position: static!important)
+##div[class*="icon"]:style(position: static!important)
+##div[class*="index"]:style(position: static!important)
+##div[class*="js"][class$="banner"]:style(position: static!important)
+##div[class*="js"][class$="bar"]:style(position: static!important)
+##div[class*="js"][class$="box"]:style(position: static!important)
+##div[class*="js"][class$="container"]:style(position: static!important)
+##div[class*="js"][class$="custom"]:style(position: static!important)
+##div[class*="js"][class$="default"]:style(position: static!important)
+##div[class*="js"][class$="header"]:style(position: static!important)
+##div[class*="js"][class$="head"]:style(position: static!important)
+##div[class*="js"][class$="main"]:style(position: static!important)
+##div[class*="js"][class$="menu"]:style(position: static!important)
+##div[class*="js"][class$="navigation"]:style(position: static!important)
+##div[class*="js"][class$="nav"]:style(position: static!important)
+##div[class*="js"][class$="static"]:style(position: static!important)
+##div[class*="js"][class$="sticky"]:style(position: static!important)
+##div[class*="js"][class$="top"]:style(position: static!important)
+##div[class*="js"]:style(position: static!important)
+##div[class*="layer"][class$="banner"]:style(position: static!important)
+##div[class*="layer"][class$="bar"]:style(position: static!important)
+##div[class*="layer"][class$="box"]:style(position: static!important)
+##div[class*="layer"][class$="container"]:style(position: static!important)
+##div[class*="layer"][class$="custom"]:style(position: static!important)
+##div[class*="layer"][class$="default"]:style(position: static!important)
+##div[class*="layer"][class$="header"]:style(position: static!important)
+##div[class*="layer"][class$="head"]:style(position: static!important)
+##div[class*="layer"][class$="main"]:style(position: static!important)
+##div[class*="layer"][class$="menu"]:style(position: static!important)
+##div[class*="layer"][class$="navigation"]:style(position: static!important)
+##div[class*="layer"][class$="nav"]:style(position: static!important)
+##div[class*="layer"][class$="static"]:style(position: static!important)
+##div[class*="layer"][class$="sticky"]:style(position: static!important)
+##div[class*="layer"][class$="top"]:style(position: static!important)
+##div[class*="like"]:style(position: static!important)
+##div[class*="locked"]:style(position: static!important)
+##div[class*="login"]:style(position: static!important)
+##div[class*="logo"]:style(position: static!important)
+##div[class*="main"]:style(position: static!important)
+##div[class*="master"]:style(position: static!important)
+##div[class*="mast"]:style(position: static!important)
+##div[class*="mavbar"]:style(position: static!important)
+##div[class*="menu"]:style(position: static!important)
+##div[class*="mobile"]:style(position: static!important)
+##div[class*="navbar"]:style(position: static!important)
+##div[class*="navigation"]:style(position: static!important)
+##div[class*="nav"]:style(position: static!important)
+##div[class*="pagenav"]:style(position: static!important)
+##div[class*="panel"]:style(position: static!important)
+##div[class*="persist"]:style(position: static!important)
+##div[class*="pinned"]:style(position: static!important)
+##div[class*="primary"]:style(position: static!important)
+##div[class*="rail"]:style(position: static!important)
+##div[class*="recommended"]:style(position: static!important)
+##div[class*="recommend"]:style(position: static!important)
+##div[class*="related"]:style(position: static!important)
+##div[class*="ribbon"]:style(position: static!important)
+##div[class*="row"]:style(position: static!important)
+##div[class*="scrolled"]:style(position: static!important)
+##div[class*="section"][class$="banner"]:style(position: static!important)
+##div[class*="section"][class$="bar"]:style(position: static!important)
+##div[class*="section"][class$="box"]:style(position: static!important)
+##div[class*="section"][class$="container"]:style(position: static!important)
+##div[class*="section"][class$="custom"]:style(position: static!important)
+##div[class*="section"][class$="default"]:style(position: static!important)
+##div[class*="section"][class$="header"]:style(position: static!important)
+##div[class*="section"][class$="head"]:style(position: static!important)
+##div[class*="section"][class$="main"]:style(position: static!important)
+##div[class*="section"][class$="menu"]:style(position: static!important)
+##div[class*="section"][class$="navigation"]:style(position: static!important)
+##div[class*="section"][class$="nav"]:style(position: static!important)
+##div[class*="section"][class$="static"]:style(position: static!important)
+##div[class*="section"][class$="sticky"]:style(position: static!important)
+##div[class*="section"][class$="top"]:style(position: static!important)
+##div[class*="shares"]:style(position: static!important)
+##div[class*="share"]:style(position: static!important)
+##div[class*="sharing"]:style(position: static!important)
+##div[class*="sign-in"][class$="banner"]:style(position: static!important)
+##div[class*="signin"][class$="banner"]:style(position: static!important)
+##div[class*="sign-in"][class$="bar"]:style(position: static!important)
+##div[class*="signin"][class$="bar"]:style(position: static!important)
+##div[class*="sign-in"][class$="box"]:style(position: static!important)
+##div[class*="signin"][class$="box"]:style(position: static!important)
+##div[class*="sign-in"][class$="container"]:style(position: static!important)
+##div[class*="signin"][class$="container"]:style(position: static!important)
+##div[class*="sign-in"][class$="custom"]:style(position: static!important)
+##div[class*="signin"][class$="custom"]:style(position: static!important)
+##div[class*="sign-in"][class$="default"]:style(position: static!important)
+##div[class*="signin"][class$="default"]:style(position: static!important)
+##div[class*="sign-in"][class$="header"]:style(position: static!important)
+##div[class*="signin"][class$="header"]:style(position: static!important)
+##div[class*="sign-in"][class$="head"]:style(position: static!important)
+##div[class*="signin"][class$="head"]:style(position: static!important)
+##div[class*="sign-in"][class$="main"]:style(position: static!important)
+##div[class*="signin"][class$="main"]:style(position: static!important)
+##div[class*="sign-in"][class$="menu"]:style(position: static!important)
+##div[class*="signin"][class$="menu"]:style(position: static!important)
+##div[class*="sign-in"][class$="navigation"]:style(position: static!important)
+##div[class*="signin"][class$="navigation"]:style(position: static!important)
+##div[class*="sign-in"][class$="nav"]:style(position: static!important)
+##div[class*="signin"][class$="nav"]:style(position: static!important)
+##div[class*="sign-in"][class$="static"]:style(position: static!important)
+##div[class*="signin"][class$="static"]:style(position: static!important)
+##div[class*="sign-in"][class$="sticky"]:style(position: static!important)
+##div[class*="signin"][class$="sticky"]:style(position: static!important)
+##div[class*="sign-in"][class$="top"]:style(position: static!important)
+##div[class*="signin"][class$="top"]:style(position: static!important)
+##div[class*="sign-up"][class$="banner"]:style(position: static!important)
+##div[class*="signup"][class$="banner"]:style(position: static!important)
+##div[class*="sign-up"][class$="bar"]:style(position: static!important)
+##div[class*="signup"][class$="bar"]:style(position: static!important)
+##div[class*="sign-up"][class$="box"]:style(position: static!important)
+##div[class*="signup"][class$="box"]:style(position: static!important)
+##div[class*="sign-up"][class$="container"]:style(position: static!important)
+##div[class*="signup"][class$="container"]:style(position: static!important)
+##div[class*="sign-up"][class$="custom"]:style(position: static!important)
+##div[class*="signup"][class$="custom"]:style(position: static!important)
+##div[class*="sign-up"][class$="default"]:style(position: static!important)
+##div[class*="signup"][class$="default"]:style(position: static!important)
+##div[class*="sign-up"][class$="header"]:style(position: static!important)
+##div[class*="signup"][class$="header"]:style(position: static!important)
+##div[class*="sign-up"][class$="head"]:style(position: static!important)
+##div[class*="signup"][class$="head"]:style(position: static!important)
+##div[class*="sign-up"][class$="main"]:style(position: static!important)
+##div[class*="signup"][class$="main"]:style(position: static!important)
+##div[class*="sign-up"][class$="menu"]:style(position: static!important)
+##div[class*="signup"][class$="menu"]:style(position: static!important)
+##div[class*="sign-up"][class$="navigation"]:style(position: static!important)
+##div[class*="signup"][class$="navigation"]:style(position: static!important)
+##div[class*="sign-up"][class$="nav"]:style(position: static!important)
+##div[class*="signup"][class$="nav"]:style(position: static!important)
+##div[class*="sign-up"][class$="static"]:style(position: static!important)
+##div[class*="signup"][class$="static"]:style(position: static!important)
+##div[class*="sign-up"][class$="sticky"]:style(position: static!important)
+##div[class*="signup"][class$="sticky"]:style(position: static!important)
+##div[class*="sign-up"][class$="top"]:style(position: static!important)
+##div[class*="signup"][class$="top"]:style(position: static!important)
+##div[class*="site"][class$="banner"]:style(position: static!important)
+##div[class*="site"][class$="bar"]:style(position: static!important)
+##div[class*="site"][class$="box"]:style(position: static!important)
+##div[class*="site"][class$="container"]:style(position: static!important)
+##div[class*="site"][class$="custom"]:style(position: static!important)
+##div[class*="site"][class$="default"]:style(position: static!important)
+##div[class*="site"][class$="header"]:style(position: static!important)
+##div[class*="site"][class$="head"]:style(position: static!important)
+##div[class*="site"][class$="main"]:style(position: static!important)
+##div[class*="site"][class$="menu"]:style(position: static!important)
+##div[class*="site"][class$="navigation"]:style(position: static!important)
+##div[class*="site"][class$="nav"]:style(position: static!important)
+##div[class*="site"][class$="static"]:style(position: static!important)
+##div[class*="site"][class$="sticky"]:style(position: static!important)
+##div[class*="site"][class$="top"]:style(position: static!important)
+##div[class*="smart"]:style(position: static!important)
+##div[class*="social"]:style(position: static!important)
+##div[class*="static"]:style(position: static!important)
+##div[class*="sticking"]:style(position: static!important)
+##div[class*="sticky"]:style(position: static!important)
+##div[class*="stuck"]:style(position: static!important)
+##div[class*="tab"]:style(position: static!important)
+##div[class*="teaser"]:style(position: static!important)
+##div[class*="tease"]:style(position: static!important)
+##div[class*="top"]:style(position: static!important)
+##div[class*="tray"]:style(position: static!important)
+##div[data-test-id="giftWrap"]
+##div[id*="action"]:style(position: static!important)
+##div[id*="app"]:style(position: static!important)
+##div[id*="banner"]:style(position: static!important)
+##div[id*="bar"]:style(position: static!important)
+##div[id*="bb"]:style(position: static!important)
+##div[id*="bottom"]:style(position: static!important)
+##div[id*="center"]:style(position: static!important)
+##div[id*="d-header"]:style(position: static!important)
+##div[id*="fixed"]:style(position: static!important)
+##div[id*="fix"]:style(position: static!important)
+##div[id*="floating"]:style(position: static!important)
+##div[id*="float"]:style(position: static!important)
+##div[id*="follow"]:style(position: static!important)
+##div[id*="footer"]:style(position: static!important)
+##div[id*="full"]:style(position: static!important)
+##div[id*="global"]:style(position: static!important)
+##div[id*="header"]:style(position: static!important)
+##div[id*="head"]:style(position: static!important)
+##div[id*="icon"]:style(position: static!important)
+##div[id*="index"]:style(position: static!important)
+##div[id*="js"][id="banner"]:style(position: static!important)
+##div[id*="js"][id="bar"]:style(position: static!important)
+##div[id*="js"][id="box"]:style(position: static!important)
+##div[id*="js"][id="container"]:style(position: static!important)
+##div[id*="js"][id="custom"]:style(position: static!important)
+##div[id*="js"][id="default"]:style(position: static!important)
+##div[id*="js"][id="header"]:style(position: static!important)
+##div[id*="js"][id="head"]:style(position: static!important)
+##div[id*="js"][id="main"]:style(position: static!important)
+##div[id*="js"][id="menu"]:style(position: static!important)
+##div[id*="js"][id="navigation"]:style(position: static!important)
+##div[id*="js"][id="nav"]:style(position: static!important)
+##div[id*="js"][id="static"]:style(position: static!important)
+##div[id*="js"][id="sticky"]:style(position: static!important)
+##div[id*="js"][id="top"]:style(position: static!important)
+##div[id*="js"]:style(position: static!important)
+##div[id*="layer"][id="banner"]:style(position: static!important)
+##div[id*="layer"][id="bar"]:style(position: static!important)
+##div[id*="layer"][id="box"]:style(position: static!important)
+##div[id*="layer"][id="container"]:style(position: static!important)
+##div[id*="layer"][id="custom"]:style(position: static!important)
+##div[id*="layer"][id="default"]:style(position: static!important)
+##div[id*="layer"][id="header"]:style(position: static!important)
+##div[id*="layer"][id="head"]:style(position: static!important)
+##div[id*="layer"][id="main"]:style(position: static!important)
+##div[id*="layer"][id="menu"]:style(position: static!important)
+##div[id*="layer"][id="navigation"]:style(position: static!important)
+##div[id*="layer"][id="nav"]:style(position: static!important)
+##div[id*="layer"][id="static"]:style(position: static!important)
+##div[id*="layer"][id="sticky"]:style(position: static!important)
+##div[id*="layer"][id="top"]:style(position: static!important)
+##div[id*="like"]:style(position: static!important)
+##div[id*="locked"]:style(position: static!important)
+##div[id*="login"]:style(position: static!important)
+##div[id*="logo"]:style(position: static!important)
+##div[id*="main"]:style(position: static!important)
+##div[id*="master"]:style(position: static!important)
+##div[id*="mast"]:style(position: static!important)
+##div[id*="mavbar"]:style(position: static!important)
+##div[id*="menu"]:style(position: static!important)
+##div[id*="mobile"]:style(position: static!important)
+##div[id*="navbar"]:style(position: static!important)
+##div[id*="navigation"]:style(position: static!important)
+##div[id*="nav"]:style(position: static!important)
+##div[id*="pagenav"]:style(position: static!important)
+##div[id*="panel"]:style(position: static!important)
+##div[id*="persist"]:style(position: static!important)
+##div[id*="pinned"]:style(position: static!important)
+##div[id*="primary"]:style(position: static!important)
+##div[id*="rail"]:style(position: static!important)
+##div[id*="recommended"]:style(position: static!important)
+##div[id*="recommend"]:style(position: static!important)
+##div[id*="related"]:style(position: static!important)
+##div[id*="ribbon"]:style(position: static!important)
+##div[id*="row"]:style(position: static!important)
+##div[id*="scrolled"]:style(position: static!important)
+##div[id*="section"][id="banner"]:style(position: static!important)
+##div[id*="section"][id="bar"]:style(position: static!important)
+##div[id*="section"][id="box"]:style(position: static!important)
+##div[id*="section"][id="container"]:style(position: static!important)
+##div[id*="section"][id="custom"]:style(position: static!important)
+##div[id*="section"][id="default"]:style(position: static!important)
+##div[id*="section"][id="header"]:style(position: static!important)
+##div[id*="section"][id="head"]:style(position: static!important)
+##div[id*="section"][id="main"]:style(position: static!important)
+##div[id*="section"][id="menu"]:style(position: static!important)
+##div[id*="section"][id="navigation"]:style(position: static!important)
+##div[id*="section"][id="nav"]:style(position: static!important)
+##div[id*="section"][id="static"]:style(position: static!important)
+##div[id*="section"][id="sticky"]:style(position: static!important)
+##div[id*="section"][id="top"]:style(position: static!important)
+##div[id*="shares"]:style(position: static!important)
+##div[id*="share"]:style(position: static!important)
+##div[id*="sharing"]:style(position: static!important)
+##div[id*="sign-in"][id="banner"]:style(position: static!important)
+##div[id*="signin"][id="banner"]:style(position: static!important)
+##div[id*="sign-in"][id="bar"]:style(position: static!important)
+##div[id*="signin"][id="bar"]:style(position: static!important)
+##div[id*="sign-in"][id="box"]:style(position: static!important)
+##div[id*="signin"][id="box"]:style(position: static!important)
+##div[id*="sign-in"][id="container"]:style(position: static!important)
+##div[id*="signin"][id="container"]:style(position: static!important)
+##div[id*="sign-in"][id="custom"]:style(position: static!important)
+##div[id*="signin"][id="custom"]:style(position: static!important)
+##div[id*="sign-in"][id="default"]:style(position: static!important)
+##div[id*="signin"][id="default"]:style(position: static!important)
+##div[id*="sign-in"][id="header"]:style(position: static!important)
+##div[id*="signin"][id="header"]:style(position: static!important)
+##div[id*="sign-in"][id="head"]:style(position: static!important)
+##div[id*="signin"][id="head"]:style(position: static!important)
+##div[id*="sign-in"][id="main"]:style(position: static!important)
+##div[id*="signin"][id="main"]:style(position: static!important)
+##div[id*="sign-in"][id="menu"]:style(position: static!important)
+##div[id*="signin"][id="menu"]:style(position: static!important)
+##div[id*="sign-in"][id="navigation"]:style(position: static!important)
+##div[id*="signin"][id="navigation"]:style(position: static!important)
+##div[id*="sign-in"][id="nav"]:style(position: static!important)
+##div[id*="signin"][id="nav"]:style(position: static!important)
+##div[id*="sign-in"][id="static"]:style(position: static!important)
+##div[id*="signin"][id="static"]:style(position: static!important)
+##div[id*="sign-in"][id="sticky"]:style(position: static!important)
+##div[id*="signin"][id="sticky"]:style(position: static!important)
+##div[id*="sign-in"][id="top"]:style(position: static!important)
+##div[id*="signin"][id="top"]:style(position: static!important)
+##div[id*="sign-up"][id="banner"]:style(position: static!important)
+##div[id*="signup"][id="banner"]:style(position: static!important)
+##div[id*="sign-up"][id="bar"]:style(position: static!important)
+##div[id*="signup"][id="bar"]:style(position: static!important)
+##div[id*="sign-up"][id="box"]:style(position: static!important)
+##div[id*="signup"][id="box"]:style(position: static!important)
+##div[id*="sign-up"][id="container"]:style(position: static!important)
+##div[id*="signup"][id="container"]:style(position: static!important)
+##div[id*="sign-up"][id="custom"]:style(position: static!important)
+##div[id*="signup"][id="custom"]:style(position: static!important)
+##div[id*="sign-up"][id="default"]:style(position: static!important)
+##div[id*="signup"][id="default"]:style(position: static!important)
+##div[id*="sign-up"][id="header"]:style(position: static!important)
+##div[id*="signup"][id="header"]:style(position: static!important)
+##div[id*="sign-up"][id="head"]:style(position: static!important)
+##div[id*="signup"][id="head"]:style(position: static!important)
+##div[id*="sign-up"][id="main"]:style(position: static!important)
+##div[id*="signup"][id="main"]:style(position: static!important)
+##div[id*="sign-up"][id="menu"]:style(position: static!important)
+##div[id*="signup"][id="menu"]:style(position: static!important)
+##div[id*="sign-up"][id="navigation"]:style(position: static!important)
+##div[id*="signup"][id="navigation"]:style(position: static!important)
+##div[id*="sign-up"][id="nav"]:style(position: static!important)
+##div[id*="signup"][id="nav"]:style(position: static!important)
+##div[id*="sign-up"][id="static"]:style(position: static!important)
+##div[id*="signup"][id="static"]:style(position: static!important)
+##div[id*="sign-up"][id="sticky"]:style(position: static!important)
+##div[id*="signup"][id="sticky"]:style(position: static!important)
+##div[id*="sign-up"][id="top"]:style(position: static!important)
+##div[id*="signup"][id="top"]:style(position: static!important)
+##div[id*="site"][id="banner"]:style(position: static!important)
+##div[id*="site"][id="bar"]:style(position: static!important)
+##div[id*="site"][id="box"]:style(position: static!important)
+##div[id*="site"][id="container"]:style(position: static!important)
+##div[id*="site"][id="custom"]:style(position: static!important)
+##div[id*="site"][id="default"]:style(position: static!important)
+##div[id*="site"][id="header"]:style(position: static!important)
+##div[id*="site"][id="head"]:style(position: static!important)
+##div[id*="site"][id="main"]:style(position: static!important)
+##div[id*="site"][id="menu"]:style(position: static!important)
+##div[id*="site"][id="navigation"]:style(position: static!important)
+##div[id*="site"][id="nav"]:style(position: static!important)
+##div[id*="site"][id="static"]:style(position: static!important)
+##div[id*="site"][id="sticky"]:style(position: static!important)
+##div[id*="site"][id="top"]:style(position: static!important)
+##div[id*="smart"]:style(position: static!important)
+##div[id*="social"]:style(position: static!important)
+##div[id*="static"]:style(position: static!important)
+##div[id*="sticking"]:style(position: static!important)
+##div[id*="sticky"]:style(position: static!important)
+##div[id*="stuck"]:style(position: static!important)
+##div[id*="tab"]:style(position: static!important)
+##div[id*="teaser"]:style(position: static!important)
+##div[id*="tease"]:style(position: static!important)
+##div[id*="top"]:style(position: static!important)
+##div[id*="tray"]:style(position: static!important)
 ||doubleclick.*
 ||dynamicyield.com
 ||dyncdn.me
@@ -84,30 +550,40 @@
 ||edgesuite.net*
 ||*exchange.com
 ||facebook.*
-||fbcdn.*/*
-||fb.com
-||fb.me
+*/facebookchat.js
+##.faded-article-content:after
+||fb.*
+||fbcdn.*
+||*&fbclid$document,important
+||*?fbclid$document,important
 ||fbsbx.com
+##.featured-video__wrapper
 ||firebase*.*
-||firebaseio.com
 @@||fonts.googleapis.com
 @@||fonts.gtatic.com
+###foot
 ||*forex*.*
 ||freebasics.com
+||*&gclid$document,important
+||*?gclid$document,important
+||g.co
+/getads.
+/get_midroll_
+*GetOnlineChatUrl*
 ||ggoogle.*
 ||gmail.com
 ||gogle.*
 ||gogole.*
 ||googel.*
+||goo.gl
 ||googl.com
 ||*google.*
 ||google*.*
 @@||googleapis.com/drive/*$domain=hydrax.net|playhydrax.com
-||googleapps.com
-||googlecode.com
 @@||google.com/recaptcha/*$domain=9anime.to|9anime.ru|9anime.live|9anime.nl|9anime.one|9anime.love|9anime.life|9anime.tv|9anime.page|9anime.video|prettyfast.to
 ||googlee.com
 ||googlemail.com
+||google.*/pagead/lvz?
 ||googlesource.com
 ||googlesyndication.com
 ||googletagmanager.com^
@@ -119,12 +595,95 @@
 ||gravatar.com
 ||gstatic.com
 ||*hardcore*
+##.header-banner
 ||*hookup*
+###horizontalspace
+##[href*="emailsignup"]
 @@||hydrax.net^$elemhide
 hydrax.net,playhydrax.com##+js(aopr, AaDetector)
 hydrax.net,playhydrax.com##+js(nostif, debugger)
 @@||iamcdn.net^$domain=hydrax.net|playhydrax.com
 @@||iamcdn.net^*/ads.js$script,domain=hydrax.net|playhydrax.com
+##[id*="actionbar"]
+##[id*="-ad"]
+##[id*="adbox"]
+##[id*="ad-container"]
+##[id*="ad-frame"]
+##[id*="ad_native"]
+##[id*="ad-panel"]
+##[id^="adsby"]
+##[id*="ad-slot"]
+##[id*="adunit"]
+##[id*="Advert"]
+##[id*="ad-wrapper"]
+##[id^="aff-"]
+##[id*="alert"]
+##[id*="banner"]
+##[id*="blockUI"]
+##[id*="breadcrumb"]
+##[id*="copyright"]
+##[id*="disclaimer"]
+##[id*="donate"]
+##[id*="dsense"]
+##[id*="email-signup"]
+##[id*="facebook"]
+##[id*="fadeIn"]
+##[id*="fb-root"]
+##[id*="feedback"]
+##[id*="focus-guest"]
+##[id*="follow"]
+##[id*="google_ad"]
+##[id*="gpt-"]
+##[id*="img_ad"]
+##[id*="infobar"]
+##[id*="instagram"]
+##[id*="interrupt"]
+##[id*="leaderboard"]
+##[id*="linkedin"]
+##[id*="marketing"]
+##[id*="nativead"]
+##[id*="netboard"]
+##[id*="newsletter"]
+##[id*="notice"]
+##[id*="notif"]
+##[id*="-offer"]
+##[id*="outbrain"]
+##[id*="Overlay"]
+##[id*="paywall"]
+##[id*="pinterest"]
+##[id*="player-ads"]
+##[id*="promo"]
+##[id*="-prompt"]
+##[id*="register-pop"]
+##[id*="SearchAds"]
+##[id*="share"]
+##[id*="sharing"]
+##[id*="skyscraper"]
+##[id*="social"]
+##[id*="sponsor"]
+##[id*="subscri"]
+##[id*="toast"]
+##[id*="TopAds"]
+##[id*="trending"]
+##[id*="twit-"]
+##[id*="twitter"]
+##[id*="video-ads"]
+##[id*="whatsapp"]
+##[id*="widget_"]
+##[id*="wikia-ad"]
+##[id*="zchat"]
+##[id*="zmodal-"]
+##[id*="zmodal_"]
+##[id*="zpopover"]
+##[id*="z-popup"]
+##[id*="zpopup_"]
+##[id*="zPopUp"]
+##iframe[src*="mellowads"]
+/images/*/Cursor*
+/images/Cursor-
+/images/Cursor.
+/images/*/Mouse.png
+/images/pointer.
 @@||imasdk.googleapis.com
 ||*impression*.*
 ||imrworldwide.com
@@ -132,21 +691,37 @@ hydrax.net,playhydrax.com##+js(nostif, debugger)
 ||intellitxt.*
 ||*interactive*
 ||internet.org
+##.iv-promo
 @@||jquery.com^$script
 ##+js(acis, Math, zfgloaded)
 ##+js(aopr, AaDetector)
 @@||jsdelivr.net^$domain=hydrax.net|playhydrax.com
+#?#.js-dismissable-hero:-abp-contains(Sign up)
+js.driftt.com/dist/assets/widget*prod.js
+##.js-signup-call-out
+||kayako*.com/messenger^$script
 ||lijit.com^
 ||linkedin.com
 ||*links.*
 ||*live*.*
 ||*livechat*
+##.login-callout
+###loginModal
+###masthead-ad
 ||matomo.*
+##.mcf-mosaic
 ||*media.com
 ||messenger.com
 ||*metric*
+||*metrix*
+##.mfp-container
 ||mgid.com^
 ||micros*ft*.*
+###mixed-content-footer
+##.mk-padding-divider
+###mobile_login_bar
+##.mod-warning
+/Mousehover.$image
 @@||mp4upload.com/embed-*
 mp4upload.com##+js(acis, decodeURI, decodeURIComponent)
 mp4upload.com##+js(addEventListener-defuser.js, contextmenu)
@@ -157,13 +732,34 @@ mp4upload.com##.vjs-logo
 ||msn*.*
 @@||multi.idocdn.com^$domain=hydrax.net|playhydrax.com
 ||narrative.io
+##.nav-flyout.nav-signin-tt
 ! ||netdna-cdn.com
+/new_cursor.$image
 ||newrelic.com
+||news.google.com/*/swg.js$script
+||nocookie.net/*_cursor_*.png
+||nocookie.net/*cursor.png^
+||nocookie.net/*/OnionSprite*$image
 ||oascentral.*.*
 ||*onesignal*
-||*metrix*.*
+##.onp-sl-inner-wrap
+##.onp-sl-outer-wrap
+##.onp-sl-overlap-background
+##.onp-sl-overlap-box
 ||*optimize*.*
 ||outbrain.com
+###overlay
+##.overlay
+##.overlay--light
+###overlay_search
+#?#.paragraph--faded:before:style(background-image: none !important)
+#?#.paragraph--faded:style(overflow: visible !important)
+#?##paywall:style(top: 250px !important)
+##p:empty
+*##p:has-text(/^ $/):not(:has-text(/\S/)):not(:has(img))
+*##p:has-text(/^\xA0$/):not(:has-text(/\S/)):not(:has(img))
+*##p:has-text(/^\xA0\xA0$/):not(:has-text(/\S/)):not(:has(span))
+*/phplive
 ||picasa.com
 ||pingdom.net*
 /ping.gif?
@@ -171,429 +767,89 @@ mp4upload.com##.vjs-logo
 ||piwik.*
 ||pixel.*
 @@||playhydrax.com^$elemhide
+##p:-moz-only-whitespace
 ||*pop*.*
 ||*porn*.*
 ! ||po.st
+##.post-search-results__slant
+@@||primewire.li
 @@||projectwonderful.com
 ||propellerclick.com^
+###public-mask-login
 ||*qualtrics*
 ||quantcount.*
 ||quantserve.com
+###rc-row-container
+#?#.ReactModal__Overlay:-abp-has(video[src$="/bloom2.mp4"])
+##.redux-modal
+##.regoverlay
 ||revcontent.com
 ||rezync.com^$3p
 ||runative-syndicate.com^$third-party
 ||*russia*.*/*
 ||scorecardresearch.com
 ||*share*.*
+##.signup-prompt
+##.SignupWallInline-overlay
+###sky-banner
+###sky-center
+###sky-right
+/smartads.
 ||smartadserver.com
+##.soft-block-overlay.window-overlay
+##.space20
+##.spacer-20
+##.spacer:not(:has-text(/\S/))
+##.srcalert
+##[src*="/offer"]
 ! ||ssl.fastly.net
 ||*stat*.*
+||styles.redditmedia.com/*/styles/image_widget_hosy*.png$image
+/subscription.js
+/svg/arrow-home*
 ||*taboola*
 ||tapjoy.com
+||tawk.to
 ||*telemetry*.*/
 ||tfbnw.net
 ||*track*
 ||*traffic*
+##.trc_elastic
+##.trc_rbox_container
+##.trc_related_container
+##.trc_spotlight_widget
 ||trk*.*
 ||twitter.*
 ||*typekit.*
+||*&utm_*=$document,important
+||*?utm_*=$document,important
 /videojs-contrib-ads.js
+###video-masthead
 ||viglink.com^
+||vignette.wikia.nocookie.net/*/Community-header-background/*$image
+v*.zopim.com$script
+##.warning_illust
 ||waze.com
+#?##wds-company-logo-fandom-white:style(pointer-events:none !important;cursor:default !important)
+##.wds-global-footer__fandom-sections
+#?#.wds-global-footer__header:style(pointer-events:none !important;cursor:default !important)
+##.wds-global-navigation__links
+#?#.wds-global-navigation__logo:style(pointer-events:none !important;cursor:default !important)
+*website_chat_widget.asp
 ||wechat.com
 ||whatsapp.*
+###window_overlay
 ||withgoogle.com
 @@||*.xyz/html/*$xhr,domain=hydrax.net|playhydrax.com
-||yahooapis.*
-||yahoo.*
+||yahoo*.*
+##.yap-loaded
+||*&yclid$document,important
+||*?yclid$document,important
 ||youtu.be
 ||youtube.*
-||youtube*.*
-||zap.buzz^
-||g.co
-||goo.gl
-||youtu.be
 ||yt.be
-||blogspot.com
-||1e100.net
-||blogger.com
-
-||*^$popup
-
-! https://raw.githubusercontent.com/kowith337/PersonalFilterListCollection/master/filterlist/other/SurvivedTrackingLinkWarning.txt
-||*.*/*?amp=$document,important
-||*&__cf_chl_jschl_tk__=$document,important
-||*&amp_*=*&usqp=*$document,important
-||*&fbclid$document,important
-||*&gclid$document,important
-||*&utm_*=$document,important
-||*&yclid$document,important
-||*?__cf_chl_jschl_tk__=$document,important
-||*?amp_*=*&usqp=*$document,important
-||*?fbclid$document,important
-||*?gclid$document,important
-||*?utm_*=$document,important
-||*?yclid$document,important
-
-##div[class*="sticky"]:style(position: static!important)
-##div[id*="sticky"]:style(position: static!important)
-##div[class*="sticking"]:style(position: static!important)
-##div[id*="sticking"]:style(position: static!important)
-##div[class*="header"]:style(position: static!important)
-##div[id*="header"]:style(position: static!important)
-##div[class*="head"]:style(position: static!important)
-##div[id*="head"]:style(position: static!important)
-##div[class*="navigation"]:style(position: static!important)
-##div[id*="navigation"]:style(position: static!important)
-##div[class*="nav"]:style(position: static!important)
-##div[id*="nav"]:style(position: static!important)
-##div[class*="navbar"]:style(position: static!important)
-##div[id*="navbar"]:style(position: static!important)
-##div[class*="fixed"]:style(position: static!important)
-##div[id*="fixed"]:style(position: static!important)
-##div[class*="fix"]:style(position: static!important)
-##div[id*="fix"]:style(position: static!important)
-##div[class*="ribbon"]:style(position: static!important)
-##div[id*="ribbon"]:style(position: static!important)
-##div[class*="logo"]:style(position: static!important)
-##div[id*="logo"]:style(position: static!important)
-##div[class*="app"]:style(position: static!important)
-##div[id*="app"]:style(position: static!important)
-##div[class*="footer"]:style(position: static!important)
-##div[id*="footer"]:style(position: static!important)
-##div[class*="locked"]:style(position: static!important)
-##div[id*="locked"]:style(position: static!important)
-##div[class*="main"]:style(position: static!important)
-##div[id*="main"]:style(position: static!important)
-##div[class*="top"]:style(position: static!important)
-##div[id*="top"]:style(position: static!important)
-##div[class*="center"]:style(position: static!important)
-##div[id*="center"]:style(position: static!important)
-##div[class*="pinned"]:style(position: static!important)
-##div[id*="pinned"]:style(position: static!important)
-##div[class*="banner"]:style(position: static!important)
-##div[id*="banner"]:style(position: static!important)
-##div[class*="social"]:style(position: static!important)
-##div[id*="social"]:style(position: static!important)
-##div[class*="share"]:style(position: static!important)
-##div[id*="share"]:style(position: static!important)
-##div[class*="sharing"]:style(position: static!important)
-##div[id*="sharing"]:style(position: static!important)
-##div[class*="shares"]:style(position: static!important)
-##div[id*="shares"]:style(position: static!important)
-##div[class*="mavbar"]:style(position: static!important)
-##div[id*="mavbar"]:style(position: static!important)
-##div[class*="like"]:style(position: static!important)
-##div[id*="like"]:style(position: static!important)
-##div[class*="follow"]:style(position: static!important)
-##div[id*="follow"]:style(position: static!important)
-##div[class*="login"]:style(position: static!important)
-##div[id*="login"]:style(position: static!important)
-##div[class*="teaser"]:style(position: static!important)
-##div[id*="teaser"]:style(position: static!important)
-##div[class*="tease"]:style(position: static!important)
-##div[id*="tease"]:style(position: static!important)
-##div[class*="related"]:style(position: static!important)
-##div[id*="related"]:style(position: static!important)
-##div[class*="recommend"]:style(position: static!important)
-##div[id*="recommend"]:style(position: static!important)
-##div[class*="recommended"]:style(position: static!important)
-##div[id*="recommended"]:style(position: static!important)
-##div[class*="action"]:style(position: static!important)
-##div[id*="action"]:style(position: static!important)
-##div[class*="scrolled"]:style(position: static!important)
-##div[id*="scrolled"]:style(position: static!important)
-##div[class*="stuck"]:style(position: static!important)
-##div[id*="stuck"]:style(position: static!important)
-##div[class*="smart"]:style(position: static!important)
-##div[id*="smart"]:style(position: static!important)
-##div[class*="mobile"]:style(position: static!important)
-##div[id*="mobile"]:style(position: static!important)
-##div[class*="index"]:style(position: static!important)
-##div[id*="index"]:style(position: static!important)
-##div[class*="icon"]:style(position: static!important)
-##div[id*="icon"]:style(position: static!important)
-##div[class*="pagenav"]:style(position: static!important)
-##div[id*="pagenav"]:style(position: static!important)
-##div[class*="row"]:style(position: static!important)
-##div[id*="row"]:style(position: static!important)
-##div[class*="static"]:style(position: static!important)
-##div[id*="static"]:style(position: static!important)
-##div[class*="tray"]:style(position: static!important)
-##div[id*="tray"]:style(position: static!important)
-##div[class*="primary"]:style(position: static!important)
-##div[id*="primary"]:style(position: static!important)
-##div[class*="persist"]:style(position: static!important)
-##div[id*="persist"]:style(position: static!important)
-##div[class*="bb"]:style(position: static!important)
-##div[id*="bb"]:style(position: static!important)
-##div[class*="global"]:style(position: static!important)
-##div[id*="global"]:style(position: static!important)
-##div[class*="rail"]:style(position: static!important)
-##div[id*="rail"]:style(position: static!important)
-##div[class*="tab"]:style(position: static!important)
-##div[id*="tab"]:style(position: static!important)
-##div[class*="float"]:style(position: static!important)
-##div[id*="float"]:style(position: static!important)
-##div[class*="floating"]:style(position: static!important)
-##div[id*="floating"]:style(position: static!important)
-##div[class*="scrolled"]:style(position: static!important)
-##div[id*="scrolled"]:style(position: static!important)
-##div[class*="menu"]:style(position: static!important)
-##div[id*="menu"]:style(position: static!important)
-##div[class*="bar"]:style(position: static!important)
-##div[id*="bar"]:style(position: static!important)
-##div[class*="bottom"]:style(position: static!important)
-##div[id*="bottom"]:style(position: static!important)
-##div[class*="panel"]:style(position: static!important)
-##div[id*="panel"]:style(position: static!important)
-##div[class*="mast"]:style(position: static!important)
-##div[id*="mast"]:style(position: static!important)
-##div[class*="master"]:style(position: static!important)
-##div[id*="master"]:style(position: static!important)
-##div[class*="js"]:style(position: static!important)
-##div[id*="js"]:style(position: static!important)
-##div[class*="full"]:style(position: static!important)
-##div[id*="full"]:style(position: static!important)
-##div[class*="d-header"]:style(position: static!important)
-##div[id*="d-header"]:style(position: static!important)
-##div[class*="site"][class$="menu"]:style(position: static!important)
-##div[id*="site"][id="menu"]:style(position: static!important)
-##div[class*="site"][class$="bar"]:style(position: static!important)
-##div[id*="site"][id="bar"]:style(position: static!important)
-##div[class*="site"][class$="header"]:style(position: static!important)
-##div[id*="site"][id="header"]:style(position: static!important)
-##div[class*="site"][class$="head"]:style(position: static!important)
-##div[id*="site"][id="head"]:style(position: static!important)
-##div[class*="site"][class$="main"]:style(position: static!important)
-##div[id*="site"][id="main"]:style(position: static!important)
-##div[class*="site"][class$="top"]:style(position: static!important)
-##div[id*="site"][id="top"]:style(position: static!important)
-##div[class*="site"][class$="banner"]:style(position: static!important)
-##div[id*="site"][id="banner"]:style(position: static!important)
-##div[class*="site"][class$="sticky"]:style(position: static!important)
-##div[id*="site"][id="sticky"]:style(position: static!important)
-##div[class*="site"][class$="navigation"]:style(position: static!important)
-##div[id*="site"][id="navigation"]:style(position: static!important)
-##div[class*="site"][class$="nav"]:style(position: static!important)
-##div[id*="site"][id="nav"]:style(position: static!important)
-##div[class*="site"][class$="default"]:style(position: static!important)
-##div[id*="site"][id="default"]:style(position: static!important)
-##div[class*="site"][class$="custom"]:style(position: static!important)
-##div[id*="site"][id="custom"]:style(position: static!important)
-##div[class*="site"][class$="static"]:style(position: static!important)
-##div[id*="site"][id="static"]:style(position: static!important)
-##div[class*="site"][class$="container"]:style(position: static!important)
-##div[id*="site"][id="container"]:style(position: static!important)
-##div[class*="site"][class$="box"]:style(position: static!important)
-##div[id*="site"][id="box"]:style(position: static!important)
-##div[class*="signup"][class$="menu"]:style(position: static!important)
-##div[id*="signup"][id="menu"]:style(position: static!important)
-##div[class*="signup"][class$="bar"]:style(position: static!important)
-##div[id*="signup"][id="bar"]:style(position: static!important)
-##div[class*="signup"][class$="header"]:style(position: static!important)
-##div[id*="signup"][id="header"]:style(position: static!important)
-##div[class*="signup"][class$="head"]:style(position: static!important)
-##div[id*="signup"][id="head"]:style(position: static!important)
-##div[class*="signup"][class$="main"]:style(position: static!important)
-##div[id*="signup"][id="main"]:style(position: static!important)
-##div[class*="signup"][class$="top"]:style(position: static!important)
-##div[id*="signup"][id="top"]:style(position: static!important)
-##div[class*="signup"][class$="banner"]:style(position: static!important)
-##div[id*="signup"][id="banner"]:style(position: static!important)
-##div[class*="signup"][class$="sticky"]:style(position: static!important)
-##div[id*="signup"][id="sticky"]:style(position: static!important)
-##div[class*="signup"][class$="navigation"]:style(position: static!important)
-##div[id*="signup"][id="navigation"]:style(position: static!important)
-##div[class*="signup"][class$="nav"]:style(position: static!important)
-##div[id*="signup"][id="nav"]:style(position: static!important)
-##div[class*="signup"][class$="default"]:style(position: static!important)
-##div[id*="signup"][id="default"]:style(position: static!important)
-##div[class*="signup"][class$="custom"]:style(position: static!important)
-##div[id*="signup"][id="custom"]:style(position: static!important)
-##div[class*="signup"][class$="static"]:style(position: static!important)
-##div[id*="signup"][id="static"]:style(position: static!important)
-##div[class*="signup"][class$="container"]:style(position: static!important)
-##div[id*="signup"][id="container"]:style(position: static!important)
-##div[class*="signup"][class$="box"]:style(position: static!important)
-##div[id*="signup"][id="box"]:style(position: static!important)
-##div[class*="sign-up"][class$="menu"]:style(position: static!important)
-##div[id*="sign-up"][id="menu"]:style(position: static!important)
-##div[class*="sign-up"][class$="bar"]:style(position: static!important)
-##div[id*="sign-up"][id="bar"]:style(position: static!important)
-##div[class*="sign-up"][class$="header"]:style(position: static!important)
-##div[id*="sign-up"][id="header"]:style(position: static!important)
-##div[class*="sign-up"][class$="head"]:style(position: static!important)
-##div[id*="sign-up"][id="head"]:style(position: static!important)
-##div[class*="sign-up"][class$="main"]:style(position: static!important)
-##div[id*="sign-up"][id="main"]:style(position: static!important)
-##div[class*="sign-up"][class$="top"]:style(position: static!important)
-##div[id*="sign-up"][id="top"]:style(position: static!important)
-##div[class*="sign-up"][class$="banner"]:style(position: static!important)
-##div[id*="sign-up"][id="banner"]:style(position: static!important)
-##div[class*="sign-up"][class$="sticky"]:style(position: static!important)
-##div[id*="sign-up"][id="sticky"]:style(position: static!important)
-##div[class*="sign-up"][class$="navigation"]:style(position: static!important)
-##div[id*="sign-up"][id="navigation"]:style(position: static!important)
-##div[class*="sign-up"][class$="nav"]:style(position: static!important)
-##div[id*="sign-up"][id="nav"]:style(position: static!important)
-##div[class*="sign-up"][class$="default"]:style(position: static!important)
-##div[id*="sign-up"][id="default"]:style(position: static!important)
-##div[class*="sign-up"][class$="custom"]:style(position: static!important)
-##div[id*="sign-up"][id="custom"]:style(position: static!important)
-##div[class*="sign-up"][class$="static"]:style(position: static!important)
-##div[id*="sign-up"][id="static"]:style(position: static!important)
-##div[class*="sign-up"][class$="container"]:style(position: static!important)
-##div[id*="sign-up"][id="container"]:style(position: static!important)
-##div[class*="sign-up"][class$="box"]:style(position: static!important)
-##div[id*="sign-up"][id="box"]:style(position: static!important)
-##div[class*="signin"][class$="menu"]:style(position: static!important)
-##div[id*="signin"][id="menu"]:style(position: static!important)
-##div[class*="signin"][class$="bar"]:style(position: static!important)
-##div[id*="signin"][id="bar"]:style(position: static!important)
-##div[class*="signin"][class$="header"]:style(position: static!important)
-##div[id*="signin"][id="header"]:style(position: static!important)
-##div[class*="signin"][class$="head"]:style(position: static!important)
-##div[id*="signin"][id="head"]:style(position: static!important)
-##div[class*="signin"][class$="main"]:style(position: static!important)
-##div[id*="signin"][id="main"]:style(position: static!important)
-##div[class*="signin"][class$="top"]:style(position: static!important)
-##div[id*="signin"][id="top"]:style(position: static!important)
-##div[class*="signin"][class$="banner"]:style(position: static!important)
-##div[id*="signin"][id="banner"]:style(position: static!important)
-##div[class*="signin"][class$="sticky"]:style(position: static!important)
-##div[id*="signin"][id="sticky"]:style(position: static!important)
-##div[class*="signin"][class$="navigation"]:style(position: static!important)
-##div[id*="signin"][id="navigation"]:style(position: static!important)
-##div[class*="signin"][class$="nav"]:style(position: static!important)
-##div[id*="signin"][id="nav"]:style(position: static!important)
-##div[class*="signin"][class$="default"]:style(position: static!important)
-##div[id*="signin"][id="default"]:style(position: static!important)
-##div[class*="signin"][class$="custom"]:style(position: static!important)
-##div[id*="signin"][id="custom"]:style(position: static!important)
-##div[class*="signin"][class$="static"]:style(position: static!important)
-##div[id*="signin"][id="static"]:style(position: static!important)
-##div[class*="signin"][class$="container"]:style(position: static!important)
-##div[id*="signin"][id="container"]:style(position: static!important)
-##div[class*="signin"][class$="box"]:style(position: static!important)
-##div[id*="signin"][id="box"]:style(position: static!important)
-##div[class*="sign-in"][class$="menu"]:style(position: static!important)
-##div[id*="sign-in"][id="menu"]:style(position: static!important)
-##div[class*="sign-in"][class$="bar"]:style(position: static!important)
-##div[id*="sign-in"][id="bar"]:style(position: static!important)
-##div[class*="sign-in"][class$="header"]:style(position: static!important)
-##div[id*="sign-in"][id="header"]:style(position: static!important)
-##div[class*="sign-in"][class$="head"]:style(position: static!important)
-##div[id*="sign-in"][id="head"]:style(position: static!important)
-##div[class*="sign-in"][class$="main"]:style(position: static!important)
-##div[id*="sign-in"][id="main"]:style(position: static!important)
-##div[class*="sign-in"][class$="top"]:style(position: static!important)
-##div[id*="sign-in"][id="top"]:style(position: static!important)
-##div[class*="sign-in"][class$="banner"]:style(position: static!important)
-##div[id*="sign-in"][id="banner"]:style(position: static!important)
-##div[class*="sign-in"][class$="sticky"]:style(position: static!important)
-##div[id*="sign-in"][id="sticky"]:style(position: static!important)
-##div[class*="sign-in"][class$="navigation"]:style(position: static!important)
-##div[id*="sign-in"][id="navigation"]:style(position: static!important)
-##div[class*="sign-in"][class$="nav"]:style(position: static!important)
-##div[id*="sign-in"][id="nav"]:style(position: static!important)
-##div[class*="sign-in"][class$="default"]:style(position: static!important)
-##div[id*="sign-in"][id="default"]:style(position: static!important)
-##div[class*="sign-in"][class$="custom"]:style(position: static!important)
-##div[id*="sign-in"][id="custom"]:style(position: static!important)
-##div[class*="sign-in"][class$="static"]:style(position: static!important)
-##div[id*="sign-in"][id="static"]:style(position: static!important)
-##div[class*="sign-in"][class$="container"]:style(position: static!important)
-##div[id*="sign-in"][id="container"]:style(position: static!important)
-##div[class*="sign-in"][class$="box"]:style(position: static!important)
-##div[id*="sign-in"][id="box"]:style(position: static!important)
-##div[class*="js"][class$="menu"]:style(position: static!important)
-##div[id*="js"][id="menu"]:style(position: static!important)
-##div[class*="js"][class$="bar"]:style(position: static!important)
-##div[id*="js"][id="bar"]:style(position: static!important)
-##div[class*="js"][class$="header"]:style(position: static!important)
-##div[id*="js"][id="header"]:style(position: static!important)
-##div[class*="js"][class$="head"]:style(position: static!important)
-##div[id*="js"][id="head"]:style(position: static!important)
-##div[class*="js"][class$="main"]:style(position: static!important)
-##div[id*="js"][id="main"]:style(position: static!important)
-##div[class*="js"][class$="top"]:style(position: static!important)
-##div[id*="js"][id="top"]:style(position: static!important)
-##div[class*="js"][class$="banner"]:style(position: static!important)
-##div[id*="js"][id="banner"]:style(position: static!important)
-##div[class*="js"][class$="sticky"]:style(position: static!important)
-##div[id*="js"][id="sticky"]:style(position: static!important)
-##div[class*="js"][class$="navigation"]:style(position: static!important)
-##div[id*="js"][id="navigation"]:style(position: static!important)
-##div[class*="js"][class$="nav"]:style(position: static!important)
-##div[id*="js"][id="nav"]:style(position: static!important)
-##div[class*="js"][class$="default"]:style(position: static!important)
-##div[id*="js"][id="default"]:style(position: static!important)
-##div[class*="js"][class$="custom"]:style(position: static!important)
-##div[id*="js"][id="custom"]:style(position: static!important)
-##div[class*="js"][class$="static"]:style(position: static!important)
-##div[id*="js"][id="static"]:style(position: static!important)
-##div[class*="js"][class$="container"]:style(position: static!important)
-##div[id*="js"][id="container"]:style(position: static!important)
-##div[class*="js"][class$="box"]:style(position: static!important)
-##div[id*="js"][id="box"]:style(position: static!important)
-##div[class*="section"][class$="menu"]:style(position: static!important)
-##div[id*="section"][id="menu"]:style(position: static!important)
-##div[class*="section"][class$="bar"]:style(position: static!important)
-##div[id*="section"][id="bar"]:style(position: static!important)
-##div[class*="section"][class$="header"]:style(position: static!important)
-##div[id*="section"][id="header"]:style(position: static!important)
-##div[class*="section"][class$="head"]:style(position: static!important)
-##div[id*="section"][id="head"]:style(position: static!important)
-##div[class*="section"][class$="main"]:style(position: static!important)
-##div[id*="section"][id="main"]:style(position: static!important)
-##div[class*="section"][class$="top"]:style(position: static!important)
-##div[id*="section"][id="top"]:style(position: static!important)
-##div[class*="section"][class$="banner"]:style(position: static!important)
-##div[id*="section"][id="banner"]:style(position: static!important)
-##div[class*="section"][class$="sticky"]:style(position: static!important)
-##div[id*="section"][id="sticky"]:style(position: static!important)
-##div[class*="section"][class$="navigation"]:style(position: static!important)
-##div[id*="section"][id="navigation"]:style(position: static!important)
-##div[class*="section"][class$="nav"]:style(position: static!important)
-##div[id*="section"][id="nav"]:style(position: static!important)
-##div[class*="section"][class$="default"]:style(position: static!important)
-##div[id*="section"][id="default"]:style(position: static!important)
-##div[class*="section"][class$="custom"]:style(position: static!important)
-##div[id*="section"][id="custom"]:style(position: static!important)
-##div[class*="section"][class$="static"]:style(position: static!important)
-##div[id*="section"][id="static"]:style(position: static!important)
-##div[class*="section"][class$="container"]:style(position: static!important)
-##div[id*="section"][id="container"]:style(position: static!important)
-##div[class*="section"][class$="box"]:style(position: static!important)
-##div[id*="section"][id="box"]:style(position: static!important)
-##div[class*="layer"][class$="menu"]:style(position: static!important)
-##div[id*="layer"][id="menu"]:style(position: static!important)
-##div[class*="layer"][class$="bar"]:style(position: static!important)
-##div[id*="layer"][id="bar"]:style(position: static!important)
-##div[class*="layer"][class$="header"]:style(position: static!important)
-##div[id*="layer"][id="header"]:style(position: static!important)
-##div[class*="layer"][class$="head"]:style(position: static!important)
-##div[id*="layer"][id="head"]:style(position: static!important)
-##div[class*="layer"][class$="main"]:style(position: static!important)
-##div[id*="layer"][id="main"]:style(position: static!important)
-##div[class*="layer"][class$="top"]:style(position: static!important)
-##div[id*="layer"][id="top"]:style(position: static!important)
-##div[class*="layer"][class$="banner"]:style(position: static!important)
-##div[id*="layer"][id="banner"]:style(position: static!important)
-##div[class*="layer"][class$="sticky"]:style(position: static!important)
-##div[id*="layer"][id="sticky"]:style(position: static!important)
-##div[class*="layer"][class$="navigation"]:style(position: static!important)
-##div[id*="layer"][id="navigation"]:style(position: static!important)
-##div[class*="layer"][class$="nav"]:style(position: static!important)
-##div[id*="layer"][id="nav"]:style(position: static!important)
-##div[class*="layer"][class$="default"]:style(position: static!important)
-##div[id*="layer"][id="default"]:style(position: static!important)
-##div[class*="layer"][class$="custom"]:style(position: static!important)
-##div[id*="layer"][id="custom"]:style(position: static!important)
-##div[class*="layer"][class$="static"]:style(position: static!important)
-##div[id*="layer"][id="static"]:style(position: static!important)
-##div[class*="layer"][class$="container"]:style(position: static!important)
-##div[id*="layer"][id="container"]:style(position: static!important)
-##div[class*="layer"][class$="box"]:style(position: static!important)
-##div[id*="layer"][id="box"]:style(position: static!important)
+##ytd-popup-container > .ytd-popup-container > #contentWrapper > .ytd-popup-container[position-type="OPEN_POPUP_POSITION_BOTTOMLEFT"]
+##.ytd-search-pyv-renderer
+##.ytp-ad-progress-list
+||zap.buzz^
+||zendesk.com
