@@ -7,6 +7,7 @@
 ! Last Modified: Saturday, March 14, 2020
 ! *** Fetched from: https://raw.githubusercontent.com/Larvit4r/Blocklists/master/Personal/Wiki.txt ***
 ! Sources include some Wikia filters, wide layout filters, etc. Will add links later.
+! https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Dandelion Sprout's Website Stretcher.txt
 
 bulbagarden.net###bottomframe
 bulbagarden.net###content.mw-body:style(max-width:95vw !important)
