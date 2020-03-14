@@ -1,0 +1,52 @@
+! Title: L4's Github Filter
+! Expires: 30 days
+! Descriptioon: Very personalized filter for Github.
+! Homepage: https://github.com/Larvit4r/Blocklists
+! Issues: https://github.com/Larvit4r/Blocklists/issues
+! Version: 2020.03.14
+! Last Modified: Saturday, March 14, 2020
+! *** Fetched from: https://raw.githubusercontent.com/Larvit4r/Blocklists/master/Personal/Github.txt ***
+! Sources include some wide layout filters, etc. Will add links later.
+! https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Dandelion Sprout's Website Stretcher.txt
+
+github.com##.authors-and-code > .section:style(width: 50%)
+github.com##.authors-and-code:style(display: table; width: 100%)
+github.com##body:not(.full-width) .dashboard-sidebar:style(position: absolute !important; top: 0 !important; right: 0 !important)
+github.com##body:not(.full-width) .news:style(float: none !important; margin-right: 360px !important)
+github.com##button.discussion-sidebar-toggle:style(width: 100% !important)
+github.com##.col-9:style(width: 100% !important)
+github.com##.col-md-3.col-12.flex-shrink-0:style(width: 200px !important)
+github.com###comments > .timeline-comment-wrapper:style(width: calc(100vw - 240px) !important)
+github.com##.commit-desc > .text-small:style(max-width: none !important)
+github.com##.container-lg:style(max-width:none !important)
+github.com##.container-lg:style(width:100% !important;padding-left:30px !important;padding-right:30px !important)
+github.com##.container > .settings-content, .repo-settings-content:style(margin-left: 260px !important)
+github.com##.container:style(width:100% !important;padding-left:30px !important;padding-right:30px !important)
+github.com##.container-xl:style(max-width:none !important)
+github.com###dashboard:style(position: relative !important)
+github.com###discussion_bucket > .col-12.col-md-9:style(width: calc(100vw - 260px) !important)
+github.com##.discussion-sidebar:style(width: 220px !important)
+github.com##.discussion-timeline:style(width: 100% !important)
+github.com##.file-header:after:style(clear:left !important)
+github.com##.flex-shrink-0.col-12.col-md-9:style(width: calc(100% - 220px) !important)
+github.com##.gutter-condensed > .col-3:style(width: 200px !important)
+github.com##.h-card:style(width: 230px; margin-right: 16px)
+github.com##.js-blob-filename:style(width: 400px !important)
+github.com##.js-discussion:style(width: calc(100vw - 290px) !important)
+github.com###js-flash-container > .flash-messages:style(width: 100% !important; padding-left: 30px !important; padding-right: 30px !important)
+github.com##.new-issue-form > .discussion-sidebar:style(position: absolute !important; top: 0 !important; right: 0 !important)
+github.com##.new-issue-form:style(position: relative !important)
+github.com###partial-discussion-sidebar[data-channel^=issue]:style(margin-left: 24px !important)
+github.com##.pull-request-tab-content:style(width: calc(100vw - 275px) !important;)
+github.com##.repo-settings-content:style(float: none !important; width: auto !important; overflow: auto !important)
+github.com###repo-settings > .menu-container:style(width: 240px !important)
+github.com##.repository-content:style(width: 100% !important)
+github.com##.repository-with-sidebar > .repository-sidebar:style(margin-right: -60px !important)
+github.com##.repository-with-sidebar:style(padding-right: 60px !important)
+github.com##.settings-content:style(float: none !important; width: auto !important; overflow: auto !important)
+github.com##.summary-stats > li:style(width: 25%)
+github.com##.summary-stats:style(display: table; width: 100%)
+github.com##.timeline-new-comment:style(max-width: none !important)
+github.com##.u-photo .avatar:style(width: 230px !important)
+github.com##.with-full-navigation > .repository-sidebar:style(margin-right: -190px !important)
+github.com##.with-full-navigation:style(padding-right: 190px !important)
