@@ -1,5 +1,3 @@
-
-
 ! Title: L4's Trakt.TV Adblock
 ! Expires: 30 days
 ! Descriptioon: Just stuff that I don't care about on Trakt. I have a premium account so blocking ads is not included in this. Please support Trakt if you're a member! Feel free to use/edit but this is more on GitHub in case my HD dies.
