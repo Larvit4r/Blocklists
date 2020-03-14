@@ -8,6 +8,7 @@
 ! *** Fetched from: https://raw.githubusercontent.com/Larvit4r/Blocklists/master/Personal/Strict.txt ***
 ! Sources include 9Anime Filter List, AMP Hosts Extended, Generic Annoying Stickybar Filter, various anti-Google lists, etc. May add links later.
 ! https://raw.githubusercontent.com/kowith337/PersonalFilterListCollection/master/filterlist/other/SurvivedTrackingLinkWarning.txt
+! https://raw.githubusercontent.com/endolith/clickbait/master/clickbait.txt
 
 ||*^$popup
 *$script,3p,domain=mp4upload.com
@@ -17,6 +18,7 @@
 ||2leep.com
 ||2o7.net
 ||abc.xyz
+###active_discussions
 ###ad
 ##.ad
 ||ad*.*
@@ -24,8 +26,8 @@
 ###ad-container
 ||addthis.com
 ||addtoany.com
-||admob.com
-||adnxs.com
+||admob.*
+||adnxs.*
 ###ads
 ##.ads
 .*/ads.
@@ -35,13 +37,13 @@
 ||ads
 ||ads.*.*^
 ||ads2.*.*^
-||adsense.com
+||adsense.*
 ||*adserver*
 ||*-adsystem.com
 .*/adv/
 ||advertising.*
 ||*-advertising.com
-||adwords.com
+||adwords.*
 ||*affiliate*.*/
 ||airpush.com
 @@||ajax.googleapis.com
@@ -65,18 +67,36 @@
 ||*analytics.*
 ||android.com
 ||appads.com
+###around_the_web
 ##.article-body .post-search-results
 ##.article-container.locked:after
 ##.Article-header-body:before
+###article-leaf-page-footer-taboola
+###article-most-popular
+###article-popular-this-week
+###article-promo-digital
+##.article-trending
 ##.b_ad
 ||baidu*.com
 ||bazaarvoice.com
+###big-stories
 ||*bing.*
+##.bk-mostpop
 ##.blackout
+###block-pt-stats-most-popular
+##.block-pt-stats-most-popular
 ||*block-test*
+###block-thrmovies-most_popular
 ||blogger.com
 ||blogspot.com
+###bomRecommendation
+###bottom-most-shared
+###bottom-trending
 ||bravenet.com
+buzzfeed.com###next_on
+buzzfeed.com##.related-links-full
+buzzfeed.com##.sidebar_featured_unit
+##.bw_most_popular_news
 ||*captcha*.*
 ##.card.stopsign__article.stopsign:before
 @@||cdnjs.cloudflare.com
@@ -147,6 +167,7 @@
 ##[class*="social"]
 ##[class*="sponsor"]
 ##[class*="subscri"]
+##[class*="taboola"]
 ##[class*="toast"]
 ##[class*="TopAds"]
 ##[class*="trending"]
@@ -156,30 +177,36 @@
 ##[class*="whatsapp"]
 ##[class*="widget_"]
 ##[class*="wikia-ad"]
-##[class*="zchat"]
-##[class*="zmodal-"]
-##[class*="zmodal_"]
-##[class*="Znotif"]
-##[class*="zpopover"]
-##[class*="z-popup"]
-##[class*="zpopup_"]
-##[class*="zPopUp"]
+! ##[class*="zchat"]
+! ##[class*="zmodal-"]
+! ##[class*="zmodal_"]
+! ##[class*="Znotif"]
+! ##[class*="zpopover"]
+! ##[class*="z-popup"]
+! ##[class*="zpopup_"]
+! ##[class*="zPopUp"]
 ||*click*.*
 ||clksite.com^
 ! ||cloudfront.net
 ^code-1-1.js
 @@||code.jquery.com
+##.col-promoted
 ||*com.cdn.*
+###comp-most-popular
+###conde_nast_container
 ||consensu.org
 ||content-ad.net
+##.content-headlines-list
 ##.copyright
 ||*counter.*
+cracked.com###Recommended
 .cur/$image
 ###cursor
 *cursor_hover.$image
 /CustomCursor*$image
 ||defpush.com^$third-party
 ||direct.apus.tech
+##.discovery-posts
 ||disqus*.*
 ##div[class*="action"]:style(position: static!important)
 ##div[class*="app"]:style(position: static!important)
@@ -362,6 +389,7 @@
 ##div[class*="top"]:style(position: static!important)
 ##div[class*="tray"]:style(position: static!important)
 ##div[data-test-id="giftWrap"]
+##DIV.hst-mostpopular
 ##div[id*="action"]:style(position: static!important)
 ##div[id*="app"]:style(position: static!important)
 ##div[id*="banner"]:style(position: static!important)
@@ -542,12 +570,22 @@
 ##div[id*="tease"]:style(position: static!important)
 ##div[id*="top"]:style(position: static!important)
 ##div[id*="tray"]:style(position: static!important)
+##DIV#MostPopStories
+##DIV.most_popular
+##DIV#mostPopWidget
+##DIV.snp_most_popular
+##DIV.snp_most_popular_entry
+##DIV#threeup_top_wrapper
+##DIV#top_blog_links
+##.dontmiss.widget
 ||doubleclick.*
 ||dynamicyield.com
 ||dyncdn.me
 ||edgefonts.net
 ||*edgekey*
-||edgesuite.net*
+||edgesuite.*
+##.editorial-recommend
+###editorpick
 ||*exchange.com
 ||facebook.*
 */facebookchat.js
@@ -557,13 +595,21 @@
 ||*&fbclid$document,important
 ||*?fbclid$document,important
 ||fbsbx.com
+##.featured-content
+##.featuredpost
+###featured_posts-2
+##.featured-videos-widget
 ##.featured-video__wrapper
+##.featurePromo
 ||firebase*.*
 @@||fonts.googleapis.com
 @@||fonts.gtatic.com
 ###foot
+###footer-partner-feeds
 ||*forex*.*
 ||freebasics.com
+##.g1-related-entries
+##.gab_relateditem
 ||*&gclid$document,important
 ||*?gclid$document,important
 ||g.co
@@ -580,10 +626,11 @@
 ||*google.*
 ||google*.*
 @@||googleapis.com/drive/*$domain=hydrax.net|playhydrax.com
-@@||google.com/recaptcha/*$domain=9anime.to|9anime.ru|9anime.live|9anime.nl|9anime.one|9anime.love|9anime.life|9anime.tv|9anime.page|9anime.video|prettyfast.to
+! @@||google.com/recaptcha/*$domain=9anime.to|9anime.ru|9anime.live|9anime.nl|9anime.one|9anime.love|9anime.life|9anime.tv|9anime.page|9anime.video|prettyfast.to
 ||googlee.com
 ||googlemail.com
 ||google.*/pagead/lvz?
+##.googleplus-one
 ||googlesource.com
 ||googlesyndication.com
 ||googletagmanager.com^
@@ -593,11 +640,15 @@
 ||gooogle.com
 ||gorillanation.com
 ||gravatar.com
+##.gravity_most_popular.advertisement
 ||gstatic.com
 ||*hardcore*
 ##.header-banner
+##.HomePage_Whatsnew
 ||*hookup*
 ###horizontalspace
+###hot-network-questions
+###hot-today
 ##[href*="emailsignup"]
 @@||hydrax.net^$elemhide
 hydrax.net,playhydrax.com##+js(aopr, AaDetector)
@@ -648,6 +699,7 @@ hydrax.net,playhydrax.com##+js(nostif, debugger)
 ##[id*="notif"]
 ##[id*="-offer"]
 ##[id*="outbrain"]
+##[id^="outbrain_widget"]
 ##[id*="Overlay"]
 ##[id*="paywall"]
 ##[id*="pinterest"]
@@ -662,6 +714,7 @@ hydrax.net,playhydrax.com##+js(nostif, debugger)
 ##[id*="social"]
 ##[id*="sponsor"]
 ##[id*="subscri"]
+##[id*="taboola"]
 ##[id*="toast"]
 ##[id*="TopAds"]
 ##[id*="trending"]
@@ -671,13 +724,13 @@ hydrax.net,playhydrax.com##+js(nostif, debugger)
 ##[id*="whatsapp"]
 ##[id*="widget_"]
 ##[id*="wikia-ad"]
-##[id*="zchat"]
-##[id*="zmodal-"]
-##[id*="zmodal_"]
-##[id*="zpopover"]
-##[id*="z-popup"]
-##[id*="zpopup_"]
-##[id*="zPopUp"]
+! ##[id*="zchat"]
+! ##[id*="zmodal-"]
+! ##[id*="zmodal_"]
+! ##[id*="zpopover"]
+! ##[id*="z-popup"]
+! ##[id*="zpopup_"]
+! ##[id*="zPopUp"]
 ##iframe[src*="mellowads"]
 /images/*/Cursor*
 /images/Cursor-
@@ -687,6 +740,7 @@ hydrax.net,playhydrax.com##+js(nostif, debugger)
 @@||imasdk.googleapis.com
 ||*impression*.*
 ||imrworldwide.com
+##.in-case-you-missed
 ||instagram.*
 ||intellitxt.*
 ||*interactive*
@@ -699,7 +753,10 @@ hydrax.net,playhydrax.com##+js(nostif, debugger)
 #?#.js-dismissable-hero:-abp-contains(Sign up)
 js.driftt.com/dist/assets/widget*prod.js
 ##.js-signup-call-out
+##.js-trending-now
 ||kayako*.com/messenger^$script
+##.latest-stories
+lifehacker.com###post_list
 ||lijit.com^
 ||linkedin.com
 ||*links.*
@@ -707,6 +764,9 @@ js.driftt.com/dist/assets/widget*prod.js
 ||*livechat*
 ##.login-callout
 ###loginModal
+##.lower-infinite-content
+###lower-more-content
+makeuseof.com##.popular-post
 ###masthead-ad
 ||matomo.*
 ##.mcf-mosaic
@@ -720,7 +780,55 @@ js.driftt.com/dist/assets/widget*prod.js
 ###mixed-content-footer
 ##.mk-padding-divider
 ###mobile_login_bar
+###mod-most-popular
+##.mod-most-popular
+###mod-related-articles
+###module-just-in
+##.module-mostpopular
+##.module-related
+##.module--trending
+###modulous_article_bottom
 ##.mod-warning
+###more-in-channel
+##.more-news
+##.more-news.container
+###more-on
+##.more-stories
+###more_top_news_container
+###mostDiscussed
+##.mostDiscussed
+##.mostpop
+###mostPopContentMostEmailed
+###mostPopContentRecommendations
+###most-pop-list
+###most_pop_stories
+###most-popular
+##.most-popular
+##.mostpopular
+###mostPopular
+##.most-popular-article
+###most_popular_bpages
+###most_popular_bpages DIV.popular-story
+##.most_popular_entry
+##.most-popular-list
+##.most-popular-multimedia
+##.most-popular.panel
+##.mostPopularReviewsSplash
+###most_popular_stories
+##.most-popular-stories
+##.most-popular-video
+###mostPopWidget
+##.most_read_and_commented
+###most-read-content
+###most-read-news
+###most-shared
+###mostShared
+##.mostShared
+##.most_viewed_box
+###mostViewedPostsContainer
+##.most-watched
+###most-watched-videos
+###most-watched-videos-wrapper
 /Mousehover.$image
 @@||mp4upload.com/embed-*
 mp4upload.com##+js(acis, decodeURI, decodeURIComponent)
@@ -731,17 +839,23 @@ mp4upload.com###overlay
 mp4upload.com##.vjs-logo
 ||msn*.*
 @@||multi.idocdn.com^$domain=hydrax.net|playhydrax.com
+###mustRead
 ||narrative.io
 ##.nav-flyout.nav-signin-tt
 ! ||netdna-cdn.com
 /new_cursor.$image
 ||newrelic.com
 ||news.google.com/*/swg.js$script
+###nmSpecialLinksWrapper
 ||nocookie.net/*_cursor_*.png
 ||nocookie.net/*cursor.png^
 ||nocookie.net/*/OnionSprite*$image
+##.now-buzzing
+##.nrelate_related
+##.nrelate-related-widget
 ||oascentral.*.*
 ||*onesignal*
+###online-game-carousel-right-rail
 ##.onp-sl-inner-wrap
 ##.onp-sl-outer-wrap
 ##.onp-sl-overlap-background
@@ -752,8 +866,11 @@ mp4upload.com##.vjs-logo
 ##.overlay
 ##.overlay--light
 ###overlay_search
+###pagelet_trending_tags_and_topics
 #?#.paragraph--faded:before:style(background-image: none !important)
 #?#.paragraph--faded:style(overflow: visible !important)
+###partner_box
+###partner_stories
 #?##paywall:style(top: 250px !important)
 ##p:empty
 *##p:has-text(/^ $/):not(:has-text(/\S/)):not(:has(img))
@@ -769,11 +886,23 @@ mp4upload.com##.vjs-logo
 @@||playhydrax.com^$elemhide
 ##p:-moz-only-whitespace
 ||*pop*.*
+##.popstoryList
+##.popular-now-well
+##.popular-photo-ra
+##.popular-posts-widget
+##.popular-stories
+##.popular.widget
 ||*porn*.*
 ! ||po.st
+###post-most-rr
+###post-recommends
+##.postrecommends
+###postREMLargePromos
 ##.post-search-results__slant
+##.posts-related
 @@||primewire.li
 @@||projectwonderful.com
+###promotionModuleContainer
 ||propellerclick.com^
 ###public-mask-login
 ||*qualtrics*
@@ -781,21 +910,47 @@ mp4upload.com##.vjs-logo
 ||quantserve.com
 ###rc-row-container
 #?#.ReactModal__Overlay:-abp-has(video[src$="/bloom2.mp4"])
+###recent_popular
 ##.redux-modal
 ##.regoverlay
+###related_articles
+###related-combined-coverage
+##.related-content.component
+##.relatedNewsReports
+###related-posts
+##.related-posts
+##.related_posts
+##.related-stories
+##.related-video-audio
+##.reporter-stories
 ||revcontent.com
 ||rezync.com^$3p
+###rightcol_mostcommented
+###rightcol_mostcommented_button
+###rightcol_mostpopular
+###rightcol_mostpopular_button
+##.right-most-popular-item
+###right-rail-more-on
+##.rss-promo
 ||runative-syndicate.com^$third-party
 ||*russia*.*/*
 ||scorecardresearch.com
+###secondary-content
+###SecondaryContent
+! ##.seealso ! catches scipy docs
 ||*share*.*
+###sidebar-top-posts
 ##.signup-prompt
 ##.SignupWallInline-overlay
+##.similar-articles
 ###sky-banner
 ###sky-center
 ###sky-right
 /smartads.
 ||smartadserver.com
+##.snp_dont_miss_container
+##.snp_most_popular
+###SocialWidget_popular
 ##.soft-block-overlay.window-overlay
 ##.space20
 ##.spacer-20
@@ -804,31 +959,48 @@ mp4upload.com##.vjs-logo
 ##[src*="/offer"]
 ! ||ssl.fastly.net
 ||*stat*.*
+###stories-infinite
+##.story-box-news-politics
 ||styles.redditmedia.com/*/styles/image_widget_hosy*.png$image
+##.subbuzzpromo
 /subscription.js
+##.supplemental-items
 /svg/arrow-home*
 ||*taboola*
 ||tapjoy.com
 ||tawk.to
 ||*telemetry*.*/
 ||tfbnw.net
+##.topic-promo
+###top_stories
+##.top_stories
+##.top-stories05
+##.tptn_featured
 ||*track*
 ||*traffic*
 ##.trc_elastic
 ##.trc_rbox_container
 ##.trc_related_container
 ##.trc_spotlight_widget
+##.trending
+###trending_1
+##.trending-posts-feed
 ||trk*.*
+##TR.relatedTopics
 ||twitter.*
 ||*typekit.*
 ||*&utm_*=$document,important
 ||*?utm_*=$document,important
 /videojs-contrib-ads.js
 ###video-masthead
+###videos_1
 ||viglink.com^
 ||vignette.wikia.nocookie.net/*/Community-header-background/*$image
+##.viral
+##.viralated
 v*.zopim.com$script
 ##.warning_illust
+###watch-related
 ||waze.com
 #?##wds-company-logo-fandom-white:style(pointer-events:none !important;cursor:default !important)
 ##.wds-global-footer__fandom-sections
@@ -838,8 +1010,13 @@ v*.zopim.com$script
 *website_chat_widget.asp
 ||wechat.com
 ||whatsapp.*
+###whats-next
+##.widget_time_most_popular
 ###window_overlay
 ||withgoogle.com
+##.wpp-post-hot
+##.wpp-post-popular
+##.wpp-post-trending
 @@||*.xyz/html/*$xhr,domain=hydrax.net|playhydrax.com
 ||yahoo*.*
 ##.yap-loaded
