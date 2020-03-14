@@ -2,7 +2,7 @@
 ! Expires: 30 days
 ! Descriptioon: Hate dealing with certain TLDS like .info or .xyz? Well, now you can easily block them until you find any sites to whitelist! To whitelist a TLD, add an exclamation point or delete the line entirely. If you want to whitelist a domain, use "@@||domainhere.xyz", it's just that simple!
 ! Homepage: https://github.com/Larvit4r/Blocklists
-! Issues: ttps://github.com/Larvit4r/Blocklists/issues
+! Issues: https://github.com/Larvit4r/Blocklists/issues
 ! Version: 2020.03.14
 ! Last Modified: Saturday, March 14, 2020
 ! *** Fetched from: https://raw.githubusercontent.com/Larvit4r/Blocklists/master/Personal/TLD-Blacklist.txt ***
