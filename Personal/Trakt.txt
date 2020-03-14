@@ -1,0 +1,26 @@
+! Title: L4's Trakt.TV Adblock
+! Expires: 30 days
+! Version: 2020.03.13
+! Last Modified: Friday, March 13, 2020
+
+! This is just to filter out stuff on Trakt that I don't care about.
+! For example, [data-percentage="100"] helps me skip over stuff that
+! I've already completed, like on the Hidden page if I need to unhide
+! something that started updating again. IDGAF actors, search widgets,
+! collecting, etc. either. Feel free to use/edit but this is more on
+! GitHub in case my hard drive dies and I lose my uBlock Origin stuff.
+
+trakt.tv###actors
+trakt.tv###avatar-wrapper
+trakt.tv##.btn-checkin
+trakt.tv##.btn-collect
+trakt.tv##.btn-comment
+trakt.tv##.collect
+trakt.tv##.col-xs-12
+trakt.tv##[data-percentage="100"]
+trakt.tv##footer
+trakt.tv###header-search
+trakt.tv###main-search
+trakt.tv##.poster
+trakt.tv##.progress-watched-hidden .poster
+trakt.tv##.reset
