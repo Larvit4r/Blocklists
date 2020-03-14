@@ -8,21 +8,38 @@
 ! *** Fetched from: https://raw.githubusercontent.com/Larvit4r/Blocklists/master/Personal/Wiki.txt ***
 ! Sources include some Wikia filters, wide layout filters, etc. Will add links later.
 ! https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Dandelion Sprout's Website Stretcher.txt
+! https://raw.githubusercontent.com/DandelionSprout/adfilt/master/WikiaPureBrowsingExperience.txt
 
 bulbagarden.net###bottomframe
 bulbagarden.net###content.mw-body:style(max-width:95vw !important)
 bulbagarden.net###footer
+fandom.com,wikia.com##._1ouSF3xnwUjIOquxopuxSZ
+fandom.com,wikia.com##.aff-big-unit
+fandom.com,wikia.com##.article-body .post-search-results
+fandom.com,wikia.com#?#.banner-notifications-placeholder:-abp-contains(The video)
 fandom.com,wikia.com##body:style(background:none !important;background-image:none !important)
 fandom.com,wikia.com##.createpage
 fandom.com,wikia.com##element.style:style(background:none !important;background-image:none !important)
+fandom.com,wikia.com##.featured-video__wrapper
 fandom.com,wikia.com##.license-description
+fandom.com,wikia.com##.mcf-mosaic
+fandom.com,wikia.com###mixed-content-footer
 fandom.com,wikia.com##.page-header__categories
 fandom.com,wikia.com##.page-header__contribution
 fandom.com,wikia.com###PageHeader:style(padding:16px 10px 12px)
+fandom.com,wikia.com##.post-search-results__slant
 fandom.com,wikia.com##.rail-module:style(break-inside:avoid !important;)
+fandom.com,wikia.com##.rail-sponsored-content
 fandom.com,wikia.com##.rail-sticky-module:style(position:static !important;)
+fandom.com,wikia.com##.SearchAdsTopWrapper
+fandom.com,wikia.com#?##wds-company-logo-fandom-white:style(pointer-events: none !important; cursor: default !important;)
 fandom.com,wikia.com##.wds-global-footer
+fandom.com,wikia.com##.wds-global-footer__fandom-sections
+fandom.com,wikia.com#?#.wds-global-footer__header:style(pointer-events: none !important; cursor: default !important)
+fandom.com,wikia.com##.wds-global-navigation__links
+fandom.com,wikia.com#?#.wds-global-navigation__logo:style(pointer-events: none !important; cursor: default !important)
 fandom.com,wikia.com##.wds-global-navigation-wrapper
+fandom.com,wikia.com##.wikia-ad
 fandom.com,wikia.com###WikiaArticleFooter
 fandom.com,wikia.com##.WikiaArticleInterlang
 fandom.com,wikia.com###WikiaBarWrapper
@@ -34,6 +51,7 @@ fandom.com,wikia.com###WikiaNotifications
 fandom.com,wikia.com###WikiaPage:style(width:100% !important;max-width:none !important;margin:0px !important;padding:0px !important)
 fandom.com,wikia.com##.WikiaRail:style(display:block !important;column-count:2 !important;width:auto !important)
 fandom.com,wikia.com###WikiaRailWrapper
+fandom.com,wikia.com###WikiaTopAds
 @@||wikia.nocookie.net^*/images/$image,badfilter
 wikibooks.org,wikipedia.org,wikiversity.org,wiktionary.org###footer
 wikibooks.org,wikipedia.org,wikiversity.org,wiktionary.org###frb-inline
