@@ -11,7 +11,7 @@
 ! All blocked by default except au, ca, co, com, edu, gov, net, org, uk, and us. Sorry, native English speaker here!
 ! I highly recommend editing this with your own preferences!
 ! Only tested with uBlock Origin, should work for other apps too though.
-! Hit me up if any new ones pop up, I'll add non-Latin alphabet ones eventually.
+! Hit me up if any new ones pop up, or if the non-Latin script ones don't work right.
 
 ||*.aaa
 ||*.aarp
@@ -1529,3 +1529,56 @@
 ||*.zone
 ||*.zuerich
 ||*.zw
+||*.한국
+||*.ελ
+||*.ευ
+||*.бг
+||*.бел
+||*.ею
+||*.қаз
+||*.мкд
+||*.мон
+||*.рф
+||*.срб
+||*.укр
+||*.გე
+||*.հայ
+||*الاردن.
+||*الجزائر.
+||*السعودية.
+||*المغرب.
+||*اليمن.
+||*امارات.
+||*ایران.
+||*بھارت.
+||*پاکستان.
+||*تونس.
+||*سودان.
+||*سوريا.
+||*عمان.
+||*فلسطين.
+||*قطر.
+||*مصر.
+||*مليسيا.
+||*.भारत
+||*.বাংলা
+||*.ভারত
+||*.ভাৰত
+||*.ਭਾਰਤ
+||*.ભારત
+||*.ଭାରତ
+||*.இந்தியா
+||*.இலங்கை
+||*.சிங்கப்பூர்
+||*.భారత్
+||*.ලංකා
+||*.ไทย
+||*.ລາວ
+||*.中国
+||*.中國
+||*.台湾
+||*.台灣
+||*.新加坡
+||*.澳門
+||*.澳门
+||*.香港
