@@ -1,0 +1,93 @@
+! Title: L4's Reddit Filter
+! Expires: 30 days
+! Descriptioon: Very personalized filter for Reddit.
+! Homepage: https://github.com/Larvit4r/Blocklists
+! Issues: https://github.com/Larvit4r/Blocklists/issues
+! Version: 2020.03.14
+! Last Modified: Saturday, March 14, 2020
+! *** Fetched from: https://raw.githubusercontent.com/Larvit4r/Blocklists/master/Personal/Reddit.txt ***
+! Sources include some wide layout filters, etc. Will add links later.
+! https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Dandelion Sprout's Website Stretcher.txt
+! https://raw.githubusercontent.com/DandelionSprout/adfilt/master/RedditTrashRemovalService.txt
+
+reddit.com#?#.Comment:-abp-contains(/charge your phone/i)
+reddit.com#?#.Comment:-abp-contains(/Happy Cake[ ]?Day/i)
+reddit.com#?#.Comment:-abp-has(a:-abp-contains(/^r/chargeyourphone$/))
+reddit.com#?#.Comment:-abp-has(a[href^="/user"]:-abp-contains(/g[o0]y/i):-abp-contains(/wh[i1]te/i))
+reddit.com#?#.Comment:-abp-has(a[href^="/user"]:-abp-contains(/j[eou][owi][w]?[sz]?/i):-abp-contains(/white/i))
+reddit.com#?#.Comment:-abp-has(a[href^="/user"]:-abp-contains(/kekistan/i))
+reddit.com#?#.Comment:-abp-has(a[href^="/user"]:-abp-contains(/p[e3]p[e3]/i):-abp-contains(/fr[o0]g/i))
+reddit.com#?#.Comment:-abp-has(a[href^="/user"]:-abp-contains(/RedditAdmins/i))
+reddit.com#?#.Comment:-abp-has(a[href="/user/bubblr"])
+reddit.com#?#.Comment:-abp-has(a[href="/user/BunyipPouch"])
+reddit.com#?#.Comment:-abp-has(a[href="/user/GallowBoob"])
+reddit.com#?#.Comment:-abp-has(a[href="/user/iBleeedorange"])
+reddit.com#?#.Comment:-abp-has(a[href="/user/KevlarYarmulke"])
+reddit.com#?#.Comment:-abp-has(a[href="/user/maxwellhill"])
+reddit.com#?#.Comment:-abp-has(a[href="/user/mvea"])
+reddit.com#?#.Comment:-abp-has(a[href="/user/pepsi_next"])
+reddit.com#?#.Comment:-abp-has(a[href="/user/SlimJones123"])
+reddit.com#?#.Comment:-abp-has(a[href="/user/TooShiftyForYou"])
+reddit.com#?#div:-abp-has(:scope > svg[viewbox="0 0 34 16"])
+reddit.com##div[aria-hidden] > div[tabindex] > div:nth-of-type(1):style(max-width: 1000px !important)
+reddit.com#?#div[class^=SubredditVars-r-] > div:-abp-has(:scope > svg)
+reddit.com#?#div[data-redditstyle=false] + div:-abp-has(:scope > div[data-redditstyle="true"])
+reddit.com#?#div[data-redditstyle=false][style]:-abp-contains(/Old Reddit/i)
+reddit.com##div[role="navigation"]
+reddit.com#?#div[style^="max-width:"][style*="1600px"] > div > div:nth-of-type(2):-abp-has(div[data-redditstyle])
+reddit.com#?#div[style^="max-width:"][style*="1600px"] > div > div:nth-of-type(2):-abp-has(:scope > div[data-redditstyle])
+reddit.com#?#div[tabindex] > div > div:nth-of-type(2):-abp-has(:scope > div[data-redditstyle])
+reddit.com#?#div[tabindex] > div > div:nth-of-type(2):-abp-has(:scope > div > div[data-redditstyle])
+reddit.com#?#.entry:-abp-has(a[href*="/user/bubblr"])
+reddit.com#?#.entry:-abp-has(a[href*="/user/BunyipPouch"])
+reddit.com#?#.entry:-abp-has(a[href*="/user/GallowBoob"])
+reddit.com#?#.entry:-abp-has(a[href*="/user/iBleeedorange"])
+reddit.com#?#.entry:-abp-has(a[href*="/user/KevlarYarmulke"])
+reddit.com#?#.entry:-abp-has(a[href*="/user/maxwellhill"])
+reddit.com#?#.entry:-abp-has(a[href*="/user/mvea"])
+reddit.com#?#.entry:-abp-has(a[href*="/user/pepsi_next"])
+reddit.com#?#.entry:-abp-has(a[href*="/user/SlimJones123"])
+reddit.com#?#.entry:-abp-has(a[href*="/user/TooShiftyForYou"])
+reddit.com###focus-All
+reddit.com###focus-Home
+reddit.com###focus-OC
+reddit.com###header-quicklinks-all
+reddit.com###header-quicklinks-oc
+reddit.com###header-quicklinks-popular
+reddit.com#?#p:-abp-contains(/^Edit/i):-abp-contains(/first award/i)
+reddit.com#?#p:-abp-contains(/^Edit/i):-abp-contains(/first gold/i)
+reddit.com#?#p:-abp-contains(/^Edit/i):-abp-contains(/first platinum/i)
+reddit.com#?#p:-abp-contains(/^Edit/i):-abp-contains(/first silver/i)
+reddit.com#?#p:-abp-contains(/^Edit/i):-abp-contains(/Thank/i):-abp-contains(/award/i)
+reddit.com#?#p:-abp-contains(/^Edit/i):-abp-contains(/Thank/i):-abp-contains(/gold/i)
+reddit.com#?#p:-abp-contains(/^Edit/i):-abp-contains(/Thank/i):-abp-contains(/platinum/i)
+reddit.com#?#p:-abp-contains(/^Edit/i):-abp-contains(/Thank/i):-abp-contains(/silver/i)
+reddit.com#?#p:-abp-contains(/^Edit/i):-abp-contains(/Thank/i):-abp-contains(/stranger/i)
+reddit.com#?#.Post:-abp-has(a[href^="/user"]:-abp-contains(/g[o0]y/i):-abp-contains(/wh[i1]te/i))
+reddit.com#?#.Post:-abp-has(a[href^="/user"]:-abp-contains(/j[eou][owi][w]?[sz]?/i):-abp-contains(/white/i))
+reddit.com#?#.Post:-abp-has(a[href^="/user"]:-abp-contains(/kekistan/i))
+reddit.com#?#.Post:-abp-has(a[href^="/user"]:-abp-contains(/p[e3]p[e3]/i):-abp-contains(/fr[o0]g/i))
+reddit.com#?#.Post:-abp-has(a[href^="/user"]:-abp-contains(/RedditAdmins/i))
+reddit.com#?#.Post:-abp-has(a[href="/user/bubblr"])
+reddit.com#?#.Post:-abp-has(a[href="/user/BunyipPouch"])
+reddit.com#?#.Post:-abp-has(a[href="/user/GallowBoob"])
+reddit.com#?#.Post:-abp-has(a[href="/user/iBleeedorange"])
+reddit.com#?#.Post:-abp-has(a[href="/user/KevlarYarmulke"])
+reddit.com#?#.Post:-abp-has(a[href="/user/maxwellhill"])
+reddit.com#?#.Post:-abp-has(a[href="/user/mvea"])
+reddit.com#?#.Post:-abp-has(a[href="/user/pepsi_next"])
+reddit.com#?#.Post:-abp-has(a[href="/user/SlimJones123"])
+reddit.com#?#.Post:-abp-has(a[href="/user/TooShiftyForYou"])
+reddit.com#?#.thing[data-author="bubblr"]
+reddit.com#?#.thing[data-author="BunyipPouch"]
+reddit.com#?#.thing[data-author="GallowBoob"]
+reddit.com#?#.thing[data-author="iBleeedorange"]
+reddit.com#?#.thing[data-author="KevlarYarmulke"]
+reddit.com#?#.thing[data-author="maxwellhill"]
+reddit.com#?#.thing[data-author="mvea"]
+reddit.com#?#.thing[data-author="pepsi_next"]
+reddit.com#?#.thing[data-author="SlimJones123"]
+reddit.com#?#.thing[data-author="TooShiftyForYou"]
+reddit.com#?#ul.hover.sr-bar.flat-list > li:-abp-has(a[href*="/r/all/"])
+reddit.com#?#ul.hover.sr-bar.flat-list > li:-abp-has(a[href*="/r/popular/"])
+reddit.com#?#ul.hover.sr-bar.flat-list > li:-abp-has(a[href*="/r/random/"])
