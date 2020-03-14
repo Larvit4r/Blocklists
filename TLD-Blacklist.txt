@@ -1,17 +1,17 @@
 ! Title: L4's TLD Blacklist
 ! Expires: 30 days
-! Version: 2020.03.13
-! Last Modified: Friday, March 13, 2020
+! Descriptioon: Hate dealing with certain TLDS like .info or .xyz? Well, now you can easily block them until you find any sites to whitelist! To whitelist a TLD, add an exclamation point or delete the line entirely. If you want to whitelist a domain, use "@@||domainhere.xyz", it's just that simple!
+! Homepage: https://github.com/Larvit4r/Blocklists
+! Issues: ttps://github.com/Larvit4r/Blocklists/issues
+! Version: 2020.03.14
+! Last Modified: Saturday, March 14, 2020
+! *** Fetched from: https://raw.githubusercontent.com/Larvit4r/Blocklists/master/TLD-Blacklist.txt ***
 
 ! TLDs sourced from this list: https://data.iana.org/TLD/tlds-alpha-by-domain.txt
-! All blocked by default except au, ca, co, com, edu, gov, net, org, uk, and us.
-! Sorry for the English-speaking TLD preference, USian here, hahah.
+! All blocked by default except au, ca, co, com, edu, gov, net, org, uk, and us. Sorry, native English speaker here!
 ! I highly recommend editing this with your own preferences!
-! Just hide your trusted TLDs with an exclamation point like I'm doing with these comments, or remove them entirely.
-
-! Compatible with uBlock Origin, not sure about other adblockers.
+! Only tested with uBlock Origin, should work for other apps too though.
 ! Hit me up if any new ones pop up, I'll add non-Latin alphabet ones eventually.
-! Github: https://github.com/Larvit4r/Blocklists/
 
 ||*.aaa
 ||*.aarp
