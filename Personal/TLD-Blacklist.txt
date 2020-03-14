@@ -1,20 +1,14 @@
 ! Title: L4's TLD Blacklist
 ! Expires: 30 days
-! Version: 2020.03.13
-! Last Modified: Friday, March 13, 2020
+! Descriptioon: Hate dealing with certain TLDS like .info or .xyz? Well, now you can easily block them until you find any sites to whitelist! To whitelist a TLD, add an exclamation point or delete the line entirely. If you want to whitelist a domain, use "@@||domainhere.xyz", it's just that simple!
+! Homepage: https://github.com/Larvit4r/Blocklists
+! Issues: ttps://github.com/Larvit4r/Blocklists/issues
+! Version: 2020.03.14
+! Last Modified: Saturday, March 14, 2020
+! *** Fetched from: https://raw.githubusercontent.com/Larvit4r/Blocklists/master/Personal/TLD-Blacklist.txt ***
 
 ! Note: This is the version that I personally use, just an FYI!
 ! Not that I mind if you use it, but you might prefer to personalize your own. :)
-
-! TLDs sourced from this list: https://data.iana.org/TLD/tlds-alpha-by-domain.txt
-! All blocked by default except au, ca, co, com, edu, gov, net, org, uk, and us.
-! Sorry for the English-speaking TLD preference, USian here, hahah.
-! I highly recommend editing this with your own preferences!
-! Just hide your trusted TLDs with an exclamation point like I'm doing with these comments, or remove them entirely.
-
-! Compatible with uBlock Origin, not sure about other adblockers.
-! Hit me up if any new ones pop up, I'll add non-Latin alphabet ones eventually.
-! Github: https://github.com/Larvit4r/Blocklists/
 
 ||*.aaa
 ||*.aarp
@@ -1532,3 +1526,56 @@
 ||*.zone
 ||*.zuerich
 ||*.zw
+||*.한국
+||*.ελ
+||*.ευ
+||*.бг
+||*.бел
+||*.ею
+||*.қаз
+||*.мкд
+||*.мон
+||*.рф
+||*.срб
+||*.укр
+||*.გე
+||*.հայ
+||*الاردن.
+||*الجزائر.
+||*السعودية.
+||*المغرب.
+||*اليمن.
+||*امارات.
+||*ایران.
+||*بھارت.
+||*پاکستان.
+||*تونس.
+||*سودان.
+||*سوريا.
+||*عمان.
+||*فلسطين.
+||*قطر.
+||*مصر.
+||*مليسيا.
+||*.भारत
+||*.বাংলা
+||*.ভারত
+||*.ভাৰত
+||*.ਭਾਰਤ
+||*.ભારત
+||*.ଭାରତ
+||*.இந்தியா
+||*.இலங்கை
+||*.சிங்கப்பூர்
+||*.భారత్
+||*.ලංකා
+||*.ไทย
+||*.ລາວ
+||*.中国
+||*.中國
+||*.台湾
+||*.台灣
+||*.新加坡
+||*.澳門
+||*.澳门
+||*.香港
