@@ -3,12 +3,13 @@
 ! Descriptioon: Mostly just sites for getting through my TLD blacklist. Not very organized yet, just going through bookmarks, etc. to find
 ! Homepage: https://github.com/Larvit4r/Blocklists
 ! Issues: https://github.com/Larvit4r/Blocklists/issues
-! Version: 2020.03.14
+! Version: 2020.03.14b
 ! Last Modified: Saturday, March 14, 2020
 ! *** Fetched from: https://raw.githubusercontent.com/Larvit4r/Blocklists/master/Personal/Whitelist.txt ***
 
 @@||1999.co.jp
 @@||about.me
+@@||ajax.googleapis.com
 @@||alluc.*
 @@||alternativeto.net
 @@||ankiweb.*
@@ -22,8 +23,10 @@
 @@||boun.cr
 ! @@||box.com
 @@||carrd.co
-@@||*class101.com
+@@||cdnjs.cloudflare.com
+! @@||*class101.com
 @@||cock.li
+@@||code.jquery.com
 @@||coursera.org
 ! @@||creativecommons.org
 @@||dailymotion.com
@@ -43,6 +46,8 @@
 ! @@||fda.gov
 @@||feedburner.com
 @@||fmovies.*
+@@||fonts.googleapis.com
+@@||fonts.gtatic.com
 @@||freecycle.org
 @@||fsf.org
 @@||futurelearn.org
@@ -50,17 +55,26 @@
 @@||ggpht.com
 @@||github.*
 @@||gnu.org
+! @@||googleapis.com/drive/*$domain=hydrax.net|playhydrax.com
+! @@||google.com/recaptcha/*$domain=9anime.to|9anime.ru|9anime.live|9anime.nl|9anime.one|9anime.love|9anime.life|9anime.tv|9anime.page|9anime.video|prettyfast.to
 @@||googleusercontent.com
+! @@||*.googleusercontent.com^$domain=hydrax.net|playhydrax.com|wcostream.com|kimcartoon.to
 @@||greasyfork.org
 ! @@||grove.co
 ! @@||healthcare.gov
 ! @@||howstuffworks.com
+! @@||hydrax.net^$elemhide
+! @@||iamcdn.net^$domain=hydrax.net|playhydrax.com
+! @@||iamcdn.net^*/ads.js$script,domain=hydrax.net|playhydrax.com
+@@||imasdk.googleapis.com
 ! @@||imgur.com
 @@||interpals.net
 @@||int.org
 ! @@||invidio.us
 @@||ip-check.info
 ! @@||jamendo.com
+@@||jquery.com^$script
+! @@||jsdelivr.net^$domain=hydrax.net|playhydrax.com
 @@||justdeleteme.xyz
 @@||khanacademy.org
 @@||kimcartoon.*
@@ -81,6 +95,8 @@
 @@||miable.org
 @@||michigan.gov
 @@||mi.us
+@@||mp4upload.com/embed-*
+! @@||multi.idocdn.com^$domain=hydrax.net|playhydrax.com
 @@||musicmap.info
 ! @@||mymedicare.gov
 ! @@||myuofmhealth.org
@@ -95,19 +111,21 @@
 @@||photobucket.com
 @@||pinterest.com
 ! @@||piperka.net
+! @@||playhydrax.com^$elemhide
 ! @@||pm.me
-@@||*pod101.com
+! @@||*pod101.com
 @@||postimg.org
 @@||premieredate.news
 @@||primewire.*
 @@||privacytools.io
 @@||private.sh
-@@||psychologytoday.com
+! @@||projectwonderful.com
+! @@||psychologytoday.com
 @@||*publiclbrary.org
-@@||quora.com
-@@||rainn.org
+! @@||quora.com
+! @@||rainn.org
 @@||rakuten.*
-@@||rapidshare.com
+! @@||rapidshare.com
 ! @@||raspberrypi.org
 @@||redd.it
 @@||riot.im
@@ -118,14 +136,14 @@
 @@||smile.amazon.com
 @@||snopyta.org
 @@||socialsecurity.gov
-@@||soundcloud.com
-@@||spotify.com
+! @@||soundcloud.com
+! @@||spotify.com
 @@||ssa.gov
-@@||stackoverflow.com
+! @@||stackoverflow.com
 @@||startpage.*
 @@||state.gov
-@@||steamcommunity.com
-@@||steampowered.com
+! @@||steamcommunity.com
+! @@||steampowered.com
 @@||stopdatamining.me
 ! @@||surveymonkey.com
 @@||swatchseries.*
@@ -141,20 +159,21 @@
 @@||torrentz2.*
 @@||tpb.*
 @@||trakt.tv
-@@||urbandictionary.com
-@@||vimeo.com
-@@||vivaldi.*
+! @@||urbandictionary.com
+! @@||vimeo.com
+! @@||vivaldi.*
 ! @@||webfoundation.org
-@@||webmd.com
+! @@||webmd.com
 ! @@||who.int
 @@||wikia.com
-@@||wikibooks.org
-@@||wikihow.com
-@@||wikimedia.org
-@@||wikipedia.org
-@@||wikiversity.org
-@@||wiktionary.org
+! @@||wikibooks.org
+! @@||wikihow.com
+! @@||wikimedia.org
+! @@||wikipedia.org
+! @@||wikiversity.org
+! @@||wiktionary.org
 @@||wordpress.*
-@@||wp.com
+! @@||wp.com
+! @@||*.xyz/html/*$xhr,domain=hydrax.net|playhydrax.com
 @@||yesmovies.*
 @@||yewtu.be
