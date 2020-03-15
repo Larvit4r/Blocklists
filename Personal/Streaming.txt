@@ -3,7 +3,7 @@
 ! Descriptioon: This is personalized for my streaming/video sites of choice, so I'm not interested in suggestions, sorry. Currently includes Aniwatcher (Anime), Primewire (General), and WCOStream (Cartoons).
 ! Homepage: https://github.com/Larvit4r/Blocklists
 ! Issues: https://github.com/Larvit4r/Blocklists/issues
-! Version: 2020.03.14
+! Version: 2020.03.14b
 ! Last Modified: Saturday, March 14, 2020
 ! *** Fetched from: https://raw.githubusercontent.com/Larvit4r/Blocklists/master/Personal/Streaming.txt ***
 
@@ -12,18 +12,18 @@ aniwatcher.com##footer
 aniwatcher.com##h2
 ||aniwatcher.com/img/*.png$image
 aniwatcher.com###latestmanga
-primewire.*##.choose_tabs > .titles
 primewire.*##.col2
 primewire.*##.featured_movies
 primewire.*##.footer
 primewire.*##[href*="sponsored"]
-primewire.*##.index_container > .titles
-primewire.*###M541591ScriptRootC833301
-primewire.*##.main-body > .titles
 primewire.*##.not_voted
 primewire.*##.report
-primewire.*###spiderman
 primewire.*##.unit-rating
+primewire.*###spiderman
+primewire.*##.help_link
+primewire.*##.titles
+primewire.*##[src*="offer"]
+primewire.*##.movie_info_actions
 ||wcostream.com/ads/$subdocument
 wcostream.com###footer
 wcostream.com##.larkax > div:nth-of-type(1)
