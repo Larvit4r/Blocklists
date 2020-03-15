@@ -1,0 +1,160 @@
+! Title: L4's Whitelisted Domains
+! Expires: 30 days
+! Descriptioon: Mostly just sites for getting through my TLD blacklist. Not very organized yet, just going through bookmarks, etc. to find
+! Homepage: https://github.com/Larvit4r/Blocklists
+! Issues: https://github.com/Larvit4r/Blocklists/issues
+! Version: 2020.03.14
+! Last Modified: Saturday, March 14, 2020
+! *** Fetched from: https://raw.githubusercontent.com/Larvit4r/Blocklists/master/Personal/Whitelist.txt ***
+
+@@||1999.co.jp
+@@||about.me
+@@||alluc.*
+@@||alternativeto.net
+@@||ankiweb.*
+@@||archive.*
+! @@||archives.gov
+@@||bakabt.*
+! @@||bandcamp.com
+! @@||beingfrugal.net
+@@||bit.ly
+! @@||bitly.com
+@@||boun.cr
+! @@||box.com
+@@||carrd.co
+@@||*class101.com
+@@||cock.li
+@@||coursera.org
+! @@||creativecommons.org
+@@||dailymotion.com
+! @@||depositfiles.com
+@@||deviantart.*
+! @@||discordapp.com
+@@||discord.gg
+@@||disroot.org
+! @@||dropbox.com
+! @@||duolingo.com
+@@||ebay.com
+@@||edx.org
+@@||eff.org
+! @@||ehow.com
+@@||familysearch.org
+! @@||fandom.com
+! @@||fda.gov
+@@||feedburner.com
+@@||fmovies.*
+@@||freecycle.org
+@@||fsf.org
+@@||futurelearn.org
+@@||genomelink.io
+@@||ggpht.com
+@@||github.*
+@@||gnu.org
+@@||googleusercontent.com
+@@||greasyfork.org
+! @@||grove.co
+! @@||healthcare.gov
+! @@||howstuffworks.com
+! @@||imgur.com
+@@||interpals.net
+@@||int.org
+! @@||invidio.us
+@@||ip-check.info
+! @@||jamendo.com
+@@||justdeleteme.xyz
+@@||khanacademy.org
+@@||kimcartoon.*
+! @@||kitsu.io
+@@||last.fm
+@@||libgen.*
+! @@||libreplanet.org
+@@||limetorrents.*
+! @@||lingua.ly
+@@||list-manage.com
+! @@||mashable.com
+@@||mastodon.social
+@@||matrix.org
+! @@||mediafire.com
+@@||media.tumblr.*
+! @@||medicare.gov
+@@||mega.nz
+@@||miable.org
+@@||michigan.gov
+@@||mi.us
+@@||musicmap.info
+! @@||mymedicare.gov
+! @@||myuofmhealth.org
+! @@||namecheap.com
+@@||neocities.org
+! @@||netvibes.com
+@@||nitter.*
+@@||ollies.us
+@@||openuserjs.org
+! @@||paypal.com
+! @@||petkey.org
+@@||photobucket.com
+@@||pinterest.com
+! @@||piperka.net
+! @@||pm.me
+@@||*pod101.com
+@@||postimg.org
+@@||premieredate.news
+@@||primewire.*
+@@||privacytools.io
+@@||private.sh
+@@||psychologytoday.com
+@@||*publiclbrary.org
+@@||quora.com
+@@||rainn.org
+@@||rakuten.*
+@@||rapidshare.com
+! @@||raspberrypi.org
+@@||redd.it
+@@||riot.im
+@@||sampler.io
+@@||self.inc
+@@||slickdeals.net
+! @@||smarturl.it
+@@||smile.amazon.com
+@@||snopyta.org
+@@||socialsecurity.gov
+@@||soundcloud.com
+@@||spotify.com
+@@||ssa.gov
+@@||stackoverflow.com
+@@||startpage.*
+@@||state.gov
+@@||steamcommunity.com
+@@||steampowered.com
+@@||stopdatamining.me
+! @@||surveymonkey.com
+@@||swatchseries.*
+@@||switter.at
+! @@||tapas.io
+! @@||target.com
+@@||tastebuds.fm
+@@||t.co
+! @@||techcrunch.com
+! @@||techradar.com
+@@||thatoneprivacysite.net
+! @@||time.com
+@@||torrentz2.*
+@@||tpb.*
+@@||trakt.tv
+@@||urbandictionary.com
+@@||vimeo.com
+@@||vivaldi.*
+! @@||webfoundation.org
+@@||webmd.com
+! @@||who.int
+@@||wikia.com
+@@||wikibooks.org
+@@||wikihow.com
+@@||wikimedia.org
+@@||wikipedia.org
+@@||wikiversity.org
+@@||wiktionary.org
+@@||wordpress.*
+@@||wp.com
+@@||yesmovies.*
+@@||yewtu.be
