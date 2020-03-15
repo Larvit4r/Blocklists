@@ -3,7 +3,7 @@
 ! Descriptioon: WIP! Just random junk that I ganked from other filters, I hate having a bunch of custom filters for sites that I don't need so this is more customized for me! Feel free to use if you want but it's not very organized yet, add "@@||whitelistedurl.com" if this happens to catch something that you like.
 ! Homepage: https://github.com/Larvit4r/Blocklists
 ! Issues: https://github.com/Larvit4r/Blocklists/issues
-! Version: 2020.03.14
+! Version: 2020.03.14b
 ! Last Modified: Saturday, March 14, 2020
 ! *** Fetched from: https://raw.githubusercontent.com/Larvit4r/Blocklists/master/Personal/Strict.txt ***
 ! Sources include 9Anime Filter List, AMP Hosts Extended, Generic Annoying Stickybar Filter, various anti-Google lists, etc. May add links later.
@@ -13,60 +13,20 @@
 ||*^$popup
 *$script,3p,domain=mp4upload.com
 *$script,redirect-rule=noopjs,domain=hydrax.net|playhydrax.com
-||1e100.net
-||24vunvrv.com^
-||2leep.com
-||2o7.net
-||abc.xyz
 ###active_discussions
 ###ad
 ##.ad
-||ad*.*
-||*ad.com
 ###ad-container
-||addthis.com
-||addtoany.com
-||admob.*
-||adnxs.*
 ###ads
 ##.ads
 .*/ads.
 .*/ads/
 .*/ads?
-||*-ads.*
-||ads
-||ads.*.*^
-||ads2.*.*^
-||adsense.*
-||*adserver*
-||*-adsystem.com
 .*/adv/
-||advertising.*
-||*-advertising.com
-||adwords.*
-||*affiliate*.*/
-||airpush.com
-@@||ajax.googleapis.com
-||akacdn.*
-||akadns.*
-! ||akamaihd.*
-! ||akamaized.*
 *#?#a:link:style(cursor:pointer !important)
 [alt^="Post on"]
 [alt^="Post to"]
 [alt^="Share on"]
-||amazon-adsystem.com
-||amp-*.*.*^
-||amp.*.*^
-||*.*/*?amp=$document,important
-||*.amp.cloudflare.com
-||ampproject.*
-||*&amp_*=*&usqp=*$document,important
-||*?amp_*=*&usqp=*$document,important
-||amung.us
-||*analytics.*
-||android.com
-||appads.com
 ###around_the_web
 ##.article-body .post-search-results
 ##.article-container.locked:after
@@ -77,39 +37,21 @@
 ###article-promo-digital
 ##.article-trending
 ##.b_ad
-||baidu*.com
-||bazaarvoice.com
 ###big-stories
-||*bing.*
 ##.bk-mostpop
 ##.blackout
 ###block-pt-stats-most-popular
 ##.block-pt-stats-most-popular
-||*block-test*
 ###block-thrmovies-most_popular
-||blogger.com
-||blogspot.com
 ###bomRecommendation
 ###bottom-most-shared
 ###bottom-trending
-||bravenet.com
 buzzfeed.com###next_on
 buzzfeed.com##.related-links-full
 buzzfeed.com##.sidebar_featured_unit
 ##.bw_most_popular_news
-||*captcha*.*
 ##.card.stopsign__article.stopsign:before
-@@||cdnjs.cloudflare.com
-||*cdn-social.*
-||*cdn.syndication.*
-||*&__cf_chl_jschl_tk__=$document,important
-||*?__cf_chl_jschl_tk__=$document,important
-||*chat.*
-||chat*.*$script
-||chatango.com
 /chat*idget*.js
-||chrome*.com
-||chromium.org
 ##[class*="actionbar"]
 ##[class*="-ad"]
 ##[class*="adbox"]
@@ -185,29 +127,18 @@ buzzfeed.com##.sidebar_featured_unit
 ! ##[class*="z-popup"]
 ! ##[class*="zpopup_"]
 ! ##[class*="zPopUp"]
-||*click*.*
-||clksite.com^
-! ||cloudfront.net
 ^code-1-1.js
-@@||code.jquery.com
 ##.col-promoted
-||*com.cdn.*
 ###comp-most-popular
 ###conde_nast_container
-||consensu.org
-||content-ad.net
 ##.content-headlines-list
 ##.copyright
-||*counter.*
 cracked.com###Recommended
 .cur/$image
 ###cursor
 *cursor_hover.$image
 /CustomCursor*$image
-||defpush.com^$third-party
-||direct.apus.tech
 ##.discovery-posts
-||disqus*.*
 ##div[class*="action"]:style(position: static!important)
 ##div[class*="app"]:style(position: static!important)
 ##div[class*="banner"]:style(position: static!important)
@@ -578,83 +509,33 @@ cracked.com###Recommended
 ##DIV#threeup_top_wrapper
 ##DIV#top_blog_links
 ##.dontmiss.widget
-||doubleclick.*
-||dynamicyield.com
-||dyncdn.me
-||edgefonts.net
-||*edgekey*
-||edgesuite.*
 ##.editorial-recommend
 ###editorpick
-||*exchange.com
-||facebook.*
 */facebookchat.js
 ##.faded-article-content:after
-||fb.*
-||fbcdn.*
-||*&fbclid$document,important
-||*?fbclid$document,important
-||fbsbx.com
 ##.featured-content
 ##.featuredpost
 ###featured_posts-2
 ##.featured-videos-widget
 ##.featured-video__wrapper
 ##.featurePromo
-||firebase*.*
-@@||fonts.googleapis.com
-@@||fonts.gtatic.com
 ###foot
 ###footer-partner-feeds
-||*forex*.*
-||freebasics.com
 ##.g1-related-entries
 ##.gab_relateditem
-||*&gclid$document,important
-||*?gclid$document,important
-||g.co
 /getads.
 /get_midroll_
 *GetOnlineChatUrl*
-||ggoogle.*
-||gmail.com
-||gogle.*
-||gogole.*
-||googel.*
-||goo.gl
-||googl.com
-||*google.*
-||google*.*
-@@||googleapis.com/drive/*$domain=hydrax.net|playhydrax.com
-! @@||google.com/recaptcha/*$domain=9anime.to|9anime.ru|9anime.live|9anime.nl|9anime.one|9anime.love|9anime.life|9anime.tv|9anime.page|9anime.video|prettyfast.to
-||googlee.com
-||googlemail.com
-||google.*/pagead/lvz?
 ##.googleplus-one
-||googlesource.com
-||googlesyndication.com
-||googletagmanager.com^
-@@||*.googleusercontent.com^$domain=hydrax.net|playhydrax.com|wcostream.com|kimcartoon.to
-||googlr.com
-||goolge.com
-||gooogle.com
-||gorillanation.com
-||gravatar.com
 ##.gravity_most_popular.advertisement
-||gstatic.com
-||*hardcore*
 ##.header-banner
 ##.HomePage_Whatsnew
-||*hookup*
 ###horizontalspace
 ###hot-network-questions
 ###hot-today
 ##[href*="emailsignup"]
-@@||hydrax.net^$elemhide
 hydrax.net,playhydrax.com##+js(aopr, AaDetector)
 hydrax.net,playhydrax.com##+js(nostif, debugger)
-@@||iamcdn.net^$domain=hydrax.net|playhydrax.com
-@@||iamcdn.net^*/ads.js$script,domain=hydrax.net|playhydrax.com
 ##[id*="actionbar"]
 ##[id*="-ad"]
 ##[id*="adbox"]
@@ -737,19 +618,10 @@ hydrax.net,playhydrax.com##+js(nostif, debugger)
 /images/Cursor.
 /images/*/Mouse.png
 /images/pointer.
-@@||imasdk.googleapis.com
-||*impression*.*
-||imrworldwide.com
 ##.in-case-you-missed
-||instagram.*
-||intellitxt.*
-||*interactive*
-||internet.org
 ##.iv-promo
-@@||jquery.com^$script
 ##+js(acis, Math, zfgloaded)
 ##+js(aopr, AaDetector)
-@@||jsdelivr.net^$domain=hydrax.net|playhydrax.com
 #?#.js-dismissable-hero:-abp-contains(Sign up)
 js.driftt.com/dist/assets/widget*prod.js
 ##.js-signup-call-out
@@ -757,26 +629,14 @@ js.driftt.com/dist/assets/widget*prod.js
 ||kayako*.com/messenger^$script
 ##.latest-stories
 lifehacker.com###post_list
-||lijit.com^
-||linkedin.com
-||*links.*
-||*live*.*
-||*livechat*
 ##.login-callout
 ###loginModal
 ##.lower-infinite-content
 ###lower-more-content
 makeuseof.com##.popular-post
 ###masthead-ad
-||matomo.*
 ##.mcf-mosaic
-||*media.com
-||messenger.com
-||*metric*
-||*metrix*
 ##.mfp-container
-||mgid.com^
-||micros*ft*.*
 ###mixed-content-footer
 ##.mk-padding-divider
 ###mobile_login_bar
@@ -830,22 +690,15 @@ makeuseof.com##.popular-post
 ###most-watched-videos
 ###most-watched-videos-wrapper
 /Mousehover.$image
-@@||mp4upload.com/embed-*
 mp4upload.com##+js(acis, decodeURI, decodeURIComponent)
 mp4upload.com##+js(addEventListener-defuser.js, contextmenu)
 mp4upload.com##+js(aeld, /^(?:click|mousedown|mousemove|touchstart|touchend|touchmove)$/, system.popunder)
 mp4upload.com##+js(popads-dummy)
 mp4upload.com###overlay
 mp4upload.com##.vjs-logo
-||msn*.*
-@@||multi.idocdn.com^$domain=hydrax.net|playhydrax.com
 ###mustRead
-||narrative.io
 ##.nav-flyout.nav-signin-tt
-! ||netdna-cdn.com
 /new_cursor.$image
-||newrelic.com
-||news.google.com/*/swg.js$script
 ###nmSpecialLinksWrapper
 ||nocookie.net/*_cursor_*.png
 ||nocookie.net/*cursor.png^
@@ -853,15 +706,11 @@ mp4upload.com##.vjs-logo
 ##.now-buzzing
 ##.nrelate_related
 ##.nrelate-related-widget
-||oascentral.*.*
-||*onesignal*
 ###online-game-carousel-right-rail
 ##.onp-sl-inner-wrap
 ##.onp-sl-outer-wrap
 ##.onp-sl-overlap-background
 ##.onp-sl-overlap-box
-||*optimize*.*
-||outbrain.com
 ###overlay
 ##.overlay
 ##.overlay--light
@@ -877,37 +726,22 @@ mp4upload.com##.vjs-logo
 *##p:has-text(/^\xA0$/):not(:has-text(/\S/)):not(:has(img))
 *##p:has-text(/^\xA0\xA0$/):not(:has-text(/\S/)):not(:has(span))
 */phplive
-||picasa.com
-||pingdom.net*
 /ping.gif?
-||pippio.com^
-||piwik.*
-||pixel.*
-@@||playhydrax.com^$elemhide
 ##p:-moz-only-whitespace
-||*pop*.*
 ##.popstoryList
 ##.popular-now-well
 ##.popular-photo-ra
 ##.popular-posts-widget
 ##.popular-stories
 ##.popular.widget
-||*porn*.*
-! ||po.st
 ###post-most-rr
 ###post-recommends
 ##.postrecommends
 ###postREMLargePromos
 ##.post-search-results__slant
 ##.posts-related
-@@||primewire.li
-@@||projectwonderful.com
 ###promotionModuleContainer
-||propellerclick.com^
 ###public-mask-login
-||*qualtrics*
-||quantcount.*
-||quantserve.com
 ###rc-row-container
 #?#.ReactModal__Overlay:-abp-has(video[src$="/bloom2.mp4"])
 ###recent_popular
@@ -923,8 +757,6 @@ mp4upload.com##.vjs-logo
 ##.related-stories
 ##.related-video-audio
 ##.reporter-stories
-||revcontent.com
-||rezync.com^$3p
 ###rightcol_mostcommented
 ###rightcol_mostcommented_button
 ###rightcol_mostpopular
@@ -932,13 +764,9 @@ mp4upload.com##.vjs-logo
 ##.right-most-popular-item
 ###right-rail-more-on
 ##.rss-promo
-||runative-syndicate.com^$third-party
-||*russia*.*/*
-||scorecardresearch.com
 ###secondary-content
 ###SecondaryContent
 ! ##.seealso ! catches scipy docs
-||*share*.*
 ###sidebar-top-posts
 ##.signup-prompt
 ##.SignupWallInline-overlay
@@ -947,7 +775,6 @@ mp4upload.com##.vjs-logo
 ###sky-center
 ###sky-right
 /smartads.
-||smartadserver.com
 ##.snp_dont_miss_container
 ##.snp_most_popular
 ###SocialWidget_popular
@@ -957,8 +784,6 @@ mp4upload.com##.vjs-logo
 ##.spacer:not(:has-text(/\S/))
 ##.srcalert
 ##[src*="/offer"]
-! ||ssl.fastly.net
-||*stat*.*
 ###stories-infinite
 ##.story-box-news-politics
 ||styles.redditmedia.com/*/styles/image_widget_hosy*.png$image
@@ -966,18 +791,11 @@ mp4upload.com##.vjs-logo
 /subscription.js
 ##.supplemental-items
 /svg/arrow-home*
-||*taboola*
-||tapjoy.com
-||tawk.to
-||*telemetry*.*/
-||tfbnw.net
 ##.topic-promo
 ###top_stories
 ##.top_stories
 ##.top-stories05
 ##.tptn_featured
-||*track*
-||*traffic*
 ##.trc_elastic
 ##.trc_rbox_container
 ##.trc_related_container
@@ -985,48 +803,29 @@ mp4upload.com##.vjs-logo
 ##.trending
 ###trending_1
 ##.trending-posts-feed
-||trk*.*
 ##TR.relatedTopics
-||twitter.*
-||*typekit.*
-||*&utm_*=$document,important
-||*?utm_*=$document,important
 /videojs-contrib-ads.js
 ###video-masthead
 ###videos_1
-||viglink.com^
 ||vignette.wikia.nocookie.net/*/Community-header-background/*$image
 ##.viral
 ##.viralated
 v*.zopim.com$script
 ##.warning_illust
 ###watch-related
-||waze.com
 #?##wds-company-logo-fandom-white:style(pointer-events:none !important;cursor:default !important)
 ##.wds-global-footer__fandom-sections
 #?#.wds-global-footer__header:style(pointer-events:none !important;cursor:default !important)
 ##.wds-global-navigation__links
 #?#.wds-global-navigation__logo:style(pointer-events:none !important;cursor:default !important)
 *website_chat_widget.asp
-||wechat.com
-||whatsapp.*
 ###whats-next
 ##.widget_time_most_popular
 ###window_overlay
-||withgoogle.com
 ##.wpp-post-hot
 ##.wpp-post-popular
 ##.wpp-post-trending
-@@||*.xyz/html/*$xhr,domain=hydrax.net|playhydrax.com
-||yahoo*.*
 ##.yap-loaded
-||*&yclid$document,important
-||*?yclid$document,important
-||youtu.be
-||youtube.*
-||yt.be
 ##ytd-popup-container > .ytd-popup-container > #contentWrapper > .ytd-popup-container[position-type="OPEN_POPUP_POSITION_BOTTOMLEFT"]
 ##.ytd-search-pyv-renderer
 ##.ytp-ad-progress-list
-||zap.buzz^
-||zendesk.com
