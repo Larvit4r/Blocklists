@@ -3,11 +3,11 @@
 ! Descriptioon: Hate dealing with certain TLDS like .info or .xyz? Well, now you can easily block them until you find any sites to whitelist! To whitelist a TLD, add an exclamation point or delete the line entirely. If you want to whitelist a domain, use "@@||domainhere.xyz", it's just that simple!
 ! Homepage: https://github.com/Larvit4r/Blocklists
 ! Issues: https://github.com/Larvit4r/Blocklists/issues
-! Version: 2020.03.14
+! Version: 2020.03.14b
 ! Last Modified: Saturday, March 14, 2020
 ! *** Fetched from: https://raw.githubusercontent.com/Larvit4r/Blocklists/master/Personal/TLD-Blacklist.txt ***
 
-! Note: This is the version that I personally use, just an FYI!
+! Note: This is the version that I personally use, just an FYI! .co, .com, .edu, .gov, .io, .jp, .net, org, and .us are currently whitelisted.
 ! Not that I mind if you use it, but you might prefer to personalize your own. :)
 
 ||*.aaa
@@ -72,11 +72,11 @@
 ||*.ao
 ||*.aol
 ||*.apartments
-! ||*.app
+||*.app
 ||*.apple
 ||*.aq
 ||*.aquarelle
-! ||*.ar
+||*.ar
 ||*.arab
 ||*.aramco
 ||*.archi
@@ -88,10 +88,10 @@
 ||*.asda
 ||*.asia
 ||*.associates
-! ||*.at
+||*.at
 ||*.athleta
 ||*.attorney
-! ||*.au
+||*.au
 ||*.auction
 ||*.audi
 ||*.audible
@@ -200,7 +200,7 @@
 ||*.by
 ||*.bz
 ||*.bzh
-! ||*.ca
+||*.ca
 ||*.cab
 ||*.cafe
 ||*.cal
@@ -233,7 +233,7 @@
 ||*.cbn
 ||*.cbre
 ||*.cbs
-! ||*.cc
+||*.cc
 ||*.cd
 ||*.ceb
 ||*.center
@@ -406,7 +406,7 @@
 ||*.esurance
 ||*.et
 ||*.etisalat
-! ||*.eu
+||*.eu
 ||*.eurovision
 ||*.eus
 ||*.events
@@ -453,7 +453,7 @@
 ||*.florist
 ||*.flowers
 ||*.fly
-! ||*.fm
+||*.fm
 ||*.fo
 ||*.foo
 ||*.food
@@ -500,7 +500,7 @@
 ||*.genting
 ||*.george
 ||*.gf
-! ||*.gg
+||*.gg
 ||*.ggee
 ||*.gh
 ||*.gi
@@ -638,7 +638,7 @@
 ||*.ismaili
 ||*.ist
 ||*.istanbul
-! ||*.it
+||*.it
 ||*.itau
 ||*.itv
 ||*.iveco
@@ -787,7 +787,7 @@
 ||*.mc
 ||*.mckinsey
 ||*.md
-! ||*.me
+||*.me
 ||*.med
 ||*.media
 ||*.meet
@@ -866,7 +866,7 @@
 ||*.neustar
 ||*.new
 ||*.newholland
-! ||*.news
+||*.news
 ||*.next
 ||*.nextdirect
 ||*.nexus
@@ -1102,7 +1102,7 @@
 ||*.sexy
 ||*.sfr
 ||*.sg
-! ||*.sh
+||*.sh
 ||*.shangrila
 ||*.sharp
 ||*.shaw
@@ -1228,7 +1228,7 @@
 ||*.tm
 ||*.tmall
 ||*.tn
-! ||*.to
+||*.to
 ||*.today
 ||*.tokyo
 ||*.tools
@@ -1255,7 +1255,7 @@
 ||*.tui
 ||*.tunes
 ||*.tushu
-! ||*.tv
+||*.tv
 ||*.tvs
 ||*.tw
 ||*.tz
@@ -1263,7 +1263,7 @@
 ||*.ubank
 ||*.ubs
 ||*.ug
-! ||*.uk
+||*.uk
 ||*.unicom
 ||*.university
 ||*.uno
@@ -1540,23 +1540,23 @@
 ||*.укр
 ||*.გე
 ||*.հայ
-||*الاردن.
-||*الجزائر.
-||*السعودية.
-||*المغرب.
-||*اليمن.
-||*امارات.
-||*ایران.
-||*بھارت.
-||*پاکستان.
-||*تونس.
-||*سودان.
-||*سوريا.
-||*عمان.
-||*فلسطين.
-||*قطر.
-||*مصر.
-||*مليسيا.
+||*الاردن.*
+||*الجزائر.*
+||*السعودية.*
+||*المغرب.*
+||*اليمن.*
+||*امارات.*
+||*ایران.*
+||*بھارت.*
+||*پاکستان.*
+||*تونس.*
+||*سودان.*
+||*سوريا.*
+||*عمان.*
+||*فلسطين.*
+||*قطر.*
+||*مصر.*
+||*مليسيا.*
 ||*.भारत
 ||*.বাংলা
 ||*.ভারত
