@@ -1,10 +1,10 @@
+[Adblock Plus 2.0]
 ! Title: L4's Reddit Filter
 ! Expires: 30 days
-! Descriptioon: Very personalized filter for Reddit.
+! Version: 2020.05.23a
 ! Homepage: https://github.com/Larvit4r/Blocklists
 ! Issues: https://github.com/Larvit4r/Blocklists/issues
-! Version: 2020.03.14
-! Last Modified: Saturday, March 14, 2020
+! Descriptioon: Very personalized filter for Reddit.
 ! *** Fetched from: https://raw.githubusercontent.com/Larvit4r/Blocklists/master/Personal/Reddit.txt ***
 ! Sources include some wide layout filters, etc. Will add links later.
 ! https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Dandelion Sprout's Website Stretcher.txt
@@ -106,3 +106,66 @@ redditstatic.com/ad
 redditstatic.com/display*.js
 redditstatic.com/moat
 redditstatic.com/recommended-link
+
+reddit.com##._1bWuGs_1sq4Pqy099x_yy-
+reddit.com##._1k2YW82YLtn1xvksm7RHIO
+reddit.com##._1oRQu-aolgpPPJDblUGTw5
+reddit.com##._1tvThPWQpORoc2taKebHxs
+reddit.com##._2jJNpBqXMbbyOiGCElTYxZ
+reddit.com##._2L5G9B5yaoqW3IegiYN-FL
+reddit.com##._2WM2ef3imxyCFqHx0Nx5M4
+reddit.com##._2YO2O4rMRYYMeH_t2y8M5w
+reddit.com##._34CfAAowTqdbNDYXz5tBTW
+reddit.com##._38GxRFSqSC-Z2VLi5Xzkjy
+reddit.com##._3joKifdh6j3tG_vsgFS85R
+reddit.com##.account-activity-box
+reddit.com##.ad-container
+reddit.com##.beta-hint
+reddit.com##.bottom
+reddit.com##[class*="AAAAAB"]
+reddit.com###COIN_PURCHASE_DROPDOWN_ID
+reddit.com##.create.sidebox
+reddit.com##.crosspost-button
+reddit.com##.debuginfo
+reddit.com##div._2vEf-C2keJaBMY9qk_BxVn
+reddit.com##div._2XRPX11qL4-HxWPuHAzOW5
+reddit.com##div._2XRPX11qL4-HxWPuHAzOW5:nth-of-type(3)
+reddit.com###email-collection-tooltip-id
+reddit.com##.embed-comment
+reddit.com###focus-Coins
+reddit.com###focus-Home
+reddit.com###focus-Premium
+reddit.com###focus-PublicAccessNetwork
+reddit.com##.footer-parent
+reddit.com##.give-gold-button
+reddit.com###header-img
+reddit.com###header-quicklinks-all
+reddit.com###header-quicklinks-popular
+reddit.com###header-quicklinks-rpan
+reddit.com###HeaderUserActions--NewPost
+reddit.com##.hide-button
+reddit.com##.initialized.listing-chooser
+reddit.com##.kU8ebCMnbXfjCWfqn0WPb
+reddit.com##.linkinfo
+reddit.com##.more
+reddit.com##.native-sidebar-ad
+reddit.com##.nub
+reddit.com##.premium-banner-outer
+reddit.com##.promoted
+reddit.com##.PSG6gLueWddB1kqvaOxoT
+reddit.com###redesign-beta-optin-btn
+reddit.com##.share
+reddit.com##.srdrop.dropdown
+reddit.com##.sr-list > .separator
+||reddit.com/sw.js
+reddit.com##.titlebox > .redditname.hover
+reddit.com##ul.hover.sr-bar.flat-list:nth-of-type(1)
+reddit.com##.users-online
+reddit.com##.YszYBnnIoNY8pZ6UwCivd
+reddit.com##.-z42jjKOFdAdFhdJ8mmI4
+||redditstatic.com/_chat.Q8BtxnzGjSI.
+||redditstatic.com/crossposting.4zJErPF9qdo.js
+||redditstatic.com/crossposting-modal.Jve5cc
+||redditstatic.com/desktop2x/fonts/*$script
+||redditstatic.com/desktoponboarding.GwBQjruLr-k.css
+||redditstatic.com/user-websockets.6Vvsq6veYb0.js
