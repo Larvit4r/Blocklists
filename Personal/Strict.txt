@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: L4's Strict Filter
 ! Expires: 30 days
-! Version: 2020.05.23a
+! Version: 2020.05.23b
 ! Homepage: https://github.com/Larvit4r/Blocklists
 ! Issues: https://github.com/Larvit4r/Blocklists/issues
 ! Descriptioon: WIP! Just random junk that I ganked from other filters, I hate having a bunch of custom filters for sites that I don't need so this is more customized for me! Feel free to use if you want but it's not very organized yet, add "@@||whitelistedurl.com" if this happens to catch something that you like.
@@ -65,6 +65,8 @@ _72890.
 ###ad_5
 ###ad_6
 ###ad-container
+##.ad-mobile
+##.ad-mobile-dynamic
 ###ads
 ##.ads
 .*/ads.
@@ -72,6 +74,7 @@ _72890.
 .*/ads?
 ||*-ads.*
 ##.ads-block-warning
+##.ad-unit
 ?AdUrl=$document
 .*/adv/
 *#?#a:link:style(cursor:pointer !important)
@@ -85,8 +88,6 @@ _72890.
 ##.article-container.locked:after
 ##.Article-header-body:before
 ###article-leaf-page-footer-taboola
-###article-most-popular
-###article-popular-this-week
 ###article-promo-digital
 ##.article-trending
 ##.b_ad
@@ -95,16 +96,12 @@ _72890.
 ###big-stories
 ##.bk-mostpop
 ##.blackout
-###block-pt-stats-most-popular
-##.block-pt-stats-most-popular
-###block-thrmovies-most_popular
 ###bomRecommendation
 ###bottom-most-shared
 ###bottom-trending
 buzzfeed.com###next_on
 buzzfeed.com##.related-links-full
 buzzfeed.com##.sidebar_featured_unit
-##.bw_most_popular_news
 ##.card.stopsign__article.stopsign:before
 */chatbot/*
 /chat*idget*.js
@@ -156,6 +153,8 @@ buzzfeed.com##.sidebar_featured_unit
 ##[class*="paywall"]
 ##[class*="pinterest"]
 ##[class*="player-ads"]
+##[class*="popular"]
+##[class*="Popular"]
 ##[class*="promo"]
 ##[class*="-prompt"]
 ##[class*="register-pop"]
@@ -186,7 +185,7 @@ buzzfeed.com##.sidebar_featured_unit
 ! ##[class*="zPopUp"]
 ^code-1-1.js
 ##.col-promoted
-###comp-most-popular
+##.combo-wrapper
 ###conde_nast_container
 ##.content-headlines-list
 ##.copyright
@@ -379,7 +378,6 @@ cracked.com###Recommended
 ##div[class*="top"]:style(position: static!important)
 ##div[class*="tray"]:style(position: static!important)
 ##div[data-test-id="giftWrap"]
-##DIV.hst-mostpopular
 ##div[id*="action"]:style(position: static!important)
 ##div[id*="app"]:style(position: static!important)
 ##div[id*="banner"]:style(position: static!important)
@@ -561,10 +559,7 @@ cracked.com###Recommended
 ##div[id*="top"]:style(position: static!important)
 ##div[id*="tray"]:style(position: static!important)
 ##DIV#MostPopStories
-##DIV.most_popular
 ##DIV#mostPopWidget
-##DIV.snp_most_popular
-##DIV.snp_most_popular_entry
 *##div[style^="width: 100%;"][style$="display: block;"] iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 *##div[style^="width: 100%;"][style$="margin: 0px;"] iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 *##div[style^="width: 100%;"][style$="opacity: 100;"] iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
@@ -597,7 +592,6 @@ cracked.com###Recommended
 /get_midroll_
 *GetOnlineChatUrl*
 ##.googleplus-one
-##.gravity_most_popular.advertisement
 ##.header-banner
 ##.HomePage_Whatsnew
 ###horizontalspace
@@ -658,6 +652,8 @@ hydrax.net,playhydrax.com##+js(nostif, debugger)
 ##[id*="paywall"]
 ##[id*="pinterest"]
 ##[id*="player-ads"]
+##[id*="popular"]
+##[id*="Popular"]
 ##[id*="promo"]
 ##[id*="-prompt"]
 ##[id*="register-pop"]
@@ -697,6 +693,8 @@ hydrax.net,playhydrax.com##+js(nostif, debugger)
 ##.iv-promo
 #@#+js()
 ##+js(acis, Math, zfgloaded)
+##.js_ad-dynamic
+##.js_ad-mobile-dynamic
 ##+js(aopr, AaDetector)
 #?#.js-dismissable-hero:-abp-contains(Sign up)
 js.driftt.com/dist/assets/widget*prod.js
@@ -704,23 +702,21 @@ js.driftt.com/dist/assets/widget*prod.js
 ##.js-trending-now
 ||kayako*.com/messenger^$script
 ##.latest-stories
+*leadconnect*
 lifehacker.com###post_list
 ##.login-callout
 ###loginModal
 ##.lower-infinite-content
 ###lower-more-content
-makeuseof.com##.popular-post
 ###masthead-ad
 ##.mcf-mosaic
 ##.mfp-container
+||/missing-image.svg$image
 ###mixed-content-footer
 ##.mk-padding-divider
 ###mobile_login_bar
-###mod-most-popular
-##.mod-most-popular
 ###mod-related-articles
 ###module-just-in
-##.module-mostpopular
 ##.module-related
 ##.module--trending
 ###modulous_article_bottom
@@ -738,21 +734,6 @@ makeuseof.com##.popular-post
 ###mostPopContentRecommendations
 ###most-pop-list
 ###most_pop_stories
-###most-popular
-##.most-popular
-##.mostpopular
-###mostPopular
-##.most-popular-article
-###most_popular_bpages
-###most_popular_bpages DIV.popular-story
-##.most_popular_entry
-##.most-popular-list
-##.most-popular-multimedia
-##.most-popular.panel
-##.mostPopularReviewsSplash
-###most_popular_stories
-##.most-popular-stories
-##.most-popular-video
 ###mostPopWidget
 ##.most_read_and_commented
 ###most-read-content
@@ -766,6 +747,7 @@ makeuseof.com##.popular-post
 ###most-watched-videos
 ###most-watched-videos-wrapper
 /Mousehover.$image
+##.movable-ad
 /movoto.min.js
 mp4upload.com##+js(acis, decodeURI, decodeURIComponent)
 mp4upload.com##+js(addEventListener-defuser.js, contextmenu)
@@ -779,7 +761,7 @@ mp4upload.com##.vjs-logo
 ###nmSpecialLinksWrapper
 ||nocookie.net/*_cursor_*.png
 ||nocookie.net/*cursor.png^
-||nocookie.net/*/OnionSprite*$image
+||nocookie.net/*Sprite*$image
 ##.now-buzzing
 ##.nrelate_related
 ##.nrelate-related-widget
@@ -790,6 +772,7 @@ mp4upload.com##.vjs-logo
 ##.onp-sl-overlap-box
 ###overlay
 ##.overlay
+##.overlay-bg
 ##.overlay--light
 ###overlay_search
 ###pagelet_trending_tags_and_topics
@@ -799,7 +782,7 @@ mp4upload.com##.vjs-logo
 ###partner_stories
 #?##paywall:style(top: 250px !important)
 ##p:empty
-! ##.pframe:has([href^="javascript: void(0);"])
+##.pframe:has([href^="javascript: void(0);"])
 *##p:has-text(/^ $/):not(:has-text(/\S/)):not(:has(img))
 *##p:has-text(/^\xA0$/):not(:has-text(/\S/)):not(:has(img))
 *##p:has-text(/^\xA0\xA0$/):not(:has-text(/\S/)):not(:has(span))
@@ -811,11 +794,6 @@ _pop_ad/$document
 ?PopAd=$document
 ||popads.net^$all
 ##.popstoryList
-##.popular-now-well
-##.popular-photo-ra
-##.popular-posts-widget
-##.popular-stories
-##.popular.widget
 =popunder&$document
 _pop_under.$document
 _popunder&$document
@@ -841,7 +819,6 @@ _popupunder.$document
 *qualtrics*
 ###rc-row-container
 #?#.ReactModal__Overlay:-abp-has(video[src$="/bloom2.mp4"])
-###recent_popular
 ##.redux-modal
 ##.regoverlay
 ###related_articles
@@ -856,14 +833,11 @@ _popupunder.$document
 ##.reporter-stories
 ###rightcol_mostcommented
 ###rightcol_mostcommented_button
-###rightcol_mostpopular
-###rightcol_mostpopular_button
-##.right-most-popular-item
 ###right-rail-more-on
 ##.rss-promo
 ###secondary-content
 ###SecondaryContent
-! ##.seealso ! catches scipy docs
+##.seealso
 ###sidebar-top-posts
 ##.signup-prompt
 ##.SignupWallInline-overlay
@@ -874,8 +848,6 @@ _popupunder.$document
 /smartads.
 /smartchat-2.3.20.min.js
 ##.snp_dont_miss_container
-##.snp_most_popular
-###SocialWidget_popular
 ##.soft-block-overlay.window-overlay
 ##.space20
 ##.spacer-20
@@ -931,12 +903,10 @@ v*.zopim.com$script
 *website_chat_widget.asp
 /werbepopup/*$document
 ###whats-next
-##.widget_time_most_popular
 ###window_overlay
 /wp_actionpop/*$document
 /wp-popup-scheduler/*$document
 ##.wpp-post-hot
-##.wpp-post-popular
 ##.wpp-post-trending
 /wp-super-popup/*$document
 /wp-super-popup-pro/*$document
