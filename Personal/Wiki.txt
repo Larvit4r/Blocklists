@@ -1,10 +1,10 @@
+[Adblock Plus 2.0]
 ! Title: L4's Wiki Filter
 ! Expires: 30 days
-! Descriptioon: Very personalized filter for Fandom/Wikia, some Wikimedia (Wikipedia, etc.) domains, and also a bit of Bulbapedia. I don't need fancy layout distractions, I like it simple.
+! Version: 2020.05.23a
 ! Homepage: https://github.com/Larvit4r/Blocklists
 ! Issues: https://github.com/Larvit4r/Blocklists/issues
-! Version: 2020.03.14
-! Last Modified: Saturday, March 14, 2020
+! Descriptioon: Very personalized filter for Fandom/Wikia, some Wikimedia (Wikipedia, etc.) domains, and also a bit of Bulbapedia. I don't need fancy layout distractions, I like it simple.
 ! *** Fetched from: https://raw.githubusercontent.com/Larvit4r/Blocklists/master/Personal/Wiki.txt ***
 ! Sources include some Wikia filters, wide layout filters, etc. Will add links later.
 ! https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Dandelion Sprout's Website Stretcher.txt
@@ -52,6 +52,34 @@ fandom.com,wikia.com###WikiaPage:style(width:100% !important;max-width:none !imp
 fandom.com,wikia.com##.WikiaRail:style(display:block !important;column-count:2 !important;width:auto !important)
 fandom.com,wikia.com###WikiaRailWrapper
 fandom.com,wikia.com###WikiaTopAds
+fandom.com,wikia.org#?#a:link:style(cursor:pointer !important)
+knowyourmeme.com###comments
+knowyourmeme.com##.complex-ad-wrapper
+knowyourmeme.com##.c.pagination_bottom
+knowyourmeme.com##.entry_status
+knowyourmeme.com##.floating-fixed.floating-bar
+knowyourmeme.com###footer
+knowyourmeme.com##.pagination
+knowyourmeme.com###sub_network_footer_wrapper
+knowyourmeme.com##.video
+tvtropes.org###action-bar-top
+tvtropes.org##.atf_banner
+tvtropes.org###main-footer
+tvtropes.org##.square_ad
+tvtropes.org##.video-examples
+tvtropes.org##.watch-button
+urbandictionary.com##.ad-panel
+urbandictionary.com##.cc-banner
+urbandictionary.com###chart
+urbandictionary.com##.contributor
+urbandictionary.com##.copyright
+urbandictionary.com###dark_top
+urbandictionary.com##.def-footer
+urbandictionary.com##.dfp-panel
+urbandictionary.com##.mug-ad
+urbandictionary.com##.play-sound
+urbandictionary.com##.share
+urbandictionary.com##.show-for-large-up.columns.large-4 > div > div:nth-of-type(2)
 @@||wikia.nocookie.net^*/images/$image,badfilter
 wikibooks.org,wikipedia.org,wikiversity.org,wiktionary.org###footer
 wikibooks.org,wikipedia.org,wikiversity.org,wiktionary.org###frb-inline
