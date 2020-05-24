@@ -1,10 +1,10 @@
+[Adblock Plus 2.0]
 ! Title: L4's Trakt.TV Filter
 ! Expires: 30 days
-! Descriptioon: Just stuff that I don't care about on Trakt. I have a premium account so blocking ads is not included in this. Please support Trakt if you're a member! Feel free to use/edit but this is more on GitHub in case my HD dies.
+! Version: 2020.05.23a
 ! Homepage: https://github.com/Larvit4r/Blocklists
 ! Issues: https://github.com/Larvit4r/Blocklists/issues
-! Version: 2020.03.14
-! Last Modified: Saturday, March 14, 2020
+! Descriptioon: Just stuff that I don't care about on Trakt. I have a premium account so blocking ads is not included in this. Please support Trakt if you're a member! Feel free to use/edit but this is more on GitHub in case my HD dies.
 ! *** Fetched from: https://raw.githubusercontent.com/Larvit4r/Blocklists/master/Personal/Trakt.txt ***
 
 trakt.tv###actors
@@ -19,7 +19,7 @@ trakt.tv##footer
 trakt.tv###header-search
 trakt.tv##.left > .dropdown
 trakt.tv###main-search
-trakt.tv##.poster
+trakt.tv##.col-md-3 hidden-xs hidden-sm .poster
 trakt.tv##.progress-watched-hidden .poster
 trakt.tv##.reset
 trakt.tv###results-top-wrapper
