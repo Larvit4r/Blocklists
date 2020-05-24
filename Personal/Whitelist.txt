@@ -7,173 +7,179 @@
 ! Last Modified: Saturday, March 14, 2020
 ! *** Fetched from: https://raw.githubusercontent.com/Larvit4r/Blocklists/master/Personal/Whitelist.txt ***
 
-@@||1999.co.jp
-@@||about.me
-@@||ajax.googleapis.com
+@@||1999.co.jp^$all
+@@||about.me^$all
+@@||ajax.googleapis.com^$css,frame,script,xhr
 @@||alluc.*
-@@||alternativeto.net
-@@||ankiweb.*
-@@||archive.*
+@@||alternativeto.net^$all
+@@||ankiweb.*^$all
+@@||archive.*^$all
 ! @@||archives.gov
-@@||bakabt.*
-! @@||bandcamp.com
+@@||bakabt.*^$all
+@@||bandcamp.com^$all
 ! @@||beingfrugal.net
-@@||bit.ly
-! @@||bitly.com
-@@||boun.cr
-! @@||box.com
-@@||carrd.co
-@@||cdnjs.cloudflare.com
-! @@||*class101.com
-@@||cock.li
-@@||code.jquery.com
-@@||coursera.org
+@@||bit.ly^$script
+@@||bitly.com^$script
+@@||boun.cr^$all
+@@||box.com^$all
+@@||carrd.co^$all
+@@||cdn.cloudflare.net^$all
+@@||cdn.embedly.com^$all
+@@||cdnjs.cloudflare.com^$all
+@@|chrome-extension:^$all
+@@||*class101.com^$all
+@@||cock.li^$all
+@@||code.jquery.com^$all
+@@||coursera.org^$all
 ! @@||creativecommons.org
 @@||dailymotion.com
 ! @@||depositfiles.com
-@@||deviantart.*
-! @@||discordapp.com
-@@||discord.gg
-@@||disroot.org
-! @@||dropbox.com
-! @@||duolingo.com
-@@||ebay.com
-@@||edx.org
-@@||eff.org
-! @@||ehow.com
-@@||familysearch.org
-! @@||fandom.com
-! @@||fda.gov
-@@||feedburner.com
+@@||deviantart.*^$all
+@@||discordapp.com^$all
+@@||discord.gg^$all
+@@||disroot.org^$all
+@@||dl.dropboxusercontent.com^$all
+@@||dropbox.com^$all
+@@||duolingo.com^$all
+@@||ebay.com^$all
+@@||edx.org^$all
+@@||eff.org^$all
+@@||ehow.com
+@@||familysearch.org^$all
+@@||fandom.com^$css,script,image,xhr
+@@||fda.gov^$all
+@@||feedburner.com^$all
 @@||fmovies.*
-@@||fonts.googleapis.com
-@@||fonts.gtatic.com
-@@||freecycle.org
-@@||fsf.org
-@@||futurelearn.org
-@@||genomelink.io
-@@||ggpht.com
-@@||github.*
+@@||fonts.googleapis.com^$script
+@@||fonts.gtatic.com^$script
+@@||freecycle.org^$all
+@@||fsf.org^$all
+@@||futurelearn.org^$all
+@@||genomelink.io^$all
+@@||ggpht.com^$all
+@@||giphy.com^$css,frame,script,image
+@@||githubassets.com^$all
+@@||github.com^$all
+@@||github.io^$all
+@@||githubusercontent.com^$all
 @@||gnu.org
-! @@||googleapis.com/drive/*$domain=hydrax.net|playhydrax.com
-! @@||google.com/recaptcha/*$domain=9anime.to|9anime.ru|9anime.live|9anime.nl|9anime.one|9anime.love|9anime.life|9anime.tv|9anime.page|9anime.video|prettyfast.to
-@@||googleusercontent.com
-! @@||*.googleusercontent.com^$domain=hydrax.net|playhydrax.com|wcostream.com|kimcartoon.to
-@@||greasyfork.org
+@@||googleusercontent.com^$
+@@||greasyfork.org^$all
 ! @@||grove.co
-! @@||healthcare.gov
-! @@||howstuffworks.com
-! @@||hydrax.net^$elemhide
-! @@||iamcdn.net^$domain=hydrax.net|playhydrax.com
-! @@||iamcdn.net^*/ads.js$script,domain=hydrax.net|playhydrax.com
+@@||healthcare.gov^$all
+@@||howstuffworks.com^$script,image
 @@||imasdk.googleapis.com
-! @@||imgur.com
-@@||interpals.net
-@@||int.org
-! @@||invidio.us
-@@||ip-check.info
-! @@||jamendo.com
+@@||imgur.com^$image,css,script
+@@||interpals.net^$all
+@@||int.org^$all
+@@||invidio.us^$all
+@@||ip-check.info^$all
+@@||jamendo.com^$all
 @@||jquery.com^$script
-! @@||jsdelivr.net^$domain=hydrax.net|playhydrax.com
-@@||justdeleteme.xyz
-@@||khanacademy.org
-@@||kimcartoon.*
-! @@||kitsu.io
-@@||last.fm
-@@||libgen.*
+@@||jsdelivr.net^$script
+@@||justdeleteme.xyz^$all
+@@||jwpcdn.com^$script
+@@||khanacademy.org^$all
+@@||kimcartoon.*^$script,3p,image,xhr,css
+@@||kitsu.io^$all
+@@||last.fm^$all
+@@||lastfm-img2.akamaized.net^$image
+@@||libgen.*^$all
 ! @@||libreplanet.org
-@@||limetorrents.*
-! @@||lingua.ly
-@@||list-manage.com
+@@||limetorrents.*^$all
+! @@||lingua.ly^$all
+@@||list-manage.com^$script,css,xhr
 ! @@||mashable.com
-@@||mastodon.social
-@@||matrix.org
-! @@||mediafire.com
-@@||media.tumblr.*
-! @@||medicare.gov
-@@||mega.nz
-@@||miable.org
-@@||michigan.gov
-@@||mi.us
-@@||mp4upload.com/embed-*
-! @@||multi.idocdn.com^$domain=hydrax.net|playhydrax.com
-@@||musicmap.info
-! @@||mymedicare.gov
-! @@||myuofmhealth.org
-! @@||namecheap.com
-@@||neocities.org
-! @@||netvibes.com
-@@||nitter.*
-@@||ollies.us
-@@||openuserjs.org
-! @@||paypal.com
-! @@||petkey.org
-@@||photobucket.com
-@@||pinterest.com
-! @@||piperka.net
-! @@||playhydrax.com^$elemhide
-! @@||pm.me
-! @@||*pod101.com
-@@||postimg.org
-@@||premieredate.news
+@@||mastodon.social^$all
+@@||matrix.org^$all
+@@||mediafire.com^$all
+@@||media.tumblr.*^$image,script
+@@||medicare.gov^$all
+@@||mega.nz^$all
+@@||miable.org^$all
+@@||michigan.gov^$all
+@@||mi.us^$all
+@@||mp4upload.com/embed-*^$all
+@@||musicmap.info^$all
+@@||mymedicare.gov^$all
+@@||myuofmhealth.org^$all
+@@||namecheap.com^$all
+@@||neocities.org^$all
+@@||netvibes.com
+@@||nitter.*^$all
+@@||ollies.us^$all
+@@||openuserjs.org^$all
+! @@||paypal.com^$all
+! @@||petkey.org^$all
+@@||photobucket.com^$image
+@@||pinterest.com^$all
+@@||piperka.net^$all
+@@||plexapp.com^$all
+@@||plex.tv^$all
+@@||pm.me^$all
+@@||*pod101.com^$all
+@@||postimg.org^$image
+@@||premieredate.news^$all
 @@||primewire.*
-@@||privacytools.io
-@@||private.sh
+@@||privacytools.io^$all
+@@||private.sh^$all
 ! @@||projectwonderful.com
-! @@||psychologytoday.com
-@@||*publiclbrary.org
-! @@||quora.com
-! @@||rainn.org
-@@||rakuten.*
-! @@||rapidshare.com
+@@||psychologytoday.com^$all
+@@||*publiclbrary.org^$all
+@@||quora.com^$all
+@@||rakuten.*^$all
+@@||rapidshare.com^$all
 ! @@||raspberrypi.org
-@@||redd.it
-@@||riot.im
-@@||sampler.io
-@@||self.inc
-@@||slickdeals.net
+@@||redd.it^$css,frame,script,xhr,image,3p
+@@||reddit.com^$css,frame,script,xhr,image,3p
+@@||redditmedia.com^$image,media
+@@||redditstatic.com^$css,script,xhr
+@@||riot.im^$all
+@@|safari-extension:^$all
+@@||sampler.io^$all
+@@||self.inc^$all
+@@||slickdeals.net^$all
 ! @@||smarturl.it
-@@||smile.amazon.com
-@@||snopyta.org
-@@||socialsecurity.gov
-! @@||soundcloud.com
-! @@||spotify.com
-@@||ssa.gov
-! @@||stackoverflow.com
-@@||startpage.*
-@@||state.gov
-! @@||steamcommunity.com
-! @@||steampowered.com
-@@||stopdatamining.me
+@@||smile.amazon.com^$all
+@@||snopyta.org^$all
+@@||socialsecurity.gov^$all
+@@||soundcloud.com^$all
+@@||spotify.com
+@@||ssa.gov^$all
+@@||stackoverflow.com^$all
+@@||startpage.*^$all
+@@||state.gov^$all
+@@||steamcommunity.com^$all
+@@||steampowered.com^$all
+@@||stopdatamining.me^$all
 ! @@||surveymonkey.com
-@@||swatchseries.*
-@@||switter.at
-! @@||tapas.io
-! @@||target.com
-@@||tastebuds.fm
-@@||t.co
-! @@||techcrunch.com
-! @@||techradar.com
-@@||thatoneprivacysite.net
-! @@||time.com
-@@||torrentz2.*
-@@||tpb.*
-@@||trakt.tv
-! @@||urbandictionary.com
-! @@||vimeo.com
-! @@||vivaldi.*
+@@||swatchseries.*^$css,script,image
+@@||switter.at^$all
+@@||tapas.io
+@@||target.com^$all
+@@||tastebuds.fm^$all
+@@||t.co^$script
+@@||techcrunch.com^$css,image
+@@||techradar.com^$css,image
+@@||thatoneprivacysite.net^$all
+@@||time.com^$css,image
+@@||torrentz2.*^$all
+@@||tpb.*/*^$all
+@@||trakt.tv^$all
+@@||urbandictionary.com^$document
+@@||vimeo.com^$all
+@@||vivaldi.*/*^$all
 ! @@||webfoundation.org
-! @@||webmd.com
+@@||webmd.com^$css,image
 ! @@||who.int
 @@||wikia.com
-! @@||wikibooks.org
-! @@||wikihow.com
-! @@||wikimedia.org
-! @@||wikipedia.org
-! @@||wikiversity.org
-! @@||wiktionary.org
-@@||wordpress.*
-! @@||wp.com
-! @@||*.xyz/html/*$xhr,domain=hydrax.net|playhydrax.com
+@@||wikibooks.org^$css,image,3p
+@@||wikihow.com^$css,image
+@@||wikimedia.org^$css,image,3p
+@@||wikipedia.org^$css,image,3p
+@@||wikiversity.org^$css,image,3p
+@@||wiktionary.org^$css,image,3p
+@@||wordpress.com
+@@||wp.com
 @@||yesmovies.*
-@@||yewtu.be
+@@||yewtu.be^$all
