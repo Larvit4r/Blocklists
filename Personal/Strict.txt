@@ -1,32 +1,85 @@
+[Adblock Plus 2.0]
 ! Title: L4's Strict Filter
 ! Expires: 30 days
-! Descriptioon: WIP! Just random junk that I ganked from other filters, I hate having a bunch of custom filters for sites that I don't need so this is more customized for me! Feel free to use if you want but it's not very organized yet, add "@@||whitelistedurl.com" if this happens to catch something that you like.
+! Version: 2020.05.23a
 ! Homepage: https://github.com/Larvit4r/Blocklists
 ! Issues: https://github.com/Larvit4r/Blocklists/issues
-! Version: 2020.03.14b
-! Last Modified: Saturday, March 14, 2020
+! Descriptioon: WIP! Just random junk that I ganked from other filters, I hate having a bunch of custom filters for sites that I don't need so this is more customized for me! Feel free to use if you want but it's not very organized yet, add "@@||whitelistedurl.com" if this happens to catch something that you like.
 ! *** Fetched from: https://raw.githubusercontent.com/Larvit4r/Blocklists/master/Personal/Strict.txt ***
 ! Sources include 9Anime Filter List, AMP Hosts Extended, Generic Annoying Stickybar Filter, various anti-Google lists, etc. May add links later.
 ! https://raw.githubusercontent.com/kowith337/PersonalFilterListCollection/master/filterlist/other/SurvivedTrackingLinkWarning.txt
 ! https://raw.githubusercontent.com/endolith/clickbait/master/clickbait.txt
 
+$$link[rel="dns-prefetch"]
+$$link[rel="next"]
+$$link[rel="pingback"]
+$$link[rel="preconnect"]
+$$link[rel="prefetch"]
+$$link[rel="preload"]
+$$link[rel="prerender"]
+$$link[rel="prev"]
+$$link[rel="subresource"]
+||*$csp='block-all-mixed-content';
+||*$csp=block-all-mixed-content;
+||*$csp=prefetch-src 'none'
+||*$csp=script-src:'none';
+||*$csp='upgrade-insecure-requests';
+||*$csp=upgrade-insecure-requests;
+||*$css,3p
+! *$document,3p
+! *$elemhide,3p
+||*$font
+||*$frame,3p
+! *$genericblock,3p
+! *$ghide,3p
+! *$media
+||*$object
+||*$other
+||*$ping
+||*$popunder,3p
 ||*^$popup
-*$script,3p,domain=mp4upload.com
-*$script,redirect-rule=noopjs,domain=hydrax.net|playhydrax.com
+||*$popup,3p
+||*$script,3p
+||*$webrtc
+||*$websocket
+||*$xhr
+/120600.
+_120600.
+/160600/*
+/300250.
+/46860/*
+_46860.
+_46860_
+/72890-
+/72890.
+/72890/*
+/72890_
+_72890.
 ###active_discussions
 ###ad
 ##.ad
+###ad_1
+###ad_2
+###ad_3
+###ad_4
+###ad_5
+###ad_6
 ###ad-container
 ###ads
 ##.ads
 .*/ads.
 .*/ads/
 .*/ads?
+||*-ads.*
+##.ads-block-warning
+?AdUrl=$document
 .*/adv/
 *#?#a:link:style(cursor:pointer !important)
 [alt^="Post on"]
 [alt^="Post to"]
 [alt^="Share on"]
+||*&amp_*=*&usqp=*$document,important
+||*?amp_*=*&usqp=*$document,important
 ###around_the_web
 ##.article-body .post-search-results
 ##.article-container.locked:after
@@ -37,6 +90,8 @@
 ###article-promo-digital
 ##.article-trending
 ##.b_ad
+?bannerid=*&punder=$document
+*beacon*
 ###big-stories
 ##.bk-mostpop
 ##.blackout
@@ -51,7 +106,9 @@ buzzfeed.com##.related-links-full
 buzzfeed.com##.sidebar_featured_unit
 ##.bw_most_popular_news
 ##.card.stopsign__article.stopsign:before
+*/chatbot/*
 /chat*idget*.js
+*chatjs*
 ##[class*="actionbar"]
 ##[class*="-ad"]
 ##[class*="adbox"]
@@ -139,6 +196,8 @@ cracked.com###Recommended
 *cursor_hover.$image
 /CustomCursor*$image
 ##.discovery-posts
+||*#?#div:-abp-contains(dvertis)
+||*#?#div:-abp-contains(romoted)
 ##div[class*="action"]:style(position: static!important)
 ##div[class*="app"]:style(position: static!important)
 ##div[class*="banner"]:style(position: static!important)
@@ -506,6 +565,12 @@ cracked.com###Recommended
 ##DIV#mostPopWidget
 ##DIV.snp_most_popular
 ##DIV.snp_most_popular_entry
+*##div[style^="width: 100%;"][style$="display: block;"] iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
+*##div[style^="width: 100%;"][style$="margin: 0px;"] iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
+*##div[style^="width: 100%;"][style$="opacity: 100;"] iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
+*##div[style^="width: 100%;"][style$="overflow: hidden;"] iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
+*##div[style^="width: 100%;"][style$="visibility: visible;"] iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
+*##div[style^="width: 100%;"][style$="z-index: inherit;"] iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##DIV#threeup_top_wrapper
 ##DIV#top_blog_links
 ##.dontmiss.widget
@@ -513,16 +578,21 @@ cracked.com###Recommended
 ###editorpick
 */facebookchat.js
 ##.faded-article-content:after
+||*&fbclid$document,important
+||*?fbclid$document,important
 ##.featured-content
 ##.featuredpost
 ###featured_posts-2
 ##.featured-videos-widget
 ##.featured-video__wrapper
 ##.featurePromo
+/FeedbackLinkModule.js
 ###foot
 ###footer-partner-feeds
 ##.g1-related-entries
 ##.gab_relateditem
+||*&gclid$document,important
+||*?gclid$document,important
 /getads.
 /get_midroll_
 *GetOnlineChatUrl*
@@ -534,6 +604,9 @@ cracked.com###Recommended
 ###hot-network-questions
 ###hot-today
 ##[href*="emailsignup"]
+http://*^$3p,all
+http://*$all
+https://*$3p,script,frame,domain=~gov|~int|~edu|~mil|~org|~us|~com|~net|~io|~uk|~ca|~nz|~au|~mx|~info|~eu
 hydrax.net,playhydrax.com##+js(aopr, AaDetector)
 hydrax.net,playhydrax.com##+js(nostif, debugger)
 ##[id*="actionbar"]
@@ -613,13 +686,16 @@ hydrax.net,playhydrax.com##+js(nostif, debugger)
 ! ##[id*="zpopup_"]
 ! ##[id*="zPopUp"]
 ##iframe[src*="mellowads"]
+?iiadext=$document
 /images/*/Cursor*
 /images/Cursor-
 /images/Cursor.
 /images/*/Mouse.png
 /images/pointer.
+##img[src*="/ads_"]
 ##.in-case-you-missed
 ##.iv-promo
+#@#+js()
 ##+js(acis, Math, zfgloaded)
 ##+js(aopr, AaDetector)
 #?#.js-dismissable-hero:-abp-contains(Sign up)
@@ -690,6 +766,7 @@ makeuseof.com##.popular-post
 ###most-watched-videos
 ###most-watched-videos-wrapper
 /Mousehover.$image
+/movoto.min.js
 mp4upload.com##+js(acis, decodeURI, decodeURIComponent)
 mp4upload.com##+js(addEventListener-defuser.js, contextmenu)
 mp4upload.com##+js(aeld, /^(?:click|mousedown|mousemove|touchstart|touchend|touchmove)$/, system.popunder)
@@ -722,26 +799,46 @@ mp4upload.com##.vjs-logo
 ###partner_stories
 #?##paywall:style(top: 250px !important)
 ##p:empty
+! ##.pframe:has([href^="javascript: void(0);"])
 *##p:has-text(/^ $/):not(:has-text(/\S/)):not(:has(img))
 *##p:has-text(/^\xA0$/):not(:has-text(/\S/)):not(:has(img))
 *##p:has-text(/^\xA0\xA0$/):not(:has-text(/\S/)):not(:has(span))
 */phplive
 /ping.gif?
 ##p:-moz-only-whitespace
+_pop_ad.$document
+_pop_ad/$document
+?PopAd=$document
+||popads.net^$all
 ##.popstoryList
 ##.popular-now-well
 ##.popular-photo-ra
 ##.popular-posts-widget
 ##.popular-stories
 ##.popular.widget
+=popunder&$document
+_pop_under.$document
+_popunder&$document
+_popunder+$document
+_popunder.$document
+_popunder_$document
+=popunders&$document
+?popupiniframe=$document
+?popup:msp_$document
+_popupunder.$document
 ###post-most-rr
 ###post-recommends
 ##.postrecommends
 ###postREMLargePromos
 ##.post-search-results__slant
 ##.posts-related
+/promo.php?$popup,third-party
 ###promotionModuleContainer
+/provely-2.0.js
 ###public-mask-login
+*/push/*
+||/qualified.js
+*qualtrics*
 ###rc-row-container
 #?#.ReactModal__Overlay:-abp-has(video[src$="/bloom2.mp4"])
 ###recent_popular
@@ -775,6 +872,7 @@ mp4upload.com##.vjs-logo
 ###sky-center
 ###sky-right
 /smartads.
+/smartchat-2.3.20.min.js
 ##.snp_dont_miss_container
 ##.snp_most_popular
 ###SocialWidget_popular
@@ -786,11 +884,15 @@ mp4upload.com##.vjs-logo
 ##[src*="/offer"]
 ###stories-infinite
 ##.story-box-news-politics
+/streamatepop.$document
 ||styles.redditmedia.com/*/styles/image_widget_hosy*.png$image
 ##.subbuzzpromo
+###subscription-gate
 /subscription.js
 ##.supplemental-items
 /svg/arrow-home*
+/sw.js
+||tars-file-upload.s3.amazonaws.com/bulb/js/widget.js
 ##.topic-promo
 ###top_stories
 ##.top_stories
@@ -804,6 +906,14 @@ mp4upload.com##.vjs-logo
 ###trending_1
 ##.trending-posts-feed
 ##TR.relatedTopics
+?type=oas_pop&$document
+/upload/ad/*
+/upwigloader.js
+||*&utm_*=$document,important
+||*?utm_*=$document,important
+^utm_medium=pops^$document
+^utm_medium=popunder^$document
+/VHDpoppingModels/*$document
 /videojs-contrib-ads.js
 ###video-masthead
 ###videos_1
@@ -819,13 +929,23 @@ v*.zopim.com$script
 ##.wds-global-navigation__links
 #?#.wds-global-navigation__logo:style(pointer-events:none !important;cursor:default !important)
 *website_chat_widget.asp
+/werbepopup/*$document
 ###whats-next
 ##.widget_time_most_popular
 ###window_overlay
+/wp_actionpop/*$document
+/wp-popup-scheduler/*$document
 ##.wpp-post-hot
 ##.wpp-post-popular
 ##.wpp-post-trending
+/wp-super-popup/*$document
+/wp-super-popup-pro/*$document
+/xfbml.customerchat.js
 ##.yap-loaded
+||*&yclid$document,important
+||*?yclid$document,important
+/yesbaby.$document
 ##ytd-popup-container > .ytd-popup-container > #contentWrapper > .ytd-popup-container[position-type="OPEN_POPUP_POSITION_BOTTOMLEFT"]
 ##.ytd-search-pyv-renderer
 ##.ytp-ad-progress-list
+?zoneid=*_bannerid=$document
