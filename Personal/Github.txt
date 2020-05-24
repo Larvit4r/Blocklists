@@ -1,10 +1,10 @@
+[Adblock Plus 2.0]
 ! Title: L4's Github Filter
 ! Expires: 30 days
-! Descriptioon: Very personalized filter for Github.
+! Version: 2020.05.23a
 ! Homepage: https://github.com/Larvit4r/Blocklists
 ! Issues: https://github.com/Larvit4r/Blocklists/issues
-! Version: 2020.03.14
-! Last Modified: Saturday, March 14, 2020
+! Descriptioon: Very personalized filter for Github.
 ! *** Fetched from: https://raw.githubusercontent.com/Larvit4r/Blocklists/master/Personal/Github.txt ***
 ! Sources include some wide layout filters, etc. Will add links later.
 ! https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Dandelion Sprout's Website Stretcher.txt
@@ -50,3 +50,4 @@ github.com##.timeline-new-comment:style(max-width: none !important)
 github.com##.u-photo .avatar:style(width: 230px !important)
 github.com##.with-full-navigation > .repository-sidebar:style(margin-right: -190px !important)
 github.com##.with-full-navigation:style(padding-right: 190px !important)
+github.com##.footer
