@@ -1,13 +1,13 @@
+[Adblock Plus 2.0]
 ! Title: L4's TLD Blacklist
 ! Expires: 30 days
-! Descriptioon: Hate dealing with certain TLDS like .info or .xyz? Well, now you can easily block them until you find any sites to whitelist! To whitelist a TLD, add an exclamation point or delete the line entirely. If you want to whitelist a domain, use "@@||domainhere.xyz", it's just that simple!
+! Version: 2020.05.23a
 ! Homepage: https://github.com/Larvit4r/Blocklists
 ! Issues: https://github.com/Larvit4r/Blocklists/issues
-! Version: 2020.03.14b
-! Last Modified: Saturday, March 14, 2020
+! Descriptioon: Hate dealing with certain TLDS like .info or .xyz? Well, now you can easily block them until you find any sites to whitelist! To whitelist a TLD, add an exclamation point or delete the line entirely. If you want to whitelist a domain, use "@@||domainhere.xyz", it's just that simple!
 ! *** Fetched from: https://raw.githubusercontent.com/Larvit4r/Blocklists/master/Personal/TLD-Blacklist.txt ***
 
-! Note: This is the version that I personally use, just an FYI! .co, .com, .edu, .gov, .io, .jp, .net, org, and .us are currently whitelisted.
+! Note: This is the version that I personally use, just an FYI! .com, .edu, .gov, .io, .net, org, and .us are currently whitelisted.
 ! Not that I mind if you use it, but you might prefer to personalize your own. :)
 
 ||*.aaa
@@ -276,7 +276,7 @@
 ||*.clubmed
 ||*.cm
 ||*.cn
-! ||*.co
+||*.co
 ||*.coach
 ||*.codes
 ||*.coffee
@@ -660,7 +660,7 @@
 ||*.joburg
 ||*.jot
 ||*.joy
-! ||*.jp
+||*.jp
 ||*.jpmorgan
 ||*.jprs
 ||*.juegos
