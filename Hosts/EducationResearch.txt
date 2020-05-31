@@ -1,0 +1,50 @@
+#00000 Please note that this file is US-centric and only tested on a Linux computer. Certain operating systems may require an entry like "::1 localhost.localdomain localhost my-ipv6-addr" be separated into "::1 localhost", "::1 my-ipv6-addr", etc.
+#00000 Any entries with a "#not-all-verified" comment may not work for certain listed domains because I haven't personally tested them. Let me know if any don't work and I'll fix them as soon as I can. Any at the end with a "#z" comment are ones that I haven't done yet but I'm aware of them.
+#00000
+#00000 To be added: Ancestry, CodeSchool, Coursera, Duolingo, edX, eHow, Fandom/Wikia, FutureLearn, GEDmatch, Hoopla, Khan Academy, Know Your Meme, LingQ, Lingua.ly, Mango Languages, Memrise, Mondly Languages, Omniglot, RationalWiki, SpanishPod101 and friends, TV Tropes, Udemy, Wikihow, Wikitree
+
+18.204.160.3 duolingo-achievements-prod.duolingo.com
+18.204.192.235 duolingo-leaderboards-prod.duolingo.com
+18.205.229.133 duolingo-achievements-prod.duolingo.com
+192.0.66.2 wikimediafoundation.org www.wikimediafoundation.org #not-all-verified
+198.35.26.96 bits-lb.eqiad.wikimedia.org bits-lb.ulsfo.wikimedia.org bits.wikimedia.org blog.wikimedia.org commons.wikimedia.org dataset2.wikimedia.org download.wikimedia.org dumps.wikimedia.org en.planet.wikimedia.org ganglia.wikimedia.org home.wikimedia.org #not-all-verified
+198.35.26.96 download.wikipedia.org en.m.wikipedia.org en.wikipedia.org m.wikipedia.org simple.wikipedia.org static.wikipedia.org wikipedia.org www.wikipedia.org #not-all-verified
+198.35.26.96 en.m.wikibooks.org en.wikibooks.org m.wikibooks.org simple.wikibooks.org wikibooks.org www.wikibooks.org #not-all-verified
+198.35.26.96 en.m.wikimedia.org en.wikimedia.org m.wikimedia.org simple.wikimedia.org wikimedia.org www.wikimedia.org #not-all-verified
+198.35.26.96 en.m.wikiversity.org en.wikiversity.org m.wikiversity.org simple.wikiversity.org eta.wikiversity.org wikiversity.org www.wikiversity.org #not-all-verified
+198.35.26.96 en.m.wiktionary.org en.wiktionary.org m.wiktionary.org simple.wiktionary.org wiktionary.org www.wiktionary.org #not-all-verified
+198.35.26.96 incubator.wikimedia.org ipv6and4.labs.wikimedia.org lists.wikimedia.org login.wikimedia.org mayflower.esams.wikimedia.org mediawiki-lb.eqiad.wikimedia.org mediawiki-lb.esams.wikimedia.org mediawiki-lb.pmtpa.wikimedia.org mediawiki-lb.wikimedia.org meta.wikimedia.org mobile-lb.eqiad.wikimedia.org #not-all-verified
+198.35.26.96 mediawiki.org www.mediawiki.org #not-all-verified
+198.35.26.96 mobile-lb.ulsfo.wikimedia.org noc.wikimedia.org secure.wikimedia.org species.wikimedia.org svn.wikimedia.org text-lb.eqiad.wikimedia.org text-lb.ulsfo.wikimedia.org upload-lb.eqiad.wikimedia.org upload-lb.ulsfo.wikimedia.org upload.wikimedia.org wikibooks-lb.eqiad.wikimedia.org #not-all-verified
+198.35.26.96 wikibooks-lb.esams.wikimedia.org wikibooks-lb.pmtpa.wikimedia.org wikibooks-lb.wikimedia.org wikimedia-lb.eqiad.wikimedia.org wikimedia-lb.esams.wikimedia.org wikimedia-lb.pmtpa.wikimedia.org wikimedia-lb.wikimedia.org wikipedia-lb.eqiad.wikimedia.org wikipedia-lb.esams.wikimedia.org wikipedia-lb.pmtpa.wikimedia.org wikipedia-lb.wikimedia.org #not-all-verified
+198.35.26.96 wikiversity-lb.eqiad.wikimedia.org wikiversity-lb.esams.wikimedia.org wikiversity-lb.pmtpa.wikimedia.org wikiversity-lb.wikimedia.org wiktionary-lb.eqiad.wikimedia.org wiktionary-lb.esams.wikimedia.org wiktionary-lb.pmtpa.wikimedia.org wiktionary-lb.wikimedia.org zirconium.wikimedia.org #not-all-verified
+2620::863:ed1a:0:0:0:1 bits-lb.eqiad.wikimedia.org bits-lb.ulsfo.wikimedia.org bits.wikimedia.org blog.wikimedia.org commons.wikimedia.org dataset2.wikimedia.org download.wikimedia.org dumps.wikimedia.org en.planet.wikimedia.org ganglia.wikimedia.org home.wikimedia.org #not-all-verified
+2620::863:ed1a:0:0:0:1 download.wikipedia.org en.m.wikipedia.org en.wikipedia.org m.wikipedia.org simple.wikipedia.org static.wikipedia.org wikipedia.org www.wikipedia.org #not-all-verified
+2620::863:ed1a:0:0:0:1 en.m.wikibooks.org en.wikibooks.org m.wikibooks.org simple.wikibooks.org wikibooks.org www.wikibooks.org #not-all-verified
+2620::863:ed1a:0:0:0:1 en.m.wikimedia.org en.wikimedia.org m.wikimedia.org simple.wikimedia.org wikimedia.org www.wikimedia.org #not-all-verified
+2620::863:ed1a:0:0:0:1 en.m.wikiversity.org en.wikiversity.org m.wikiversity.org simple.wikiversity.org eta.wikiversity.org wikiversity.org www.wikiversity.org #not-all-verified
+2620::863:ed1a:0:0:0:1 en.m.wiktionary.org en.wiktionary.org m.wiktionary.org simple.wiktionary.org wiktionary.org www.wiktionary.org #not-all-verified
+2620::863:ed1a:0:0:0:1 incubator.wikimedia.org ipv6and4.labs.wikimedia.org lists.wikimedia.org login.wikimedia.org mayflower.esams.wikimedia.org mediawiki-lb.eqiad.wikimedia.org mediawiki-lb.esams.wikimedia.org mediawiki-lb.pmtpa.wikimedia.org mediawiki-lb.wikimedia.org meta.wikimedia.org mobile-lb.eqiad.wikimedia.org #not-all-verified
+2620::863:ed1a:0:0:0:1 mediawiki.org www.mediawiki.org #not-all-verified
+2620::863:ed1a:0:0:0:1 mobile-lb.ulsfo.wikimedia.org noc.wikimedia.org secure.wikimedia.org species.wikimedia.org svn.wikimedia.org text-lb.eqiad.wikimedia.org text-lb.ulsfo.wikimedia.org upload-lb.eqiad.wikimedia.org upload-lb.ulsfo.wikimedia.org upload.wikimedia.org wikibooks-lb.eqiad.wikimedia.org #not-all-verified
+2620::863:ed1a:0:0:0:1 wikibooks-lb.esams.wikimedia.org wikibooks-lb.pmtpa.wikimedia.org wikibooks-lb.wikimedia.org wikimedia-lb.eqiad.wikimedia.org wikimedia-lb.esams.wikimedia.org wikimedia-lb.pmtpa.wikimedia.org wikimedia-lb.wikimedia.org wikipedia-lb.eqiad.wikimedia.org wikipedia-lb.esams.wikimedia.org wikipedia-lb.pmtpa.wikimedia.org wikipedia-lb.wikimedia.org #not-all-verified
+2620::863:ed1a:0:0:0:1 wikiversity-lb.eqiad.wikimedia.org wikiversity-lb.esams.wikimedia.org wikiversity-lb.pmtpa.wikimedia.org wikiversity-lb.wikimedia.org wiktionary-lb.eqiad.wikimedia.org wiktionary-lb.esams.wikimedia.org wiktionary-lb.pmtpa.wikimedia.org wiktionary-lb.wikimedia.org zirconium.wikimedia.org #not-all-verified
+3.232.25.67 duolingo-leaderboards-prod.duolingo.com
+34.196.52.8 duolingo-achievements-prod.duolingo.com
+34.199.247.120 duolingo.com events.duolingo.com excess.duolingo.com forum.duolingo.com podcast.duolingo.com schools.duolingo.com stories.duolingo.com www.duolingo.com
+52.201.100.33 duolingo.com events.duolingo.com excess.duolingo.com forum.duolingo.com podcast.duolingo.com schools.duolingo.com stories.duolingo.com www.duolingo.com
+52.203.121.79 duolingo.com events.duolingo.com excess.duolingo.com forum.duolingo.com podcast.duolingo.com schools.duolingo.com stories.duolingo.com www.duolingo.com
+52.73.158.170 duolingo.com events.duolingo.com excess.duolingo.com forum.duolingo.com podcast.duolingo.com schools.duolingo.com stories.duolingo.com www.duolingo.com
+54.156.185.212 duolingo.com events.duolingo.com excess.duolingo.com forum.duolingo.com podcast.duolingo.com schools.duolingo.com stories.duolingo.com www.duolingo.com
+54.164.123.73 duolingo.com events.duolingo.com excess.duolingo.com forum.duolingo.com podcast.duolingo.com schools.duolingo.com stories.duolingo.com www.duolingo.com
+54.165.40.136 duolingo.com events.duolingo.com excess.duolingo.com forum.duolingo.com podcast.duolingo.com schools.duolingo.com stories.duolingo.com www.duolingo.com 
+54.175.249.78 duolingo.com events.duolingo.com excess.duolingo.com forum.duolingo.com podcast.duolingo.com schools.duolingo.com stories.duolingo.com www.duolingo.com
+54.88.244.80 duolingo-leaderboards-prod.duolingo.com
+54.89.23.229 duolingo.com events.duolingo.com excess.duolingo.com forum.duolingo.com podcast.duolingo.com schools.duolingo.com stories.duolingo.com www.duolingo.com
+#z d1btvuu4dwu627.cloudfront.net #duolingo
+#z d1vq87e9lcf771.cloudfront.net #duolingo
+#z d2pur3iezf4d1j.cloudfront.net #duolingo
+#z d35aaqx5ub95lt.cloudfront.net #duolingo
+#z d3kwyfyztuo0xs.cloudfront.net #duolingo
+#z duolingo-images.s3.amazonaws.com #duolingo
+#z s3.amazonaws.com #duolingo
