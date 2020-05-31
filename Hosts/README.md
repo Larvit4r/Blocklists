@@ -15,18 +15,18 @@ If you want to link to any of these, you can call them "L4's Anti-___ Hosts".
 * 4Personal: This is just my own personal hosts file as a backup. Note that I use different 0.0.0.X variants to sort by company/corp for easy editing/viewing.
 * Amazon: ... (Alexa, Audible, GoodReads, IMDB, Prime, Twitch, Whole Foods)
 * Apple: ... (Beats, iOS, iPod, Mac, Shazam, Siri)
-* Automatic: ... (Gravatar, Tumblr, Wordpress)
+* Automatic: Gravatar, Tumblr, Wordpress
 * CloudFlare: (Get link to that one list, I don't need to make one)
 * Facebook: Calibra (Libra), Express Wi-fi, FBCDN, FB.com, FBSBX, FreeBasics, GIPHY, Instagram, Internet.org, Messenger, TFBNW.net, WhatsApp
-* Google: YouTube...
+* Google: Google Sites, Google User Content, YouTube... (Make a better list here)
 * LinkedIn: ...
 * Microsoft: ...
 * Mozilla: ... (Firefox, Pocket, Thunderbird)
 * MySpace: (Get link to that one list, I don't need to make one)
 * Pinterest: ...
 * Reddit: ...
-* Twitter: ...
-* Verizon: ... (AOL, Huffington Post, TechCrunch, Yahoo)
+* Twitter: T.co (URL shortener), TweetDeck, TWimg, TwitPic, Twitter Ads
+* Verizon: Yahoo... (AOL, Huffington Post, TechCrunch)
 * Walmart: ... (Flipkart, Jet, Sam's Club, Vudu)
 
 # To-Do List (Maybe)
