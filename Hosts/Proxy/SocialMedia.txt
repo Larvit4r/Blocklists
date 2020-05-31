@@ -1,0 +1,57 @@
+#00000 Currently only contains some Reddit and Pinterest domains since I don't use Facebook, Twitter, etc.
+#00000 Please note that this file is US-centric and only tested on a Linux computer. Certain operating systems may require an entry like "::1 localhost.localdomain localhost my-ipv6-addr" be separated into "::1 localhost", "::1 my-ipv6-addr", etc.
+#00000 This hosts file includes entries for site blocking (such as social media ad garbage), proxy/redirecting for going to the correct site, along with general ones for "127.0.0.1", "127.0.1.1", and "::1". Feel free to delete or add "#" in front of entries that disrupt your browsing experience, as I personally am very block-happy and sometimes block ones that I don't need. Don't assume that everything blocked with 0.0.0.0 is malicious.
+#00000 Any entries with a "#not-all-verified" comment may not work for certain listed domains because I haven't personally tested them. Let me know if any don't work and I'll fix them as soon as I can. Any at the end with a "#z" comment are ones that I haven't done yet but I'm aware of them.
+#00000
+#00000 To be added: Couchsurfing, deviantART, Diaspora, Discord, Interpals, Kitsu, Last.FM, Mastodon.social, MyAnimeList?, Steam?, Tumblr. Suggestions always welcome.
+0.0.0.0 about.pinterest.com
+0.0.0.0 ads.pinterest.com
+0.0.0.0 blog.pinterest.com
+0.0.0.0 br.pinterest.com
+0.0.0.0 business.pinterest.com
+0.0.0.0 canary.pinterest.com
+0.0.0.0 ct.pinterest.com
+0.0.0.0 developers.pinterest.com
+0.0.0.0 dualstack.pinterest.map.fastly.net
+0.0.0.0 engineering.pinterest.com
+0.0.0.0 fr.pinterest.com
+0.0.0.0 help.pinterest.com
+0.0.0.0 id.pinterest.com
+0.0.0.0 i-h1.pinimg.com
+0.0.0.0 log.pinterest.com
+0.0.0.0 prod.pinterest.global.map.fastly.net
+0.0.0.0 trk.pinterest.com
+0.0.0.0 uk.pinterest.com
+0.0.0.0 widgets.pinterest.com
+0.0.0.0 www.pinterest.ch
+0.0.0.0 www.pinterest.com.au
+0.0.0.0 www.pinterest.fr
+151.101.0.84 api.pinterest.com blog.pinterest.com i.pinimg.com media-cache-ec0.pinterest.com m.pinterest.com passets-cdn.pinterest.com pinterest.com s.pinimg.com v.pinimg.com www.pinterest.com www.pinterest.com.gslb.pinterest.com #not-all-verified
+151.101.1.140 2fold.reddit.com api.reddit.com auth.reddit.com beta.reddit.com buttons.reddit.com cdn.reddit.com chat.reddit.com code.reddit.com dreams.reddit.com #not-all-verified
+151.101.1.140 edgebucket.reddit.com e.reddit.com gateway.reddit.com habs.reddit.com h.reddit.com initref.reddit.com i.reddit.com loid.reddit.com meta-api.reddit.com #not-all-verified
+151.101.1.140 external-preview.redd.it i.redd.it redd.it s.reddit.com v.redd.it www.redd.it #not-all-verified
+151.101.1.140 m.reddit.com news.reddit.com oauth.reddit.com old.reddit.com origin.reddit.com rabt.reddit.com rseor3.reddit.com sendbird.reddit.com srs.reddit.com #not-all-verified
+151.101.1.140 ssl.reddit.com static.reddit.com strapi.reddit.com thumbs.reddit.com token.reddit.com v2.reddit.com #not-all-verified
+151.101.128.84 api.pinterest.com blog.pinterest.com i.pinimg.com media-cache-ec0.pinterest.com m.pinterest.com passets-cdn.pinterest.com pinterest.com s.pinimg.com v.pinimg.com www.pinterest.com www.pinterest.com.gslb.pinterest.com #not-all-verified
+151.101.129.140 2fold.reddit.com api.reddit.com auth.reddit.com beta.reddit.com buttons.reddit.com cdn.reddit.com chat.reddit.com code.reddit.com dreams.reddit.com #not-all-verified
+151.101.129.140 edgebucket.reddit.com e.reddit.com gateway.reddit.com habs.reddit.com h.reddit.com initref.reddit.com i.reddit.com loid.reddit.com meta-api.reddit.com #not-all-verified
+151.101.129.140 external-preview.redd.it i.redd.it redd.it s.reddit.com v.redd.it www.redd.it #not-all-verified
+151.101.129.140 m.reddit.com news.reddit.com oauth.reddit.com old.reddit.com origin.reddit.com rabt.reddit.com rseor3.reddit.com sendbird.reddit.com srs.reddit.com #not-all-verified
+151.101.129.140 ssl.reddit.com static.reddit.com strapi.reddit.com thumbs.reddit.com token.reddit.com v2.reddit.com #not-all-verified
+151.101.192.84 api.pinterest.com blog.pinterest.com i.pinimg.com media-cache-ec0.pinterest.com m.pinterest.com passets-cdn.pinterest.com pinterest.com s.pinimg.com v.pinimg.com www.pinterest.com www.pinterest.com.gslb.pinterest.com #not-all-verified
+151.101.193.140 2fold.reddit.com api.reddit.com auth.reddit.com beta.reddit.com buttons.reddit.com cdn.reddit.com chat.reddit.com code.reddit.com dreams.reddit.com #not-all-verified
+151.101.193.140 edgebucket.reddit.com e.reddit.com gateway.reddit.com habs.reddit.com h.reddit.com initref.reddit.com i.reddit.com loid.reddit.com meta-api.reddit.com #not-all-verified
+151.101.193.140 external-preview.redd.it i.redd.it redd.it s.reddit.com v.redd.it www.redd.it  #not-all-verified
+151.101.193.140 m.reddit.com news.reddit.com oauth.reddit.com old.reddit.com origin.reddit.com rabt.reddit.com rseor3.reddit.com sendbird.reddit.com srs.reddit.com #not-all-verified
+151.101.193.140 ssl.reddit.com static.reddit.com strapi.reddit.com thumbs.reddit.com token.reddit.com v2.reddit.com #not-all-verified
+151.101.64.84 api.pinterest.com blog.pinterest.com i.pinimg.com media-cache-ec0.pinterest.com m.pinterest.com passets-cdn.pinterest.com pinterest.com s.pinimg.com v.pinimg.com www.pinterest.com www.pinterest.com.gslb.pinterest.com #not-all-verified
+151.101.65.140 2fold.reddit.com api.reddit.com auth.reddit.com beta.reddit.com buttons.reddit.com cdn.reddit.com chat.reddit.com code.reddit.com dreams.reddit.com #not-all-verified
+151.101.65.140 edgebucket.reddit.com e.reddit.com gateway.reddit.com habs.reddit.com h.reddit.com initref.reddit.com i.reddit.com loid.reddit.com meta-api.reddit.com #not-all-verified
+151.101.65.140 external-preview.redd.it i.redd.it redd.it s.reddit.com v.redd.it www.redd.it #not-all-verified
+151.101.65.140 m.reddit.com news.reddit.com oauth.reddit.com old.reddit.com origin.reddit.com rabt.reddit.com rseor3.reddit.com sendbird.reddit.com srs.reddit.com #not-all-verified
+151.101.65.140 ssl.reddit.com static.reddit.com strapi.reddit.com thumbs.reddit.com token.reddit.com v2.reddit.com #not-all-verified
+23.213.176.161 v.pinimg.com.gslb.pinterest.com
+23.3.84.234 s-passets.pinimg.com s-pinimg-com.gslb.pinterest.com s.pinimg.com.gslb.pinterest.com #not-all-verified
+3.215.169.224 a.thumbs.redditmedia.com b.thumbs.redditmedia.com c.thumbs.redditmedia.com d.thumbs.redditmedia.com embed.redditmedia.com emoji.redditmedia.com e.thumbs.redditmedia.com #not-all-verified
+3.215.169.224 f.thumbs.redditmedia.com g.redditmedia.com i.redditmedia.com redditmedia.com s.redditmedia.com styles.redditmedia.com www.redditmedia.com #not-all-verified
+#z WIP.
