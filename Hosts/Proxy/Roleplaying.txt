@@ -1,0 +1,19 @@
+#00000 This goes out to my friends who do the pretendy fun-times online, even the ones who do weird tree stuff.
+#00000 Please note that this file is US-centric and only tested on a Linux computer. Certain operating systems may require an entry like "::1 localhost.localdomain localhost my-ipv6-addr" be separated into "::1 localhost", "::1 my-ipv6-addr", etc.
+#00000 Any entries with a "#not-all-verified" comment may not work for certain listed domains because I haven't personally tested them. Let me know if any don't work and I'll fix them as soon as I can. Any at the end with a "#z" comment are ones that I haven't done yet but I'm aware of them.
+#00000
+#00000 To be added: Tumblr maybe? Suggestions always welcome.
+0.0.0.0 ads.dragonfru.it dragonfru.it www.dragonfru.it #f-list ads
+104.17.69.3 plurk.com www.plurk.com #not-all-verified
+104.17.70.3 plurk.com www.plurk.com #not-all-verified
+104.22.0.168 dreamwidth.org www.dreamwidth.org
+104.22.1.168 dreamwidth.org www.dreamwidth.org
+104.26.4.237 f-list.net static.f-list.net www.f-list.net #not-all-verified
+104.26.5.237 f-list.net static.f-list.net www.f-list.net #not-all-verified
+2606:4700:10::6816:1a8 dreamwidth.org www.dreamwidth.org
+2606:4700:10::6816:a8 dreamwidth.org www.dreamwidth.org
+2606:4700:20::681a:4ed f-list.net static.f-list.net www.f-list.net #not-all-verified
+2606:4700:20::681a:5ed f-list.net static.f-list.net www.f-list.net #not-all-verified
+2606:4700::6811:4503 plurk.com www.plurk.com #not-all-verified
+2606:4700::6811:4603 plurk.com www.plurk.com #not-all-verified
+#z Grab other Plurk domains!
