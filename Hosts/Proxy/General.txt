@@ -1,0 +1,21 @@
+#00000 These either affect your computer's security (::1, 225, and the f* ones) or will likely be used across the internet.
+#00000 Make sure to change "name-of-your-device-here" to your device's user name, a dash (-), plus the device name. For example, if the user is "john" and the device is "x419" then you would use "john-x419". This may differ on non-Linux operating systems.
+#00000 Please note that this file is US-centric and only tested on a Linux computer. Certain operating systems may require an entry like "::1 localhost.localdomain localhost my-ipv6-addr" be separated into "::1 localhost", "::1 my-ipv6-addr", etc.
+#00000 Any entries with a "#not-all-verified" comment may not work for certain listed domains because I haven't personally tested them. Let me know if any don't work and I'll fix them as soon as I can. Any at the end with a "#z" comment are ones that I haven't done yet but I'm aware of them.
+#00000
+#00000 To be added: Other JS domains like bootstrapcdn.com
+104.16.85.20 cdn.jsdelivr.net #not-all-verified
+104.16.86.20 cdn.jsdelivr.net #not-all-verified
+104.16.87.20 cdn.jsdelivr.net #not-all-verified
+104.16.88.20 cdn.jsdelivr.net #not-all-verified
+104.16.89.20 cdn.jsdelivr.net #not-all-verified
+::1 name-of-your-device-here ip6-localhost ip6-loopback localhost.localdomain localhost my-ipv6-addr
+255.255.255.255 broadcasthost
+fe00::0 ip6-localnet
+fe80::1%lo0 localhost
+ff00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+ff02::3 ip6-allhosts
+#z WIP.
