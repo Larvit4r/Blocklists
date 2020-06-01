@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: L4's Trakt.TV Filter
 ! Expires: 30 days
-! Version: 2020.05.23b
+! Version: 2020.06.01
 ! Homepage: https://github.com/Larvit4r/Blocklists
 ! Issues: https://github.com/Larvit4r/Blocklists/issues
 ! Descriptioon: Just stuff that I don't care about on Trakt. I have a premium account so blocking ads is not included in this. Please support Trakt if you're a member! Feel free to use/edit but this is more on GitHub in case my HD dies.
@@ -17,7 +17,6 @@ trakt.tv##.col-md-3 hidden-xs hidden-sm .poster
 trakt.tv##.col-xs-12
 trakt.tv##[data-percentage="100"]
 trakt.tv##footer
-trakt.tv##.grid-item .metadata .percentage
 trakt.tv###header-search
 trakt.tv##.left > .dropdown
 trakt.tv###main-search
@@ -30,3 +29,18 @@ trakt.tv##.trakt-icon-calendar
 trakt.tv##.trakt-icon-csv
 trakt.tv##.trakt-icon-rss
 trakt.tv##.trakt-icon-swap-vertical
+
+||walter.trakt.tv/images/shows/*/fanarts/thumb/*^$image
+@@||trakt.tv/users/me/lists.json$all,1p
+@@||trakt.tv/users/me/last_activities.json$all,1p
+@@||trakt.tv/episodes/*/list*$all,1p
+@@||trakt.tv/users/me/history/episodes.json$all,1p
+@@||trakt.tv/users/me/progress_item/watched/*$all,1p
+@@||trakt.tv/service_worker.js$all,1p
+||trakt.tv/assets/users/bg-*$image
+@@||trakt.tv/settings.json$all,1p
+@@||cdnjs.cloudflare.com/ajax/libs/jstimezonedetect/1.0.6/jstz.min.js$script,domain=trakt.tv
+@@||trakt.tv/manifest.json$all,1p
+||cdnjs.cloudflare.com/*twitter*$script
+@@||cdnjs.cloudflare.com/ajax/libs/jquery*$script,domain=trakt.tv
+! ||walter.trakt.tv^$image
