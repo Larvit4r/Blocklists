@@ -1,3 +1,10 @@
+# Title: L4's Anti-Twitter List
+# Version: 2020.06.01
+# Issues: https://github.com/Larvit4r/Blocklists/issues
+# URL: https://github.com/Larvit4r/Blocklists/raw/master/Hosts/AntiTwitter.txt
+# Sources: Listed on https://github.com/Larvit4r/Blocklists/blob/master/Hosts/README.md
+# Note: N/A
+
 0.0.0.0 0.twitter.com
 0.0.0.0 2010.twitter.com
 0.0.0.0 2011.twitter.com
@@ -99,10 +106,14 @@
 0.0.0.0 pbs.twimg.com
 0.0.0.0 pic.twitter.com
 0.0.0.0 platform.twitter.com
+0.0.0.0 p.ttwitter.com
 0.0.0.0 p.twimg.com
+0.0.0.0 p.twitter.com
 0.0.0.0 pulse.twitter.com
 0.0.0.0 r.twimg.com
 0.0.0.0 s.ads-twitter.com
+0.0.0.0 scribe.ttwitter.com
+0.0.0.0 scribe.twitter.com
 0.0.0.0 search2.twitter.com
 0.0.0.0 search.twitter.com
 0.0.0.0 sitestream.twitter.com
@@ -126,14 +137,18 @@
 0.0.0.0 ton.twimg.com
 0.0.0.0 ton.twitter.com
 0.0.0.0 transparency.twitter.com
+0.0.0.0 ttwitter.com
 0.0.0.0 tweetdeck.com
 0.0.0.0 tweetdeck.twitter.com
 0.0.0.0 twimg0-0.akamaihd.net
 0.0.0.0 twitpic.com
 0.0.0.0 twitter.com
+0.0.0.0 twitter.login.kevanshome.org
+0.0.0.0 twitter.secure.bzpharma.net
 0.0.0.0 upload.twitter.com
 0.0.0.0 urls-real.api.twitter.com
 0.0.0.0 userstream.twitter.com
+0.0.0.0 videos.twitter.secure-logins01.com
 0.0.0.0 video.twimg.com
 0.0.0.0 video.twitter.com
 0.0.0.0 web10.twitpic.com
@@ -153,6 +168,7 @@
 0.0.0.0 www4.twitter.com
 0.0.0.0 www.ads-twitter.com
 0.0.0.0 www.t.co
+0.0.0.0 www.ttwitter.com
 0.0.0.0 www.tweetdeck.com
 0.0.0.0 www.twimg.com
 0.0.0.0 www.twitpic.com
