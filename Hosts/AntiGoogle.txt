@@ -1,7 +1,7 @@
 # Title: L4's Anti-Google List
 # Version: 2020.06.01
 # Issues: https://github.com/Larvit4r/Blocklists/issues
-# URL: https://github.com/Larvit4r/Blocklists/raw/master/Hosts/AntiVerizon.txt
+# URL: https://github.com/Larvit4r/Blocklists/raw/master/Hosts/AntiGoogle.txt
 # Sources: Listed on https://github.com/Larvit4r/Blocklists/blob/master/Hosts/README.md
 # Note: At the bare minimum, you may need to unblock ajax.googleapis.com and fonts.googleapis.com to browse the web comfortably.
 
