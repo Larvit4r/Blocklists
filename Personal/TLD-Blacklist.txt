@@ -1,13 +1,14 @@
 [Adblock Plus 2.0]
 ! Title: L4's TLD Blacklist
 ! Expires: 30 days
-! Version: 2020.05.23a
+! Version: 2020.06.01
 ! Homepage: https://github.com/Larvit4r/Blocklists
 ! Issues: https://github.com/Larvit4r/Blocklists/issues
 ! Descriptioon: Hate dealing with certain TLDS like .info or .xyz? Well, now you can easily block them until you find any sites to whitelist! To whitelist a TLD, add an exclamation point or delete the line entirely. If you want to whitelist a domain, use "@@||domainhere.xyz", it's just that simple!
 ! *** Fetched from: https://raw.githubusercontent.com/Larvit4r/Blocklists/master/Personal/TLD-Blacklist.txt ***
 
-! Note: This is the version that I personally use, just an FYI! .com, .edu, .gov, .io, .net, org, and .us are currently whitelisted.
+! Note: This is the version that I personally use, just an FYI!
+! No TLDs are currently whitelisted, instead I'll whitelist trusted domains.
 ! Not that I mind if you use it, but you might prefer to personalize your own. :)
 
 ||*.aaa
@@ -282,7 +283,7 @@
 ||*.coffee
 ||*.college
 ||*.cologne
-! ||*.com
+||*.com
 ||*.comcast
 ||*.commbank
 ||*.community
@@ -385,7 +386,7 @@
 ||*.ec
 ||*.eco
 ||*.edeka
-! ||*.edu
+||*.edu
 ||*.education
 ||*.ee
 ||*.eg
@@ -530,7 +531,7 @@
 ||*.google
 ||*.gop
 ||*.got
-! ||*.gov
+||*.gov
 ||*.gp
 ||*.gq
 ||*.gr
@@ -629,7 +630,7 @@
 ||*.international
 ||*.intuit
 ||*.investments
-! ||*.io
+||*.io
 ||*.ipiranga
 ||*.iq
 ||*.ir
@@ -859,7 +860,7 @@
 ||*.nc
 ||*.ne
 ||*.nec
-! ||*.net
+||*.net
 ||*.netbank
 ||*.netflix
 ||*.network
@@ -918,7 +919,7 @@
 ||*.open
 ||*.oracle
 ||*.orange
-! ||*.org
+||*.org
 ||*.organic
 ||*.origins
 ||*.osaka
@@ -1269,7 +1270,7 @@
 ||*.uno
 ||*.uol
 ||*.ups
-! ||*.us
+||*.us
 ||*.uy
 ||*.uz
 ||*.va
