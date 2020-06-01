@@ -6,22 +6,20 @@ Basically, I want to block certain corporations from my life, especially the one
 
 This will always be a work in progress and I'll probably make mistakes, or the corps listed here may buy out more companies that need to be added. Let me know about any missing sites or errors that I've made! I don't personally use every single one of these so I'm guaranteed to be missing stuff on at least one of them. **Suggestions for other corps are always welcome!** I may be slow to update ones that I don't use though.
 
-If you want to link to any of these, you can call them "L4's Anti-___ Hosts".
-
 # Sites contained in these files:
 (Other than the one named)
 
 * [Proxy]: This folder contains different categories of sites created for me and my friends, for when you need your sites going directly to the official IP address. 
 * 4Personal: This is just my own personal hosts file as a backup. Note that I use different 0.0.0.X variants to sort by company/corp for easy editing/viewing.
-* Amazon: ... (Alexa, Audible, GoodReads, IMDB, Prime, Twitch, Whole Foods)
-* Apple: ... (Beats, iOS, iPod, Mac, Shazam, Siri)
+* Amazon: Audible, Twitch... (Alexa, GoodReads, IMDB, Prime, Whole Foods)
+* Apple: iCloud... (Beats, iOS, iPod, Mac, Shazam, Siri)
 * Automatic: Gravatar, Tumblr, Wordpress
-* CloudFlare: (Get link to that one list, I don't need to make one)
+* CloudFlare: Just CloudFlare.
 * Facebook: Calibra (Libra), Express Wi-fi, FBCDN, FB.com, FBSBX, FreeBasics, GIPHY, Instagram, Internet.org, Messenger, TFBNW.net, WhatsApp
-* Google: Google Sites, Google User Content, YouTube... (Make a better list here)
+* Google: AMP Project, Google Sites, Google User Content, YouTube...
 * LinkedIn: ...
 * Microsoft: ...
-* Mozilla: ... (Firefox, Pocket, Thunderbird)
+* Mozilla: Firefox, Pocket, Thunderbird
 * MySpace: (Get link to that one list, I don't need to make one)
 * Pinterest: ...
 * Reddit: ...
@@ -42,3 +40,17 @@ If you want to link to any of these, you can call them "L4's Anti-___ Hosts".
 * TikTok
 * Uber
 * Yandex
+
+# Sources (WIP)
+https://github.com/1r2/iosparanoid/blob/master/hosts
+https://github.com/adversarialtools/apple-telemetry/blob/master/blacklist
+https://github.com/Cybo1927/Hosts/tree/master/Anti
+https://github.com/jmdugan/blocklists
+https://github.com/nickspaargaren/no-google
+https://github.developerdan.com/hosts/lists/amp-hosts-extended.txt
+https://github.developerdan.com/hosts/lists/facebook-extended.txt
+https://raw.githubusercontent.com/1r2/iosparanoid/master/hosts
+https://raw.githubusercontent.com/acidwars/AdBlock-Lists/master/facebookblock.conf
+https://raw.githubusercontent.com/acidwars/AdBlock-Lists/master/microsoftblock.conf
+https://raw.githubusercontent.com/lennylxx/ipv6-hosts/master/hosts
+https://someonewhocares.org/hosts/zero/hosts
