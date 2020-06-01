@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: L4's Strict Filter
 ! Expires: 30 days
-! Version: 2020.05.23b
+! Version: 2020.06.01
 ! Homepage: https://github.com/Larvit4r/Blocklists
 ! Issues: https://github.com/Larvit4r/Blocklists/issues
 ! Descriptioon: WIP! Just random junk that I ganked from other filters, I hate having a bunch of custom filters for sites that I don't need so this is more customized for me! Feel free to use if you want but it's not very organized yet, add "@@||whitelistedurl.com" if this happens to catch something that you like.
@@ -81,8 +81,13 @@ _72890.
 [alt^="Post on"]
 [alt^="Post to"]
 [alt^="Share on"]
+||*amp-*
+||*amp.*
+||ampproject.org
 ||*&amp_*=*&usqp=*$document,important
 ||*?amp_*=*&usqp=*$document,important
+||*/api/rest_v1/page/summary/*$xhr
+/apns.js
 ###around_the_web
 ##.article-body .post-search-results
 ##.article-container.locked:after
@@ -90,19 +95,30 @@ _72890.
 ###article-leaf-page-footer-taboola
 ###article-promo-digital
 ##.article-trending
+||auth.*
+||auth1.*
+||auth2.*
+||auth3.*
 ##.b_ad
 ?bannerid=*&punder=$document
 *beacon*
+||*/beacon/*$ping
 ###big-stories
 ##.bk-mostpop
 ##.blackout
 ###bomRecommendation
 ###bottom-most-shared
 ###bottom-trending
+*/browser-fingerprint
 buzzfeed.com###next_on
 buzzfeed.com##.related-links-full
 buzzfeed.com##.sidebar_featured_unit
+*/canvasjs.js
+*/canvasjs.min.js
 ##.card.stopsign__article.stopsign:before
+||cdnjs.cloudflare.com^$font
+||cdnjs.cloudflare.com/ajax/libs/jquery-ujs/1.2.2/rails.min.js
+||cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/js/bootstrap.js
 */chatbot/*
 /chat*idget*.js
 *chatjs*
@@ -186,6 +202,22 @@ buzzfeed.com##.sidebar_featured_unit
 ^code-1-1.js
 ##.col-promoted
 ##.combo-wrapper
+com,net#%#Object.defineProperty(document, 'referrer', { get: function() { return '' + window.location.hostname; } });
+com,net#%#Object.defineProperty(navigator, 'appCodeName', { get: function() { return 'undefined'; } });
+com,net#%#Object.defineProperty(navigator, 'appName', { get: function() { return 'undefined'; } });
+com,net#%#Object.defineProperty(navigator, 'appVersion', { get: function() { return 'undefined'; } });
+com,net#%#Object.defineProperty(navigator, 'buildID', { get: function() { return 'undefined'; } });
+com,net#%#Object.defineProperty(navigator, 'deviceMemory', { get: function() { return 'undefined'; } });
+com,net#%#Object.defineProperty(navigator, 'getBattery', { get: function() { return 'undefined'; } });
+com,net#%#Object.defineProperty(navigator, 'hardwareConcurrency', { get: function() { return '2'; } });
+com,net#%#Object.defineProperty(navigator, 'onLine', { get: function() { return 'true'; } });
+com,net#%#Object.defineProperty(navigator, 'oscpu', { get: function() { return 'undefined'; } });
+com,net#%#Object.defineProperty(navigator, 'platform', { get: function() { return 'undefined'; } });
+com,net#%#Object.defineProperty(navigator, 'plugins', { get: function() { return '0'; } });
+com,net#%#Object.defineProperty(navigator, 'product', { get: function() { return 'undefined'; } });
+com,net#%#Object.defineProperty(navigator, 'productSub', { get: function() { return 'undefined'; } });
+com,net#%#Object.defineProperty(navigator, 'userAgent', { get: function() { return 'undefined'; } });
+com,net#%#Object.defineProperty(navigator, 'vendor', { get: function() { return 'undefined'; } });
 ###conde_nast_container
 ##.content-headlines-list
 ##.copyright
@@ -194,6 +226,7 @@ cracked.com###Recommended
 ###cursor
 *cursor_hover.$image
 /CustomCursor*$image
+*/device-fingerprint
 ##.discovery-posts
 ||*#?#div:-abp-contains(dvertis)
 ||*#?#div:-abp-contains(romoted)
@@ -568,6 +601,19 @@ cracked.com###Recommended
 *##div[style^="width: 100%;"][style$="z-index: inherit;"] iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##DIV#threeup_top_wrapper
 ##DIV#top_blog_links
+||dns.*
+||dns0.*
+||dns1.*
+||dns2.*
+||dns3.*
+||dns4.*
+||dns5.*
+||dns6.*
+||dns7.*
+||dns8.*
+||dns9.*
+*/dnsdetect/
+*/dnsleak/
 ##.dontmiss.widget
 ##.editorial-recommend
 ###editorpick
@@ -582,6 +628,13 @@ cracked.com###Recommended
 ##.featured-video__wrapper
 ##.featurePromo
 /FeedbackLinkModule.js
+*/fingerprint2.min.js
+*/FingerprintApi/
+*/fingerprint.css
+*/fingerprint/figp.js
+*/fingerprint.min.js
+*/fingerprint.pc.js
+*/font*$script
 ###foot
 ###footer-partner-feeds
 ##.g1-related-entries
@@ -598,6 +651,7 @@ cracked.com###Recommended
 ###hot-network-questions
 ###hot-today
 ##[href*="emailsignup"]
+*/html2canvas.min.js
 http://*^$3p,all
 http://*$all
 https://*$3p,script,frame,domain=~gov|~int|~edu|~mil|~org|~us|~com|~net|~io|~uk|~ca|~nz|~au|~mx|~info|~eu
@@ -690,30 +744,47 @@ hydrax.net,playhydrax.com##+js(nostif, debugger)
 /images/pointer.
 ##img[src*="/ads_"]
 ##.in-case-you-missed
+/indigitall.min.js
+/indigitall/sdk.min.js
 ##.iv-promo
+*/jquery.canvasjs.min.js
 #@#+js()
 ##+js(acis, Math, zfgloaded)
+*##+js(addEventListener-defuser.js, /pagehide|pageshow|hashchange/)
+! +js(addEventListener-defuser, /pagehide|pageshow|hashchange/)
 ##.js_ad-dynamic
 ##.js_ad-mobile-dynamic
 ##+js(aopr, AaDetector)
+*/js/canvas.js
 #?#.js-dismissable-hero:-abp-contains(Sign up)
 js.driftt.com/dist/assets/widget*prod.js
+*/JsFingerprint-Kotlin/
+*/js/fingerprint.pc.js
+*/js/ip-direct.js
+*/js/ip-direct-vi.js
+*/js/ip.js
 ##.js-signup-call-out
 ##.js-trending-now
+*/js/webgl.js
+*/js/webrtc.js
+||justanswer.com^$all
 ||kayako*.com/messenger^$script
 ##.latest-stories
 *leadconnect*
 lifehacker.com###post_list
+*/loadJsFingerprint.js
 ##.login-callout
 ###loginModal
 ##.lower-infinite-content
 ###lower-more-content
 ###masthead-ad
+*/matomo.js
 ##.mcf-mosaic
 ##.mfp-container
 ||/missing-image.svg$image
 ###mixed-content-footer
 ##.mk-padding-divider
+*/MM/js/eex-canvas.js
 ###mobile_login_bar
 ###mod-related-articles
 ###module-just-in
@@ -755,6 +826,7 @@ mp4upload.com##+js(aeld, /^(?:click|mousedown|mousemove|touchstart|touchend|touc
 mp4upload.com##+js(popads-dummy)
 mp4upload.com###overlay
 mp4upload.com##.vjs-logo
+*/mtiFontTrackingCode.js
 ###mustRead
 ##.nav-flyout.nav-signin-tt
 /new_cursor.$image
@@ -762,9 +834,22 @@ mp4upload.com##.vjs-logo
 ||nocookie.net/*_cursor_*.png
 ||nocookie.net/*cursor.png^
 ||nocookie.net/*Sprite*$image
+/notify/v1/ua-sdk.js
+/notify/v1/ua-sdk.min.js
 ##.now-buzzing
 ##.nrelate_related
 ##.nrelate-related-widget
+||ns.*
+||ns0.*
+||ns1.*
+||ns2.*
+||ns3.*
+||ns4.*
+||ns5.*
+||ns6.*
+||ns7.*
+||ns8.*
+||ns9.*
 ###online-game-carousel-right-rail
 ##.onp-sl-inner-wrap
 ##.onp-sl-outer-wrap
@@ -788,6 +873,9 @@ mp4upload.com##.vjs-logo
 *##p:has-text(/^\xA0\xA0$/):not(:has-text(/\S/)):not(:has(span))
 */phplive
 /ping.gif?
+*/pixel.fingerprint
+/plugins/pushvault-push-notifications
+/plugins/smio-push-notification
 ##p:-moz-only-whitespace
 _pop_ad.$document
 _pop_ad/$document
@@ -815,10 +903,12 @@ _popupunder.$document
 /provely-2.0.js
 ###public-mask-login
 */push/*
+/pushmaze.js
 ||/qualified.js
 *qualtrics*
 ###rc-row-container
 #?#.ReactModal__Overlay:-abp-has(video[src$="/bloom2.mp4"])
+*/rects.js?
 ##.redux-modal
 ##.regoverlay
 ###related_articles
@@ -834,7 +924,18 @@ _popupunder.$document
 ###rightcol_mostcommented
 ###rightcol_mostcommented_button
 ###right-rail-more-on
+*/rpFingerprint
 ##.rss-promo
+||s3.amazonaws.com/cdn.aimtell.com^$all
+||s3.amazonaws.com/shopifyspmprod^$all
+*/sbn_fingerprint.
+*##^script:has-text(eval)
+*##^script:has-text(fontDetect)
+*##^script:has-text(headerUA)
+*##^script:has-text(navigator.sendBeacon)
+*##^script:has-text(platform.js)
+*##^script:has-text(pluginDetect)
+*##^script:has-text(ua-parser)
 ###secondary-content
 ###SecondaryContent
 ##.seealso
@@ -854,6 +955,7 @@ _popupunder.$document
 ##.spacer:not(:has-text(/\S/))
 ##.srcalert
 ##[src*="/offer"]
+/[&]s(screen)?[=][0-9]{3,}x[0-9]{3,}[&]/
 ###stories-infinite
 ##.story-box-news-politics
 /streamatepop.$document
@@ -870,6 +972,7 @@ _popupunder.$document
 ##.top_stories
 ##.top-stories05
 ##.tptn_featured
+*/tracking/fingerprint/
 ##.trc_elastic
 ##.trc_rbox_container
 ##.trc_related_container
@@ -885,6 +988,7 @@ _popupunder.$document
 ||*?utm_*=$document,important
 ^utm_medium=pops^$document
 ^utm_medium=popunder^$document
+*/vbulletin_fingerprint.js
 /VHDpoppingModels/*$document
 /videojs-contrib-ads.js
 ###video-masthead
@@ -900,6 +1004,8 @@ v*.zopim.com$script
 #?#.wds-global-footer__header:style(pointer-events:none !important;cursor:default !important)
 ##.wds-global-navigation__links
 #?#.wds-global-navigation__logo:style(pointer-events:none !important;cursor:default !important)
+*/webgl.js?
+*/webGL.js
 *website_chat_widget.asp
 /werbepopup/*$document
 ###whats-next
