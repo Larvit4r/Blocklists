@@ -1,7 +1,7 @@
 # Title: L4's Anti-Mozilla List
 # Version: 2020.06.01
 # Issues: https://github.com/Larvit4r/Blocklists/issues
-# URL: https://github.com/Larvit4r/Blocklists/raw/master/Hosts/AntiTwitter.txt
+# URL: https://github.com/Larvit4r/Blocklists/raw/master/Hosts/AntiMozilla.txt
 # Sources: Listed on https://github.com/Larvit4r/Blocklists/blob/master/Hosts/README.md
 # Note: N/A
 
