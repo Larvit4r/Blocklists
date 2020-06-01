@@ -1,4 +1,10 @@
-# WIP. Only contains the Amazon website for now. Will add Audible, AWS, Whole Foods, etc later.
+# Title: L4's Anti-Amazon List
+# Version: 2020.06.01
+# Issues: https://github.com/Larvit4r/Blocklists/issues
+# URL: https://github.com/Larvit4r/Blocklists/raw/master/Hosts/AntiAmazon.txt
+# Sources: Listed on https://github.com/Larvit4r/Blocklists/blob/master/Hosts/README.md
+# Note: This only contains Amazon and a few Audible and Twitch domains right now, will add AWS, Whole Foods, etc later.
+
 0.0.0.0 154-100.amazon.com
 0.0.0.0 154-101.amazon.com
 0.0.0.0 154-102.amazon.com
@@ -282,6 +288,7 @@
 0.0.0.0 device-metrics-us.amazon.com
 0.0.0.0 docs.aws.amazon.com
 0.0.0.0 echo.amazon.com
+0.0.0.0 ext-twitch.tv
 0.0.0.0 fba.amazon.com
 0.0.0.0 firstaid.amazon.com
 0.0.0.0 flex.amazon.com
@@ -308,6 +315,7 @@
 0.0.0.0 logistics.amazon.com
 0.0.0.0 m.amazon.com
 0.0.0.0 merch.amazon.com
+0.0.0.0 m.twitch.tv
 0.0.0.0 music.amazon.com
 0.0.0.0 ns-911.amazon.com
 0.0.0.0 org.amazon.com
@@ -317,6 +325,7 @@
 0.0.0.0 pda-bes.amazon.com
 0.0.0.0 phidataprod.signin.aws.amazon.com
 0.0.0.0 pki.amazon.com
+0.0.0.0 polyfill.twitchsvc.net
 0.0.0.0 portal.aws.amazon.com
 0.0.0.0 prime.amazon.com
 0.0.0.0 primenow.amazon.com
@@ -333,6 +342,7 @@
 0.0.0.0 smile.amazon.com
 0.0.0.0 source.amazon.com
 0.0.0.0 static.amazon.com
+0.0.0.0 static.twitchcdn.net
 0.0.0.0 status.aws.amazon.com
 0.0.0.0 status.mws.amazon.com
 0.0.0.0 storywriter.amazon.com
@@ -342,6 +352,9 @@
 0.0.0.0 translation.amazon.com
 0.0.0.0 transportation.amazon.com
 0.0.0.0 travel.amazon.com
+0.0.0.0 twitchcdn.net
+0.0.0.0 twitchsvc.net
+0.0.0.0 twitch.tv
 0.0.0.0 uedata.amazon.com
 0.0.0.0 us-west-2.console.aws.amazon.com
 0.0.0.0 vendorexpress.amazon.com
@@ -354,5 +367,9 @@
 0.0.0.0 www.amazon-adsystem.com
 0.0.0.0 www.amazon.com
 0.0.0.0 www.audible.com
+0.0.0.0 www.ext-twitch.tv
+0.0.0.0 www.twitchcdn.net
+0.0.0.0 www.twitchsvc.net
+0.0.0.0 www.twitch.tv
 0.0.0.0 wwww.amazon.com
 0.0.0.0 yp.amazon.com
