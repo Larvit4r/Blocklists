@@ -1,95 +1,123 @@
 [Adblock Plus 2.0]
 ! Title: L4's Whitelisted Domains
 ! Expires: 30 days
-! Version: 2020.05.23a
+! Version: 2020.06.01
 ! Homepage: https://github.com/Larvit4r/Blocklists
 ! Issues: https://github.com/Larvit4r/Blocklists/issues
 ! Descriptioon: Mostly just sites for getting through my TLD blacklist. Not very organized yet, just going through bookmarks, etc. to find
 ! *** Fetched from: https://raw.githubusercontent.com/Larvit4r/Blocklists/master/Personal/Whitelist.txt ***
 
 @@||1999.co.jp^$all
+@@||4cdn.org^$script
 @@||about.me^$all
 @@||ajax.googleapis.com^$css,frame,script,xhr
+@@||akamaihd.net^$important
+@@||akamaized.net^$important
 @@||alluc.*
 @@||alternativeto.net^$all
 @@||ankiweb.*^$all
 @@||archive.*^$all
-! @@||archives.gov
+@@||archives.gov
+@@||aspnetcdn.com^$script
+@@||*.avi^$media
 @@||bakabt.*^$all
 @@||bandcamp.com^$all
-! @@||beingfrugal.net
+@@||beingfrugal.net
 @@||bit.ly^$script
 @@||bitly.com^$script
+@@||bootstrapcdn.com^$script
 @@||boun.cr^$all
 @@||box.com^$all
+@@||bp3.blogger.com^$image,media
 @@||carrd.co^$all
+@@||catbox.moe^$image,media
+@@||cdmycdn.com^$script,image,media
 @@||cdn.cloudflare.net^$all
 @@||cdn.embedly.com^$all
 @@||cdnjs.cloudflare.com^$all
+@@||cdnjs.com^$script
 @@|chrome-extension:^$all
 @@||*class101.com^$all
+@@||cloudinary.com^$image,media,script
 @@||cock.li^$all
+@@||codecademy.com
 @@||code.jquery.com^$all
 @@||coursera.org^$all
 ! @@||creativecommons.org
 @@||dailymotion.com
-! @@||depositfiles.com
-@@||deviantart.*^$all
+@@||dailymotion.com^$script
+@@||depositfiles.com
+@@||deviantart.com^$image,media,script
+@@||deviantart.net^$image,media,script
 @@||discordapp.com^$all
 @@||discord.gg^$all
 @@||disroot.org^$all
 @@||dl.dropboxusercontent.com^$all
+@@||dmcdn.net^$script
+@@||dreamwidth.org^$all
 @@||dropbox.com^$all
 @@||duolingo.com^$all
 @@||ebay.com^$all
+@@||ebayimg.com^$image,media
 @@||edx.org^$all
 @@||eff.org^$all
 @@||ehow.com
 @@||familysearch.org^$all
 @@||fandom.com^$css,script,image,xhr
+@@||fastly.net^$script
 @@||fda.gov^$all
 @@||feedburner.com^$all
 @@||fmovies.*
-@@||fonts.googleapis.com^$script
-@@||fonts.gtatic.com^$script
 @@||freecycle.org^$all
 @@||fsf.org^$all
+@@||furaffinity.net^$image,media,script,css,xhr
 @@||futurelearn.org^$all
 @@||genomelink.io^$all
-@@||ggpht.com^$all
+@@||gfycat.com^$image,media
+@@||ggpht.com^$image,media
+@@||*.gif^$image
+@@||*.gifv^$image,media
 @@||giphy.com^$css,frame,script,image
 @@||githubassets.com^$all
 @@||github.com^$all
 @@||github.io^$all
 @@||githubusercontent.com^$all
+@@||gitlab.com^$script
 @@||gnu.org
-@@||googleusercontent.com^$
+@@||googleusercontent.com^$image,media
 @@||greasyfork.org^$all
-! @@||grove.co
+@@||grove.co
+@@||guitarcenter.com^$all
 @@||healthcare.gov^$all
 @@||howstuffworks.com^$script,image
 @@||imasdk.googleapis.com
-@@||imgur.com^$image,css,script
+@@||imgbox.com^$image,media
+@@||imgs.xkcd.com^$important
+@@||imgur.com^$image,css,script,media
 @@||interpals.net^$all
 @@||int.org^$all
 @@||invidio.us^$all
 @@||ip-check.info^$all
 @@||jamendo.com^$all
+@@||*.jpeg^$image
+@@||*.jpg^$image
 @@||jquery.com^$script
 @@||jsdelivr.net^$script
 @@||justdeleteme.xyz^$all
 @@||jwpcdn.com^$script
+@@||kastatic.org^$image,media
 @@||khanacademy.org^$all
 @@||kimcartoon.*^$script,3p,image,xhr,css
 @@||kitsu.io^$all
 @@||last.fm^$all
 @@||lastfm-img2.akamaized.net^$image
 @@||libgen.*^$all
-! @@||libreplanet.org
+@@||libreplanet.org
 @@||limetorrents.*^$all
-! @@||lingua.ly^$all
+@@||lingua.ly^$all
 @@||list-manage.com^$script,css,xhr
-! @@||mashable.com
+@@||*.m4a^$media
+@@||mashable.com
 @@||mastodon.social^$all
 @@||matrix.org^$all
 @@||mediafire.com^$all
@@ -99,6 +127,9 @@
 @@||miable.org^$all
 @@||michigan.gov^$all
 @@||mi.us^$all
+@@||*.mkv^$media
+@@||*.mp3^$media
+@@||*.mp4^$media
 @@||mp4upload.com/embed-*^$all
 @@||musicmap.info^$all
 @@||mymedicare.gov^$all
@@ -107,16 +138,20 @@
 @@||neocities.org^$all
 @@||netvibes.com
 @@||nitter.*^$all
+@@||*.ogg^$media
+@@||old.reddit.com^$all
 @@||ollies.us^$all
 @@||openuserjs.org^$all
 ! @@||paypal.com^$all
-! @@||petkey.org^$all
-@@||photobucket.com^$image
+@@||petkey.org^$all
+@@||photobucket.com^$image,media
 @@||pinterest.com^$all
 @@||piperka.net^$all
+@@||pixiv.net^$image,media
 @@||plexapp.com^$all
 @@||plex.tv^$all
 @@||pm.me^$all
+@@||*.png^$image
 @@||*pod101.com^$all
 @@||postimg.org^$image
 @@||premieredate.news^$all
@@ -129,21 +164,21 @@
 @@||quora.com^$all
 @@||rakuten.*^$all
 @@||rapidshare.com^$all
-! @@||raspberrypi.org
+@@||raspberrypi.org
 @@||redd.it^$css,frame,script,xhr,image,3p
 @@||reddit.com^$css,frame,script,xhr,image,3p
 @@||redditmedia.com^$image,media
 @@||redditstatic.com^$css,script,xhr
 @@||riot.im^$all
-@@|safari-extension:^$all
 @@||sampler.io^$all
 @@||self.inc^$all
 @@||slickdeals.net^$all
-! @@||smarturl.it
+@@||smarturl.it
 @@||smile.amazon.com^$all
+@@||sndcdn.com^$script,xhr,image,media
 @@||snopyta.org^$all
 @@||socialsecurity.gov^$all
-@@||soundcloud.com^$all
+@@||soundcloud.com^$script,css,image,media
 @@||spotify.com
 @@||ssa.gov^$all
 @@||stackoverflow.com^$all
@@ -152,7 +187,9 @@
 @@||steamcommunity.com^$all
 @@||steampowered.com^$all
 @@||stopdatamining.me^$all
-! @@||surveymonkey.com
+@@||stripe.com^$3p
+@@||stripe.network.com^$script,3p
+@@||surveymonkey.com
 @@||swatchseries.*^$css,script,image
 @@||switter.at^$all
 @@||tapas.io
@@ -163,15 +200,23 @@
 @@||techradar.com^$css,image
 @@||thatoneprivacysite.net^$all
 @@||time.com^$css,image
+@@||tineye.com^$image,media,script
+@@||tinypic.com^$image,media
 @@||torrentz2.*^$all
 @@||tpb.*/*^$all
 @@||trakt.tv^$all
+@@||twitpic.com^$image,media
+@@||udemy.com^$script,image,media,css,xhr
+@@||unpkg.com^$script
 @@||urbandictionary.com^$document
 @@||vimeo.com^$all
 @@||vivaldi.*/*^$all
-! @@||webfoundation.org
+@@||*.wav^$media
+@@||webfoundation.org
+@@||*.webm^$media
 @@||webmd.com^$css,image
-! @@||who.int
+@@||*.webp^$image
+@@||who.int
 @@||wikia.com
 @@||wikibooks.org^$css,image,3p
 @@||wikihow.com^$css,image
@@ -180,6 +225,6 @@
 @@||wikiversity.org^$css,image,3p
 @@||wiktionary.org^$css,image,3p
 @@||wordpress.com
-@@||wp.com
+@@||wp.com^$script,image,media
 @@||yesmovies.*
 @@||yewtu.be^$all
