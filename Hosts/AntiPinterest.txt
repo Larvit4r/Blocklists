@@ -339,7 +339,6 @@
 0.0.0.0 ns6.pinterest.com
 0.0.0.0 ns7.pinterest.com
 0.0.0.0 ns8.pinterest.com
-0.0.0.0 ns8.pinterest.com 
 0.0.0.0 nz.pinterest.com
 0.0.0.0 o10.email.pinterest.com
 0.0.0.0 o11.email.pinterest.com
@@ -448,6 +447,8 @@
 0.0.0.0 v.pinimg.com.gslb.pinterest.com
 0.0.0.0 widgets.pinterest.com
 0.0.0.0 www.accountkit.com
+0.0.0.0 www.pinimg.com
+0.0.0.0 www.pin.it
 0.0.0.0 www.pinterest.ch
 0.0.0.0 www.pinterest.com
 0.0.0.0 www.pinterest.com.au
