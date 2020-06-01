@@ -1,3 +1,10 @@
+# Title: L4's Anti-Automatic List
+# Version: 2020.06.01
+# Issues: https://github.com/Larvit4r/Blocklists/issues
+# URL: https://github.com/Larvit4r/Blocklists/raw/master/Hosts/AntiAutomatic.txt
+# Sources: Listed on https://github.com/Larvit4r/Blocklists/blob/master/Hosts/README.md
+# Note: AKA Tumblr and Wordpress.
+
 0.0.0.0 0.gravatar.com
 0.0.0.0 1.gravatar.com
 0.0.0.0 24.media.tumblr.com
@@ -76,6 +83,7 @@
 0.0.0.0 api.tumblr.com
 0.0.0.0 assets.tumblr.com
 0.0.0.0 a.tumblr.com
+0.0.0.0 blog.wordpress.com
 0.0.0.0 botd2.wordpress.com
 0.0.0.0 dashboard.wordpress.com
 0.0.0.0 embed.tumblr.com
@@ -108,6 +116,7 @@
 0.0.0.0 secure.gravatar.com
 0.0.0.0 secure.static.tumblr.com
 0.0.0.0 s.gravatar.com
+0.0.0.0 srvcs.tumblr.com
 0.0.0.0 s.stats.wordpress.com
 0.0.0.0 staff.tumblr.com
 0.0.0.0 static.tumblr.com
@@ -119,17 +128,25 @@
 0.0.0.0 t.umblr.com
 0.0.0.0 tumblr.com
 0.0.0.0 tumblr.tumblr.com
+0.0.0.0 txmblr.com
+0.0.0.0 umblr.com
 0.0.0.0 vt.media.tumblr.com
 0.0.0.0 vtt.tumblr.com
 0.0.0.0 vt.tumblr.com
 0.0.0.0 v.tumblr.com
+0.0.0.0 wip.com
 0.0.0.0 wordpress.com
+0.0.0.0 w.org
 0.0.0.0 wp.com
 0.0.0.0 wpcom.wordpress.com
 0.0.0.0 www.gravatar.com
 0.0.0.0 www-http2.tumblr.com
 0.0.0.0 www.tumblr.com
+0.0.0.0 www.txmblr.com
+0.0.0.0 www.umblr.com
 0.0.0.0 www.wip.com
+0.0.0.0 www.w.org
+0.0.0.0 www.wp.com
 0.0.0.0 zh-cn.wordpress.com
 0.0.0.0 zh-sg.wordpress.com
 0.0.0.0 zh.wordpress.com
