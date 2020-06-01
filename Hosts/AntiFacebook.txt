@@ -1,6 +1,9 @@
-# This includes various URLs from various Anti-Facebook lists from FilterLists.com.
-# You shouldn't need to unblock any to browse comfortably, unless you like GIPHY.
-# The rest is garbage. Let me know if I'm missing any URLs or there are errors!
+# Title: L4's Anti-Facebook List
+# Version: 2020.06.01
+# Issues: https://github.com/Larvit4r/Blocklists/issues
+# URL: https://github.com/Larvit4r/Blocklists/raw/master/Hosts/AntiFacebook.txt
+# Sources: Listed on https://github.com/Larvit4r/Blocklists/blob/master/Hosts/README.md
+# Note: You shouldn't need to unblock anything to browse the web comfortably, unless you like gifs from Giphy.
 
 0.0.0.0 0.0.freebasics.com
 0.0.0.0 0-1.fb.me
@@ -7046,6 +7049,8 @@
 0.0.0.0 stats.messenger.com
 0.0.0.0 status.fb.com
 0.0.0.0 status.giphy.com
+0.0.0.0 steamcdn-a.akamaihd.net
+0.0.0.0 steamcommunity-a.akamaihd.net
 0.0.0.0 stg.freebasics.com
 0.0.0.0 stickers.giphy.com
 0.0.0.0 stickershopsubmissions.giphy.com
